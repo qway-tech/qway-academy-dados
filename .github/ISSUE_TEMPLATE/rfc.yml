@@ -1,0 +1,69 @@
+name: "💡 RFC – Solicitação de Alteração Arquitetural ou Estratégica"
+description: "Proponha uma mudança relevante na arquitetura, solução técnica, processo ou estratégia do projeto."
+title: "💡 [RFC] Título Resumido da Proposta"
+labels: ["rfc", "discussion", "arquitetura", "processo"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 📄 Solicitação de Comentários (RFC)
+        Use este template para documentar e propor alterações significativas que impactem arquitetura, solução técnica, processos ou estratégias do projeto QA₂TS-Brasil.
+        Todas as RFCs serão discutidas publicamente e registradas para referência futura.
+
+  - type: textarea
+    id: contexto
+    attributes:
+      label: "📌 Contexto"
+      description: "Explique o cenário atual, problema identificado ou oportunidade percebida."
+      placeholder: "Ex.: Atualmente nosso fluxo de build não contempla execução paralela, o que impacta a performance..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposta
+    attributes:
+      label: "💡 Proposta"
+      description: "Descreva a alteração ou melhoria sugerida, com detalhes suficientes para avaliação."
+      placeholder: "Ex.: Implementar execução paralela via GitHub Actions usando matrix strategy..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: impacto
+    attributes:
+      label: "📈 Impacto Esperado"
+      description: "Liste os benefícios e riscos associados à implementação."
+      placeholder: "Ex.: Benefício: redução de 40% no tempo de execução. Risco: aumento de custo de execução paralela..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternativas
+    attributes:
+      label: "🔄 Alternativas Consideradas"
+      description: "Descreva outras soluções que foram avaliadas e por que não foram escolhidas."
+      placeholder: "Ex.: Avaliamos uso de cache no build, mas não resolveu o gargalo de execução..."
+    validations:
+      required: false
+
+  - type: dropdown
+    id: prioridade
+    attributes:
+      label: "⏳ Prioridade Sugerida"
+      description: "Qual o nível de urgência para esta proposta?"
+      options:
+        - Alta
+        - Média
+        - Baixa
+    validations:
+      required: true
+
+  - type: textarea
+    id: referencias
+    attributes:
+      label: "🔗 Referências"
+      description: "Links, artigos, PRs ou discussões relacionadas."
+      placeholder: "Ex.: https://github.com/qway-tech/qa2ts-brasil/discussions/123"
+    validations:
+      required: false

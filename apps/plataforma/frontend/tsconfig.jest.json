@@ -1,0 +1,13 @@
+// apps/plataforma/frontend/tsconfig.jest.json
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "module": "esnext",
+    "jsx": "react-jsx",
+    "types": ["jest", "node", "@testing-library/jest-dom"],
+    "typeRoots": ["./src/types", "./node_modules/@types"],
+    "isolatedModules": false,
+    "noEmit": true
+  },
+  "include": ["src", "**/*.test.ts", "**/*.test.tsx", "jest.setup.js", "src/types/**/*.d.ts"]
+}

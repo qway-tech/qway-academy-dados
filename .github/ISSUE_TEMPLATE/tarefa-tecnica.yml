@@ -1,0 +1,23 @@
+name: "🔧 Tarefa técnica"
+description: Refatoração, automação, CI/CD, ajustes não-funcionais
+title: "🔧 Tarefa: "
+labels: ["tarefa técnica", "prioridade: média"]
+assignees: []
+body:
+  - type: textarea
+    id: descricao
+    attributes:
+      label: Descrição
+      placeholder: O que vai ser feito e qual objetivo técnico?
+    validations:
+      required: true
+  - type: textarea
+    id: impacto
+    attributes:
+      label: Impacto esperado
+      placeholder: Build mais rápido, menos flaky tests, etc.
+  - type: textarea
+    id: passos
+    attributes:
+      label: Passos / plano
+      placeholder: Sequência resumida ou checklist

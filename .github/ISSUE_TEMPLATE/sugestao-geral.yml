@@ -1,0 +1,33 @@
+name: 💡 Sugestão Geral
+description: Proponha ideias amplas ou estratégicas para melhorar o projeto QA₂TS-Brasil como um todo.
+title: "💡 [Sugestão Geral] Título da proposta"
+labels: [sugestao, comunidade]
+body:
+  - type: textarea
+    id: ideia
+    attributes:
+      label: Descreva sua sugestão (foco em novas iniciativas, estratégias ou áreas de atuação)
+      placeholder: "Ex: Criar uma newsletter mensal com atualizações do projeto..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: impacto
+    attributes:
+      label: Qual impacto essa sugestão pode gerar? (impacto esperado no projeto ou na comunidade)
+      placeholder: "Ex: Maior engajamento da comunidade, maior clareza nos processos..."
+    validations:
+      required: false
+
+  - type: dropdown
+    id: tipo
+    attributes:
+      label: Tipo de sugestão
+      options:
+        - Nova iniciativa
+        - Documentação
+        - Comunicação
+        - Organização da trilha
+        - Divulgação
+    validations:
+      required: true

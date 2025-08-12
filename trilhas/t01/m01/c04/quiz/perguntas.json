@@ -1,0 +1,219 @@
+{
+  "trilha": {
+    "id": "T01",
+    "titulo": "Trilha de Fundamentos",
+    "descricao": "Esta trilha apresenta os conhecimentos essenciais para atuar com Garantia da Qualidade (QA) e Testes de Software. Baseada no CTFL v4.0, ela aborda os conceitos, práticas, níveis, tipos e técnicas de teste, preparando o aluno para compreender e aplicar os pilares da qualidade em projetos reais."
+  },
+  "modulo": {
+    "id": "M01",
+    "titulo": "Fundamentos de QA e Testes de Software",
+    "descricao": "Este módulo cobre os conceitos-chave da área de QA, desde a definição de qualidade, princípios e objetivos dos testes, até os ciclos de vida, níveis, técnicas, ferramentas e processos estruturados de teste. Ideal para quem está começando ou deseja consolidar a base teórica com aplicação prática."
+  },
+  "capitulo": {
+    "id": "C04",
+    "titulo": "Tipos, Níveis e Classificações de Teste",
+    "descricao": "Este capítulo explora os diferentes tipos, níveis e classificações de teste, fornecendo uma compreensão abrangente das abordagens de teste e sua aplicação em projetos de software."
+  },
+  "perguntas": [
+    {
+      "id": "P01",
+      "pergunta": "Qual é o objetivo principal dos testes de software?",
+      "alternativas": [
+        "Identificar e reduzir riscos relacionados à qualidade",
+        "Reduzir o custo de desenvolvimento",
+        "Substituir a fase de análise de requisitos",
+        "Evitar a homologação do sistema"
+      ]
+    },
+    {
+      "id": "P02",
+      "pergunta": "Quais são os níveis de teste mais comuns?",
+      "alternativas": [
+        "Teste unitário, teste de integração, teste de sistema e teste de aceitação",
+        "Teste de regressão, teste de performance e teste de segurança",
+        "Teste exploratório, teste de carga e teste de stress",
+        "Teste funcional, teste não funcional, teste estrutural e teste baseado em experiência"
+      ]
+    },
+    {
+      "id": "P03",
+      "pergunta": "Qual é o foco do teste unitário?",
+      "alternativas": [
+        "Verificar o comportamento de unidades isoladas de código",
+        "Validar a interface com o usuário",
+        "Avaliar o desempenho do sistema como um todo",
+        "Identificar vulnerabilidades de segurança"
+      ]
+    },
+    {
+      "id": "P04",
+      "pergunta": "O que caracteriza um teste de integração?",
+      "alternativas": [
+        "Avaliar a comunicação entre componentes ou sistemas",
+        "Verificar a lógica interna de cada função individual",
+        "Avaliar a usabilidade de uma aplicação",
+        "Testar somente a camada de dados"
+      ]
+    },
+    {
+      "id": "P05",
+      "pergunta": "Qual objetivo do teste de sistema?",
+      "alternativas": [
+        "Avaliar o comportamento do sistema como um todo",
+        "Validar apenas os fluxos alternativos de um módulo",
+        "Revisar o código-fonte da aplicação",
+        "Simular falhas de hardware"
+      ]
+    },
+    {
+      "id": "P06",
+      "pergunta": "O que o teste de aceitação verifica?",
+      "alternativas": [
+        "Se o sistema atende aos critérios acordados com o cliente ou usuários finais",
+        "Se os métodos foram implementados corretamente no código",
+        "Se o sistema tem bom desempenho sob carga extrema",
+        "Se a interface do sistema segue padrões de acessibilidade"
+      ]
+    },
+    {
+      "id": "P07",
+      "pergunta": "Qual destas alternativas representa um tipo de teste funcional?",
+      "alternativas": [
+        "Teste de validação de regras de negócio",
+        "Teste de desempenho sob estresse",
+        "Teste de compatibilidade com navegadores",
+        "Teste de tempo de resposta"
+      ]
+    },
+    {
+      "id": "P08",
+      "pergunta": "Qual destas alternativas é um exemplo de teste não funcional?",
+      "alternativas": [
+        "Teste de desempenho",
+        "Teste de login com credenciais válidas",
+        "Teste de cálculo de juros",
+        "Teste de fluxo de cadastro"
+      ]
+    },
+    {
+      "id": "P09",
+      "pergunta": "O que caracteriza um teste de regressão?",
+      "alternativas": [
+        "Reexecutar testes para verificar se mudanças recentes não afetaram funcionalidades existentes",
+        "Executar casos de teste pela primeira vez",
+        "Identificar requisitos ainda não implementados",
+        "Explorar funcionalidades sem documentação"
+      ]
+    },
+    {
+      "id": "P10",
+      "pergunta": "O teste de manutenção ocorre geralmente em qual situação?",
+      "alternativas": [
+        "Após mudanças ou correções em sistemas já em produção",
+        "Durante o levantamento de requisitos",
+        "Somente antes da homologação inicial",
+        "Apenas em sistemas legados sem documentação"
+      ]
+    },
+    {
+      "id": "P11",
+      "pergunta": "Qual é o foco do teste exploratório?",
+      "alternativas": [
+        "Explorar o sistema sem roteiro pré-definido, baseado na experiência do testador",
+        "Executar casos de teste automatizados",
+        "Identificar falhas de compilação no código-fonte",
+        "Avaliar o desempenho da aplicação sob carga"
+      ]
+    },
+    {
+      "id": "P12",
+      "pergunta": "Em que nível o teste de integração pode ocorrer?",
+      "alternativas": [
+        "Entre módulos internos de um sistema ou entre sistemas distintos",
+        "Somente após o teste de aceitação",
+        "Somente entre banco de dados e frontend",
+        "Apenas em APIs REST"
+      ]
+    },
+    {
+      "id": "P13",
+      "pergunta": "Qual tipo de teste avalia aspectos como confiabilidade, usabilidade e eficiência?",
+      "alternativas": [
+        "Teste não funcional",
+        "Teste funcional",
+        "Teste de unidade",
+        "Teste de integração"
+      ]
+    },
+    {
+      "id": "P14",
+      "pergunta": "O que é teste de compatibilidade?",
+      "alternativas": [
+        "Verificar se o sistema funciona em diferentes ambientes, dispositivos ou navegadores",
+        "Testar a segurança contra ataques externos",
+        "Avaliar o consumo de memória do sistema",
+        "Checar o tempo de execução de scripts automatizados"
+      ]
+    },
+    {
+      "id": "P15",
+      "pergunta": "O teste de segurança foca em quê?",
+      "alternativas": [
+        "Identificar vulnerabilidades e proteger dados e acessos",
+        "Melhorar a experiência do usuário",
+        "Aumentar a velocidade do sistema",
+        "Garantir cobertura de testes"
+      ]
+    },
+    {
+      "id": "P16",
+      "pergunta": "Qual tipo de teste é comumente usado após a correção de bugs?",
+      "alternativas": [
+        "Teste de regressão",
+        "Teste de carga",
+        "Teste de sistema",
+        "Teste de performance"
+      ]
+    },
+    {
+      "id": "P17",
+      "pergunta": "O que diferencia teste funcional de não funcional?",
+      "alternativas": [
+        "O funcional valida o que o sistema faz, o não funcional valida como o sistema se comporta",
+        "O funcional é manual e o não funcional é automatizado",
+        "O funcional é feito antes e o não funcional depois",
+        "O funcional só pode ser feito por analistas de negócio"
+      ]
+    },
+    {
+      "id": "P18",
+      "pergunta": "Qual é uma característica do teste estrutural (ou caixa-branca)?",
+      "alternativas": [
+        "Baseia-se na lógica interna do código",
+        "Depende exclusivamente de requisitos funcionais",
+        "É sempre feito pelo cliente",
+        "É usado apenas em testes de sistema"
+      ]
+    },
+    {
+      "id": "P19",
+      "pergunta": "Qual objetivo do teste de aceitação do usuário (UAT)?",
+      "alternativas": [
+        "Validar se o sistema atende às necessidades reais do usuário",
+        "Executar todos os testes funcionais automatizados",
+        "Avaliar o código-fonte em busca de bugs",
+        "Testar APIs e banco de dados diretamente"
+      ]
+    },
+    {
+      "id": "P20",
+      "pergunta": "O que são testes baseados em experiência?",
+      "alternativas": [
+        "Testes realizados com base em intuição, conhecimento e heurísticas do testador",
+        "Testes derivados exclusivamente de documentação",
+        "Testes obrigatoriamente automatizados",
+        "Testes que seguem um plano predefinido"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+name: "📝 Documentação"
+description: Criação/atualização de docs (README, docs/, Wiki)
+title: "📝 Doc: "
+labels: ["documentação", "prioridade: baixa"]
+assignees: []
+body:
+  - type: textarea
+    id: escopo
+    attributes:
+      label: Escopo
+      placeholder: O que deve ser documentado/atualizado?
+    validations:
+      required: true
+  - type: textarea
+    id: locais
+    attributes:
+      label: Locais de atualização
+      placeholder: README, docs/0X-..., Wiki/Página X, etc.
+  - type: textarea
+    id: referencias
+    attributes:
+      label: Referências (links/arquivos)

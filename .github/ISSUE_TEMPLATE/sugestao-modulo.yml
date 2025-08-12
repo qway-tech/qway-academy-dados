@@ -1,0 +1,54 @@
+name: 📘 Sugestão de Novo Módulo
+description: Proponha um novo módulo ou tema para ser incluído na trilha de certificação do QA2TS. A proposta deve estar alinhada aos objetivos e à estrutura das trilhas já definidas no projeto.
+title: "📘 [Sugestão de Módulo] Título do módulo sugerido"
+labels: [sugestao, modulo, comunidade]
+body:
+  - type: input
+    id: titulo
+    attributes:
+      label: Título do Módulo
+      placeholder: "Ex: Testes de Performance com JMeter"
+    validations:
+      required: true
+
+  - type: textarea
+    id: resumo
+    attributes:
+      label: Resumo da Proposta
+      description: Descreva em poucas linhas o que este módulo abordaria e explique como ele se encaixa na trilha existente ou se cria uma nova.
+      placeholder: "Este módulo tem como objetivo introduzir conceitos básicos de performance testing utilizando a ferramenta JMeter..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: objetivos
+    attributes:
+      label: Objetivos de Aprendizagem
+      description: Liste os principais objetivos que o aluno deve alcançar. Os objetivos devem ser claros, mensuráveis e relacionados a competências específicas do QA.
+      placeholder: |
+        - Entender o que são testes de performance
+        - Configurar e executar cenários simples no JMeter
+        - Interpretar os principais relatórios de execução
+    validations:
+      required: false
+
+  - type: textarea
+    id: referencias
+    attributes:
+      label: Fontes e Referências
+      description: Cite materiais de apoio, livros, artigos, vídeos, etc. Priorize referências de fontes abertas ou com licença compatível com CC BY-SA 4.0.
+      placeholder: "- Livro XYZ - Capítulo 3\n- Documentação do JMeter\n- Curso do Ministry of Testing"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: nivel
+    attributes:
+      label: Nível sugerido
+      options:
+        - Todos os níveis
+        - Iniciante
+        - Intermediário
+        - Avançado
+    validations:
+      required: true

@@ -1,0 +1,39 @@
+{
+  "scripts": {
+    "postinstall": "npm --prefix apps/plataforma/frontend install && npm --prefix apps/plataforma/backend install",
+    "dev": "npm-run-all -p dev:fe dev:be",
+    "dev:frontend": "npm --prefix apps/plataforma/frontend run dev",
+    "dev:backend": "npm --prefix apps/plataforma/backend run dev",
+    "lint": "npm --prefix apps/plataforma/frontend run lint && npm --prefix apps/plataforma/backend run lint",
+    "test": "npm --prefix apps/plataforma/frontend test && npm --prefix apps/plataforma/backend test",
+    "format": "npm --prefix apps/plataforma/frontend run format && npm --prefix apps/plataforma/backend run format",
+    "setup": "npm ci --workspaces --include-workspace-root",
+    "bootstrap": "npm install --workspaces --include-workspace-root",
+    "dev:fe": "npm --prefix apps/plataforma/frontend run dev",
+    "dev:be": "npm --prefix apps/plataforma/backend run dev"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.6.4",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^14.6.1",
+    "@types/jest": "^30.0.0",
+    "@typescript-eslint/eslint-plugin": "^8.39.0",
+    "@typescript-eslint/parser": "^8.39.0",
+    "babel-jest": "^30.0.5",
+    "concurrently": "^9.2.0",
+    "eslint": "^9.32.0",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "jest": "^30.0.5",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^3.6.2",
+    "ts-jest": "^29.4.1"
+  },
+  "name": "qa2ts-monorepo",
+  "private": true,
+  "workspaces": [
+    "apps/plataforma/frontend",
+    "apps/plataforma/backend"
+  ]
+}

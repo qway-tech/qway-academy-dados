@@ -1,0 +1,22 @@
+name: "🏛️ Governança"
+description: Propostas/decisões organizacionais do projeto
+title: "��️ Governança: "
+labels: ["governança"]
+assignees: []
+body:
+  - type: textarea
+    id: proposta
+    attributes:
+      label: Proposta
+      placeholder: O que mudar/decidir? Por quê?
+    validations:
+      required: true
+  - type: textarea
+    id: impacto
+    attributes:
+      label: Impacto
+      placeholder: Quem/como será afetado?
+  - type: textarea
+    id: alternativas
+    attributes:
+      label: Alternativas consideradas

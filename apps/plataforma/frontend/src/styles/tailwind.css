@@ -1,0 +1,240 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ============================
+   ROOT / VARIÁVEIS GLOBAIS
+============================ */
+:root {
+  /* Paleta de Cores */
+  --white: #ffffff;
+  --grey-0: #e0e0e0;
+  --grey-1: #d7d8da;
+  --grey-2: #b4b4b4;
+  --grey-3: #4f515a;
+  --grey-4: #272a33;
+  --grey-5: #1a1a1a;
+  --yellow: #eabd51;
+  --red-1: #c53030;
+  --red-2: #a20000;
+
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: var(--grey-1);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ============================
+  BODY / BASE
+============================ */
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: var(--grey-1);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--grey-4);
+}
+
+.text-body {
+  color: var(--grey-4);
+}
+
+/* ============================
+  NAVBAR
+============================ */
+.navbar {
+  background-color: var(--grey-4);
+  color: var(--yellow);
+}
+
+.navbar-link {
+  color: var(--yellow);
+  font-weight: 500;
+  transition:
+    transform 0.2s ease,
+    color 0.2s ease;
+  display: inline-block;
+}
+.navbar-link:hover {
+  color: var(--grey-1);
+  transform: scale(1.1);
+}
+
+.navbar-toggle {
+  color: var(--grey-4);
+  background-color: var(--yellow);
+  border-radius: 0.5rem;
+  padding: 0.4rem 0.6rem;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
+}
+
+.navbar-toggle.open {
+  background-color: var(--grey-4);
+  color: var(--yellow);
+}
+
+.navbar-mobile-menu {
+  background-color: var(--grey-4);
+  padding: 1rem;
+}
+
+.navbar-mobile-menu a {
+  margin-bottom: 0.5rem;
+}
+
+.bg-navbar-overlay {
+  background-color: var(--grey-4);
+}
+
+/* ============================
+  PROFILE MENU
+============================ */
+.dropdown div a {
+  display: block;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
+}
+
+.bg-profile-btn {
+  background-color: var(--yellow) !important;
+}
+.text-profile-btn {
+  color: var(--grey-4) !important;
+}
+.bg-profile-hover:hover {
+  background-color: var(--grey-3) !important;
+}
+.text-profile-hover:hover {
+  color: var(--yellow) !important;
+}
+
+.dropdown {
+  background-color: var(--grey-1) !important;
+  color: var(--grey-4) !important;
+}
+.dropdown div > a:hover {
+  background-color: var(--grey-2) !important;
+}
+.dropdown div a:hover {
+  font-weight: bold !important;
+}
+.border-dropdown-separator {
+  border-color: var(--grey-2) !important;
+  border-bottom-width: 1px !important;
+}
+
+.text-logout {
+  color: var(--red-1) !important;
+}
+.text-logout:hover {
+  color: var(--red-2) !important;
+}
+
+/* Profile Button */
+.btn-profile {
+  background-color: var(--yellow);
+  color: var(--grey-4);
+  font-weight: bold;
+  padding: 0.6em 1.2em;
+  border-radius: 8px;
+  transition: all 0.25s ease;
+}
+
+.btn-profile:hover {
+  background-color: var(--grey-3);
+  color: var(--yellow);
+}
+
+.btn-profile span {
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+.btn-profile:hover span {
+  transform: scale(1.1);
+}
+
+/* ============================
+  AUTH BUTTON (GITHUB LOGIN)
+============================ */
+.btn-login {
+  background-color: var(--grey-4);
+  color: var(--yellow);
+  font-weight: bold;
+  padding: 0.6em 1.2em;
+  border-radius: 8px;
+  transition: all 0.25s ease;
+}
+.btn-login:hover {
+  background-color: var(--yellow);
+  color: var(--grey-4);
+}
+
+/* ============================
+  PAGES / LAYOUT UTILITIES
+============================ */
+.text-heading {
+  color: var(--grey-4);
+}
+
+.bg-secondary-btn {
+  background-color: var(--grey-0) !important;
+}
+.text-secondary-btn {
+  color: var(--grey-4) !important;
+}
+
+/* ============================
+  GLOBAL LINKS / BUTTONS
+============================ */
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: bold;
+  font-family: inherit;
+  background-color: var(--grey-5);
+  color: white;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+button:hover {
+  border-color: var(--yellow);
+  background-color: var(--grey-2);
+  color: var(--yellow);
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+/* ============================
+  LIGHT MODE (OPCIONAL)
+============================ */
+@media (prefers-color-scheme: light) {
+  :root {
+    background-color: var(--white);
+    color: var(--grey-4);
+  }
+}

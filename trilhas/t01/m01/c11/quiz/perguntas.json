@@ -1,0 +1,219 @@
+{
+  "trilha": {
+    "id": "T01",
+    "titulo": "Trilha de Fundamentos",
+    "descricao": "Esta trilha apresenta os conhecimentos essenciais para atuar com Garantia da Qualidade (QA) e Testes de Software. Baseada no CTFL v4.0, ela aborda os conceitos, práticas, níveis, tipos e técnicas de teste, preparando o aluno para compreender e aplicar os pilares da qualidade em projetos reais."
+  },
+  "modulo": {
+    "id": "M01",
+    "titulo": "Fundamentos de QA e Testes de Software",
+    "descricao": "Este módulo cobre os conceitos-chave da área de QA, desde a definição de qualidade, princípios e objetivos dos testes, até os ciclos de vida, níveis, técnicas, ferramentas e processos estruturados de teste. Ideal para quem está começando ou deseja consolidar a base teórica com aplicação prática."
+  },
+  "capitulo": {
+    "id": "C11",
+    "titulo": "Considerações Finais e Preparação para Avaliação",
+    "descricao": "Este capítulo revisa os conceitos fundamentais da trilha e apresenta as atividades finais do processo de testes, incluindo encerramento formal, análise de lições aprendidas, critérios de saída, relatórios e recomendações para melhoria contínua da qualidade."
+  },
+  "perguntas": [
+    {
+      "id": "P01",
+      "pergunta": "O que são atividades de encerramento do teste?",
+      "alternativas": [
+        "Tarefas realizadas após a execução dos testes para encerrar formalmente o processo",
+        "Atividades de deploy em produção",
+        "Execução de testes de regressão",
+        "Aprovação da sprint"
+      ]
+    },
+    {
+      "id": "P02",
+      "pergunta": "Qual é o objetivo de documentar as lições aprendidas?",
+      "alternativas": [
+        "Evitar os mesmos erros em ciclos futuros",
+        "Punir os responsáveis por falhas",
+        "Aumentar a cobertura de código",
+        "Controlar o tempo de entrega"
+      ]
+    },
+    {
+      "id": "P03",
+      "pergunta": "O que deve conter um relatório de encerramento de testes?",
+      "alternativas": [
+        "Resumo dos testes executados, métricas, defeitos encontrados e lições aprendidas",
+        "Apenas os bugs abertos",
+        "Lista de requisitos",
+        "Especificações técnicas do sistema"
+      ]
+    },
+    {
+      "id": "P04",
+      "pergunta": "Critérios de saída são usados para:",
+      "alternativas": [
+        "Determinar quando os testes podem ser encerrados",
+        "Iniciar a automação",
+        "Definir a arquitetura de testes",
+        "Selecionar a ferramenta de gestão"
+      ]
+    },
+    {
+      "id": "P05",
+      "pergunta": "Qual atividade NÃO faz parte do encerramento do processo de testes?",
+      "alternativas": [
+        "Planejamento de novos requisitos",
+        "Análise de lições aprendidas",
+        "Revisão da cobertura de testes",
+        "Encerramento de bugs"
+      ]
+    },
+    {
+      "id": "P06",
+      "pergunta": "A comunicação de resultados deve ser feita para:",
+      "alternativas": [
+        "Todas as partes interessadas (stakeholders)",
+        "Apenas para o time de QA",
+        "Apenas para o time de desenvolvimento",
+        "Usuários finais apenas"
+      ]
+    },
+    {
+      "id": "P07",
+      "pergunta": "Qual métrica pode ser útil na análise pós-teste?",
+      "alternativas": [
+        "Taxa de defeitos por módulo",
+        "Velocidade de deploy",
+        "Horas extras do time",
+        "Linhas de código produzidas"
+      ]
+    },
+    {
+      "id": "P08",
+      "pergunta": "Por que encerrar formalmente o processo de testes?",
+      "alternativas": [
+        "Para garantir rastreabilidade, gerar conhecimento e planejar melhorias",
+        "Para deletar os dados do projeto",
+        "Para entregar o software incompleto",
+        "Para liberar os devs para outra sprint"
+      ]
+    },
+    {
+      "id": "P09",
+      "pergunta": "Qual é um benefício da análise de falhas após a entrega?",
+      "alternativas": [
+        "Aumentar a maturidade do processo de qualidade",
+        "Reduzir a documentação",
+        "Eliminar a necessidade de testes",
+        "Evitar o uso de automação"
+      ]
+    },
+    {
+      "id": "P10",
+      "pergunta": "O que define o fim oficial das atividades de teste em um projeto?",
+      "alternativas": [
+        "Atendimento aos critérios de saída definidos previamente",
+        "Entrega para o cliente",
+        "Último bug fechado",
+        "Assinatura do PO"
+      ]
+    },
+    {
+      "id": "P11",
+      "pergunta": "Qual prática melhora a qualidade futura a partir dos testes encerrados?",
+      "alternativas": [
+        "Revisão das causas-raiz dos defeitos encontrados",
+        "Aumento da equipe de QA",
+        "Troca da ferramenta de testes",
+        "Contratação de consultorias externas"
+      ]
+    },
+    {
+      "id": "P12",
+      "pergunta": "Um relatório de teste eficaz deve:",
+      "alternativas": [
+        "Ser objetivo, baseado em fatos e direcionado aos stakeholders certos",
+        "Ser longo e técnico para parecer completo",
+        "Evitar mencionar falhas",
+        "Ser genérico para uso em outros projetos"
+      ]
+    },
+    {
+      "id": "P13",
+      "pergunta": "Qual ferramenta pode apoiar na consolidação dos resultados de teste?",
+      "alternativas": [
+        "TestRail, Zephyr, Xray",
+        "Word, Outlook e Excel",
+        "Slack e Trello",
+        "Bitbucket e Figma"
+      ]
+    },
+    {
+      "id": "P14",
+      "pergunta": "Critérios de saída devem ser definidos em que fase?",
+      "alternativas": [
+        "Durante o planejamento dos testes",
+        "Apenas no fim da execução",
+        "Após a entrega ao cliente",
+        "Durante o deploy em produção"
+      ]
+    },
+    {
+      "id": "P15",
+      "pergunta": "Revisar os testes executados ajuda a:",
+      "alternativas": [
+        "Identificar gaps, duplicidades e pontos de melhoria",
+        "Reduzir a performance do sistema",
+        "Aumentar o retrabalho do time",
+        "Evitar comunicação com o cliente"
+      ]
+    },
+    {
+      "id": "P16",
+      "pergunta": "Qual é o papel da documentação na etapa de encerramento?",
+      "alternativas": [
+        "Facilitar auditorias e promover reuso de conhecimento",
+        "Substituir a execução de testes",
+        "Reduzir a responsabilidade do QA",
+        "Aumentar o número de relatórios"
+      ]
+    },
+    {
+      "id": "P17",
+      "pergunta": "Qual prática ajuda a melhorar o processo de testes após o encerramento?",
+      "alternativas": [
+        "Retrospectiva técnica com análise crítica dos resultados",
+        "Criação de novos requisitos fora do escopo",
+        "Encerramento imediato sem análise",
+        "Execução de testes não planejados"
+      ]
+    },
+    {
+      "id": "P18",
+      "pergunta": "O que caracteriza uma atividade de pós-projeto?",
+      "alternativas": [
+        "Avaliação da eficácia do processo de teste e proposta de melhorias",
+        "Desenvolvimento de novos módulos",
+        "Execução de testes de regressão",
+        "Atualização de código"
+      ]
+    },
+    {
+      "id": "P19",
+      "pergunta": "O encerramento dos testes pode apoiar:",
+      "alternativas": [
+        "A melhoria contínua da qualidade no ciclo seguinte",
+        "A redução do time de QA",
+        "A eliminação de testes manuais",
+        "A reescrita de todos os scripts"
+      ]
+    },
+    {
+      "id": "P20",
+      "pergunta": "Ao encerrar uma fase de testes, é essencial garantir que:",
+      "alternativas": [
+        "Todos os registros estejam completos e versionados",
+        "O produto esteja 100% livre de bugs",
+        "A equipe esteja alocada em novos projetos",
+        "Os desenvolvedores aprovem os testes"
+      ]
+    }
+  ]
+}

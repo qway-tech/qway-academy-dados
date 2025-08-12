@@ -1,0 +1,32 @@
+name: "✨ Melhorias"
+description: Sugira melhorias incrementais ou ajustes técnicos específicos, focando em aprimoramentos práticos e implementáveis, não em sugestões amplas ou estratégicas.
+title: "✨ Melhorias: "
+labels: ["melhorias", "prioridade: média"]
+assignees: []
+body:
+  - type: textarea
+    id: proposta
+    attributes:
+      label: Descrição da melhoria
+      placeholder: Descreva objetivamente o que será entregue e por quê. Seja claro e direto.
+    validations:
+      required: true
+  - type: textarea
+    id: motivacao
+    attributes:
+      label: Motivação / problema relacionado
+      placeholder: Explique a dor que essa melhoria resolve. Inclua exemplos reais, métricas ou dados quando possível. Relacione a issues ou módulos específicos, se aplicável.
+  - type: textarea
+    id: criterios
+    attributes:
+      label: Critérios de aceitação
+      placeholder: |
+        Liste critérios claros e estruturados para aceitação, por exemplo:
+        - Dado ...
+        - Quando ...
+        - Então ...
+  - type: textarea
+    id: consideracoes
+    attributes:
+      label: Considerações técnicas (opcional)
+      placeholder: Informe restrições, riscos, dependências ou detalhes sobre rollout. Seja objetivo.

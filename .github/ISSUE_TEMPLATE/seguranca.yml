@@ -1,0 +1,25 @@
+name: "🔒 Segurança"
+description: Reporte vulnerabilidades de forma responsável
+title: "🔒 Segurança: "
+labels: ["segurança", "prioridade: alta"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ⚠️ Para vulnerabilidades críticas, considere enviar um report privado.
+  - type: textarea
+    id: descricao
+    attributes:
+      label: Descrição
+      placeholder: Descreva a vulnerabilidade e impacto potencial.
+    validations:
+      required: true
+  - type: textarea
+    id: reproducao
+    attributes:
+      label: Passos de reprodução / PoC
+  - type: textarea
+    id: mitigacao
+    attributes:
+      label: Mitigação sugerida

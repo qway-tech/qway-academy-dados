@@ -1,0 +1,23 @@
+{
+  "usuario": "@exemplo",
+  "trilha": "T01",
+  "modulo": "M01",
+  "capitulo": "C01",
+  "tipo": "quiz",
+  "tentativa": 1,
+  "iniciado_em": "2025-08-08T15:55:00Z",
+  "enviado_em": "2025-08-08T16:00:00Z",
+  "duracao_segundos": 300,
+  "respostas": [
+    { "pergunta_id": "P02", "resposta_indice": 0, "tempo_por_questao": 45 },
+    { "pergunta_id": "P03", "resposta_indice": 3, "tempo_por_questao": 35 },
+    { "pergunta_id": "P07", "resposta_indice": 1, "tempo_por_questao": 60 },
+    { "pergunta_id": "P12", "resposta_indice": 0, "tempo_por_questao": 80 },
+    { "pergunta_id": "P20", "resposta_indice": 2, "tempo_por_questao": 80 }
+],
+  "meta": {
+    "versao_quiz": "v1.0",
+    "limite_tentativas": 3,
+    "origem": "plataforma-web"
+  }
+}

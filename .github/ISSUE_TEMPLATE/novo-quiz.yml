@@ -1,0 +1,55 @@
+name: "🆕 Novo Quiz"
+description: "Proponha a criação de um novo quiz para os módulos de certificação QA₂TS-Brasil."
+title: "🆕 [Novo Quiz] Nome do Módulo ou Tema"
+labels: ["novo-quiz"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado por contribuir com o projeto **QA₂TS-Brasil**!  
+        Observe que o envio do quiz não garante aprovação imediata; ele será revisado pela comunidade antes de ser incluído.
+
+  - type: markdown
+    attributes:
+      value: |
+        Preencha as informações abaixo para que possamos analisar e incluir seu quiz.
+
+  - type: input
+    id: modulo
+    attributes:
+      label: "Módulo ou Trilha relacionada"
+      description: "Informe a qual módulo ou trilha o quiz se refere."
+      placeholder: "Ex.: Trilha de Fundamentos - Módulo 01"
+
+  - type: textarea
+    id: descricao
+    attributes:
+      label: "Descrição do Quiz"
+      description: "Explique brevemente o objetivo e o conteúdo do quiz."
+      placeholder: "Ex.: Quiz de validação sobre conceitos básicos de QA e tipos de teste."
+
+  - type: textarea
+    id: perguntas
+    attributes:
+      label: "Lista de Perguntas"
+      description: "Inclua as perguntas propostas no formato JSON esperado pelo projeto. Certifique-se de que o arquivo JSON esteja válido e siga a estrutura definida nas diretrizes do repositório: https://github.com/QA2TS-Brasil/qa2ts-brasil/blob/main/DIRETRIZES.md"
+      placeholder: |
+        [
+          {
+            "pergunta": "O que significa QA?",
+            "opcoes": ["Quality Assurance", "Quick Access", "Quality Automation", "Questão Avançada"],
+            "resposta_correta": 0
+          }
+        ]
+
+  - type: checkboxes
+    id: confirmacao
+    attributes:
+      label: "Confirmação"
+      options:
+        - label: "Li as diretrizes do projeto e verifiquei se o quiz segue o formato correto."
+          required: true
+        - label: "Testei o JSON em um validador antes de enviar."
+          required: true
