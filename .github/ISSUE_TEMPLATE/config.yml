@@ -1,4 +1,4 @@
-blank_issues_enabled: false
+blank_issues_enabled: true
 contact_links:
   - name: 💬 Discussões gerais
     url: https://github.com/qway-tech/qa2ts-brasil/discussions

@@ -1,0 +1,27 @@
+name: "Feature"
+description: "Defina uma funcionalidade que contribui para uma Epic"
+title: "Feature: [Nome resumido]"
+labels: ["feature"]
+body:
+  - type: markdown
+    attributes:
+      value: "## ✨ Feature — Funcionalidade\nPreencha os campos abaixo para registrar a Feature."
+  - type: textarea
+    id: descricao
+    attributes:
+      label: "Descrição"
+      description: "Explique o que será entregue e por que é importante."
+      placeholder: "Ex.: Criar API de autenticação de usuários..."
+    validations:
+      required: true
+  - type: textarea
+    id: criterios
+    attributes:
+      label: "Critérios de Aceitação"
+      description: "Defina os objetivos que devem ser atingidos."
+      placeholder: "- Critério 1\n- Critério 2"
+  - type: textarea
+    id: relacionamento
+    attributes:
+      label: "Relacionamentos"
+      description: "Liste User Stories relacionadas e Epic vinculada."

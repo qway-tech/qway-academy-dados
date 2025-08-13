@@ -1,0 +1,26 @@
+name: "User Story"
+description: "Defina uma história de usuário"
+title: "[Tipo de usuário] quer [funcionalidade] para [benefício esperado]"
+labels: ["user-story"]
+body:
+  - type: markdown
+    attributes:
+      value: "## 📖 User Story\nPreencha os campos abaixo para registrar a User Story."
+  - type: textarea
+    id: descricao
+    attributes:
+      label: "Descrição"
+      description: "Explique o contexto adicional, se necessário."
+  - type: textarea
+    id: criterios
+    attributes:
+      label: "Critérios de Aceitação"
+      description: "Liste condições para considerar a história concluída."
+      placeholder: "- Critério 1\n- Critério 2"
+      validations:
+        required: true
+  - type: textarea
+    id: relacionamento
+    attributes:
+      label: "Relacionamentos"
+      description: "Indique a Feature relacionada."
