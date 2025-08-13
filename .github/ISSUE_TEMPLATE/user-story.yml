@@ -17,8 +17,8 @@ body:
       label: "Critérios de Aceitação"
       description: "Liste condições para considerar a história concluída."
       placeholder: "- Critério 1\n- Critério 2"
-      validations:
-        required: true
+    validations:
+      required: true
   - type: textarea
     id: relacionamento
     attributes:
