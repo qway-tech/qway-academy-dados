@@ -1,4 +1,4 @@
-name: "User Story"
+name: "⚙️ User Story"
 description: "Defina uma história de usuário"
 title: "[Tipo de usuário] quer [funcionalidade] para [benefício esperado]"
 labels: ["user-story"]
