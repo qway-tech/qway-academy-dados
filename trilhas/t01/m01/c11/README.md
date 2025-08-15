@@ -21,8 +21,8 @@ Este capítulo encerra o módulo de Fundamentos com um resumo dos principais apr
 ## 🔗 Referências
 
 - [Syllabus CTFL 4.0 – BSTQB (Resumo Geral)](https://bstqb.online/files/syllabus_ctfl_4.0br.pdf)  
-- Guia de Submissão da Prova QA₂TS  
-- Comunidade QA₂TS no GitHub  
+- Guia de Submissão da Prova QATS  
+- Comunidade QATS no GitHub  
 
 ## 📝 Quiz do Capítulo
 

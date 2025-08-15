@@ -119,5 +119,5 @@ Formato recomendado para referências:
 
 ---
 
-**Feito com 💛 pela comunidade QA₂TS-Brasil.**  
+**Feito com 💛 pela comunidade QATS-Brasil.**  
 Sugestões? Abra uma *Issue* no repositório com o rótulo `conteudo`.

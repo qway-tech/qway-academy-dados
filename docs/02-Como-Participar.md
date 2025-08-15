@@ -1,6 +1,6 @@
 # 🤝 Como Participar
 
-O **QA₂TS-Brasil** é uma iniciativa pública e colaborativa. Você pode contribuir mesmo sem experiência prévia com open source.
+O **QATS-Brasil** é uma iniciativa pública e colaborativa. Você pode contribuir mesmo sem experiência prévia com open source.
 
 ---
 
@@ -21,10 +21,10 @@ O **QA₂TS-Brasil** é uma iniciativa pública e colaborativa. Você pode contr
    - [Governança](./01-Sobre-o-Projeto.md#-governança)
    - [Licença](./04-Licenca.md)
 2. Abra uma *Issue* ou *Pull Request*:
-   - Use os [templates de contribuição](https://github.com/qway-tech/qa2ts-brasil/issues/new/choose)
+   - Use os [templates de contribuição](https://github.com/qway-tech/qats-brasil/issues/new/choose)
 3. Quer atuar com mais regularidade?
    - Candidate-se como **Membro Temporário**:
-     👉 https://github.com/qway-tech/qa2ts-brasil/issues/new?template=candidatura-colaborador.yml&title=%F0%9F%99%8B%20[Candidatura]%20Seu%20Nome%20%E2%80%93%20Papel
+     👉 https://github.com/qway-tech/qats-brasil/issues/new?template=candidatura-colaborador.yml&title=%F0%9F%99%8B%20[Candidatura]%20Seu%20Nome%20%E2%80%93%20Papel
 
 ---
 
@@ -45,4 +45,4 @@ O **QA₂TS-Brasil** é uma iniciativa pública e colaborativa. Você pode contr
 - Transformar trechos em flashcards/mapas mentais/diagramas
 - Comentar com feedback construtivo nas *Issues*
 
-> **Toda contribuição importa.** O QA₂TS é feito por todos nós. ❤️
+> **Toda contribuição importa.** O QATS é feito por todos nós. ❤️

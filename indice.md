@@ -1,6 +1,6 @@
-# 🗂️ Índice Geral das Trilhas de Formação – QA₂TS
+# 🗂️ Índice Geral das Trilhas de Formação – QATS
 
-Este índice reúne todas as trilhas, seus respectivos módulos e capítulos disponíveis no projeto **QA₂TS – Qualificação Aberta em QA e Testes de Software**.
+Este índice reúne todas as trilhas, seus respectivos módulos e capítulos disponíveis no projeto **QATS – Qualificação Aberta em QA e Testes de Software**.
 
 ---
 
@@ -68,6 +68,6 @@ Para profissionais que desejam atuar com visão sistêmica e impacto organizacio
 
 ## 📝 Observações
 
-- Estes capítulos seguem a estrutura definida na [Wiki Oficial do Projeto](https://github.com/qway-tech/qa2ts-brasil/wiki/04-%E2%80%90-Trilhas-de-Forma%C3%A7%C3%A3o).
+- Estes capítulos seguem a estrutura definida na [Wiki Oficial do Projeto](https://github.com/qway-tech/qats-brasil/wiki/04-%E2%80%90-Trilhas-de-Forma%C3%A7%C3%A3o).
 - Os links levam diretamente para os diretórios de cada capítulo com conteúdo e quiz.
 - Este índice será atualizado conforme novos módulos e trilhas forem adicionados ao projeto.

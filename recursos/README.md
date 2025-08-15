@@ -1,6 +1,6 @@
 # 📚 Pasta de Recursos
 
-Esta pasta reúne materiais complementares para apoiar os estudos, aplicação prática e aprofundamento dos conteúdos abordados nas trilhas do projeto **QA₂TS-Brasil**.
+Esta pasta reúne materiais complementares para apoiar os estudos, aplicação prática e aprofundamento dos conteúdos abordados nas trilhas do projeto **QATS-Brasil**.
 
 Os recursos aqui organizados são públicos e colaborativos, e podem ser utilizados livremente para fins educacionais.
 
@@ -19,7 +19,7 @@ Os recursos aqui organizados são públicos e colaborativos, e podem ser utiliza
   Guias práticos, manuais ou cheatsheets que ajudam na aplicação dos conceitos e técnicas em contexto real.
 
 - [`apresentacoes/`](./apresentacoes/)  
-  Slides e materiais usados em workshops, treinamentos ou eventos relacionados ao QA₂TS.
+  Slides e materiais usados em workshops, treinamentos ou eventos relacionados ao QATS.
 
 - [`outros/`](./outros/)  
   Qualquer outro recurso que não se encaixe nas categorias anteriores.

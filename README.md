@@ -1,6 +1,6 @@
-# 🇧🇷 QA₂TS-Brasil – Qualificação Aberta em QA e Teste de Software
+# 🇧🇷 QATS-Brasil – Qualificação Aberta em QA e Teste de Software
 
-Bem-vindo(a) ao repositório oficial da iniciativa **QA₂TS-Brasil**: um projeto open-source, gratuito e comunitário voltado à formação prática em **Qualidade de Software (QA)** e **Testes de Software**.
+Bem-vindo(a) ao repositório oficial da iniciativa **QATS-Brasil**: um projeto open-source, gratuito e comunitário voltado à formação prática em **Qualidade de Software (QA)** e **Testes de Software**.
 
 Nosso objetivo é oferecer uma formação técnica real, com:
 
@@ -13,7 +13,7 @@ Tudo construído **por e para a comunidade brasileira de QA**.
 
 ---
 
-## 🎥 Apresentação do Projeto QA₂TS
+## 🎥 Apresentação do Projeto QATS
 
 Assista ao vídeo de apresentação da iniciativa, explicando os objetivos, estrutura e formas de contribuição para o projeto de Qualificação Aberta em QA e Testes de Software:
 
@@ -39,7 +39,7 @@ Assista ao vídeo de apresentação da iniciativa, explicando os objetivos, estr
 Apoiam esta iniciativa instituições que:
 
 - Valorizam a qualificação aberta e transparente
-- Reconhecem as certificações QA₂TS como parte de seus critérios de avaliação
+- Reconhecem as certificações QATS como parte de seus critérios de avaliação
 - Compartilham os valores de ética, acessibilidade e boas práticas no mercado de QA
 
 <table>
@@ -51,13 +51,13 @@ Apoiam esta iniciativa instituições que:
     </td>
     <td width="33%" align="center" valign="middle">
       <strong>📣 Sua instituição aqui!</strong><br>
-      <sub>Apoie a iniciativa QA₂TS e tenha sua marca reconhecida como parceira da qualificação aberta em QA.</sub><br>
-      <a href="https://github.com/qway-tech/qa2ts-brasil/wiki/07-%E2%80%90-Apoio-Institucional">💬 Saiba como apoiar</a>
+      <sub>Apoie a iniciativa QATS e tenha sua marca reconhecida como parceira da qualificação aberta em QA.</sub><br>
+      <a href="https://github.com/qway-tech/qats-brasil/wiki/07-%E2%80%90-Apoio-Institucional">💬 Saiba como apoiar</a>
     </td>
     <td width="33%" align="center" valign="middle">
       <strong>📣 Seja um apoiador!</strong><br>
       <sub>Mostre seu compromisso com a educação técnica e ética no mercado de QA. Apoio gratuito e com destaque institucional.</sub><br>
-      <a href="https://github.com/qway-tech/qa2ts-brasil/issues/new?template=apoio-institucional.yml&title=%F0%9F%8F%A2%20[Apoio]%20Nome%20da%20Institui%C3%A7%C3%A3o">💬 Apoie agora</a>
+      <a href="https://github.com/qway-tech/qats-brasil/issues/new?template=apoio-institucional.yml&title=%F0%9F%8F%A2%20[Apoio]%20Nome%20da%20Institui%C3%A7%C3%A3o">💬 Apoie agora</a>
     </td>
   </tr>
 </table>

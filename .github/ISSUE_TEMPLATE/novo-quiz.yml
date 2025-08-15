@@ -1,5 +1,5 @@
 name: "🆕 Novo Quiz"
-description: "Proponha a criação de um novo quiz para os módulos de certificação QA₂TS-Brasil."
+description: "Proponha a criação de um novo quiz para os módulos de certificação QATS-Brasil."
 title: "🆕 [Novo Quiz] Nome do Módulo ou Tema"
 labels: ["novo-quiz"]
 assignees: []
@@ -8,7 +8,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Obrigado por contribuir com o projeto **QA₂TS-Brasil**!  
+        Obrigado por contribuir com o projeto **QATS-Brasil**!  
         Observe que o envio do quiz não garante aprovação imediata; ele será revisado pela comunidade antes de ser incluído.
 
   - type: markdown
@@ -34,7 +34,7 @@ body:
     id: perguntas
     attributes:
       label: "Lista de Perguntas"
-      description: "Inclua as perguntas propostas no formato JSON esperado pelo projeto. Certifique-se de que o arquivo JSON esteja válido e siga a estrutura definida nas diretrizes do repositório: https://github.com/QA2TS-Brasil/qa2ts-brasil/blob/main/DIRETRIZES.md"
+      description: "Inclua as perguntas propostas no formato JSON esperado pelo projeto. Certifique-se de que o arquivo JSON esteja válido e siga a estrutura definida nas diretrizes do repositório: https://github.com/QATS-Brasil/qats-brasil/blob/main/DIRETRIZES.md"
       placeholder: |
         [
           {

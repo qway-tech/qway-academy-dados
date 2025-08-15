@@ -48,7 +48,7 @@ describe('Navbar', () => {
     expect(screen.getByRole('link', { name: /início/i })).toHaveAttribute('href', '/');
     expect(screen.getByRole('link', { name: /repositório/i })).toHaveAttribute(
       'href',
-      'https://github.com/qway-tech/qa2ts-brasil',
+      'https://github.com/qway-tech/qats-brasil',
     );
   });
 

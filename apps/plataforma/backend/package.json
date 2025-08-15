@@ -1,5 +1,5 @@
 {
-  "name": "qa2ts-backend",
+  "name": "qats-backend",
   "version": "1.0.0",
   "type": "module",
   "main": "index.js",

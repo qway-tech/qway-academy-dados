@@ -109,7 +109,7 @@ temp/
 .yarn/
 .yarnrc.yml
 
-# QA2TS custom
+# QATS custom
 artifacts/
 certificados/
 docs-gerados/apps/plataforma/backend/.env

@@ -14,7 +14,7 @@ export default function Login() {
       <p className="mb-4 text-base">
         Para acessar os recursos do{' '}
         <strong>
-          QA<sub>2</sub>TS
+          QATS
         </strong>
         , como{' '}
         <strong>

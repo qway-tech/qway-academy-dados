@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { useAuth } from '@/context/useAuth';
 import ProfileMenu from './ProfileMenu';
-import logo from '@/assets/qa2ts_logo_horizontal_amarelo.png';
+import logo from '@/assets/qats_logo_horizontal_amarelo.png';
 
 export default function Navbar() {
   const { user } = useAuth();
@@ -48,7 +48,7 @@ export default function Navbar() {
           {/* Logo */}
           <div>
             <Link to="/">
-              <img src={logo} alt="QA2TS" className="h-8 object-contain" />
+              <img src={logo} alt="QATS" className="h-8 object-contain" />
             </Link>
           </div>
 
@@ -61,7 +61,7 @@ export default function Navbar() {
                 </Link>
               </li>
               <li>
-                <Link to="https://github.com/qway-tech/qa2ts-brasil" className="navbar-link">
+                <Link to="https://github.com/qway-tech/qats-brasil" className="navbar-link">
                   Repositório
                 </Link>
               </li>
@@ -125,7 +125,7 @@ export default function Navbar() {
             </li>
             <li>
               <Link
-                to="https://github.com/qway-tech/qa2ts-brasil"
+                to="https://github.com/qway-tech/qats-brasil"
                 className="navbar-link block"
                 onClick={() => setIsMobileMenuOpen(false)}
               >

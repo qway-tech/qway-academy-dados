@@ -5,12 +5,12 @@ export default function Home() {
     <MainLayout>
       <div data-testid="page-home" className="space-y-6">
         <h1 className="text-4xl font-bold text-heading">
-          Bem-Vindos ao QA<sub>2</sub>TS
+          Bem-Vindos ao QATS
         </h1>
         <p className="text-body text-lg">
           O{' '}
           <strong>
-            QA<sub>2</sub>TS
+            QATS
           </strong>{' '}
           (Qualificação Aberta em QA e Testes de Software) é um projeto open-source e colaborativo
           que tem como objetivo oferecer um caminho estruturado, ético e gratuito para formação de

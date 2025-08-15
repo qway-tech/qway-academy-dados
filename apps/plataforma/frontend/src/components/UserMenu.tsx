@@ -5,13 +5,13 @@ export default function UserMenu() {
   const [user, setUser] = useState<{ name: string } | null>(null);
 
   useEffect(() => {
-    const stored = localStorage.getItem('qa2ts-user');
+    const stored = localStorage.getItem('qats-user');
     if (stored) setUser(JSON.parse(stored));
   }, []);
 
   const handleLogout = () => {
-    localStorage.removeItem('qa2ts-token');
-    localStorage.removeItem('qa2ts-user');
+    localStorage.removeItem('qats-token');
+    localStorage.removeItem('qats-user');
     window.location.href = '/';
   };
 

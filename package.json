@@ -30,7 +30,7 @@
     "prettier": "^3.6.2",
     "ts-jest": "^29.4.1"
   },
-  "name": "qa2ts-monorepo",
+  "name": "qats-monorepo",
   "private": true,
   "workspaces": [
     "apps/plataforma/frontend",
