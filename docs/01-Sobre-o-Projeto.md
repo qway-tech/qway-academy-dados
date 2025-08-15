@@ -1,11 +1,11 @@
-# 💡 Bem-vindo(a) ao projeto **QATS-Brasil**
+# 💡 Bem-vindo(a) ao projeto **QATS**
 
 
-Este documento faz parte da documentação oficial do repositório QATS-Brasil.
+Este documento faz parte da documentação oficial do repositório QATS.
 
-> **Nota:** Este documento é complementar à Wiki do projeto. Informações técnicas e operacionais detalhadas, como processos, arquitetura, padrões e guias de contribuição, estão centralizadas e sempre atualizadas na [Wiki do QATS-Brasil](https://github.com/qway-tech/qats-brasil/wiki).
+> **Nota:** Este documento é complementar à Wiki do projeto. Informações técnicas e operacionais detalhadas, como processos, arquitetura, padrões e guias de contribuição, estão centralizadas e sempre atualizadas na [Wiki do QATS](https://github.com/qway-tech/qats/wiki).
 
-Este é o ponto de partida para entender a proposta, os pilares e o funcionamento do projeto **QATS-Brasil** — uma iniciativa open-source, gratuita e colaborativa para formação em **Qualidade de Software (QA)**, construída por e para a comunidade brasileira.
+Este é o ponto de partida para entender a proposta, os pilares e o funcionamento do projeto **QATS** — uma iniciativa open-source, gratuita e colaborativa para formação em **Qualidade de Software (QA)**, construída por e para a comunidade brasileira.
 
 ---
 
@@ -37,7 +37,7 @@ Nossa estrutura é organizada em **Trilhas de Estudo e Certificação**, que re�
 
 ## 🧭 Governança
 
-O projeto QATS-Brasil é estruturado para garantir transparência, colaboração e qualidade por meio de uma governança clara:
+O projeto QATS é estruturado para garantir transparência, colaboração e qualidade por meio de uma governança clara:
 
 - **Tipos de membros:**  
   - Fixo (membros permanentes)  
@@ -54,13 +54,13 @@ O projeto QATS-Brasil é estruturado para garantir transparência, colaboração
 - **Ciclo de revisão:**  
   Membros temporários têm mandato de 12 meses, com critérios claros para renovação baseados em participação e contribuição.  
 
-- Para se candidatar como membro temporário, acesse: [candidatura de colaborador(a) oficial do projeto](https://github.com/qway-tech/qats-brasil/issues/new?template=candidatura-colaborador.yml)  
+- Para se candidatar como membro temporário, acesse: [candidatura de colaborador(a) oficial do projeto](https://github.com/qway-tech/qats/issues/new?template=candidatura-colaborador.yml)  
 
 ---
 
 ## 🏢 Apoio Institucional
 
-O QATS-Brasil conta com o apoio de instituições que acreditam na importância da formação em qualidade de software:
+O QATS conta com o apoio de instituições que acreditam na importância da formação em qualidade de software:
 
 - **Por que apoiar?**  
   Para fortalecer a comunidade, ampliar o alcance do projeto e contribuir para a qualificação profissional no Brasil.  
@@ -74,7 +74,7 @@ O QATS-Brasil conta com o apoio de instituições que acreditam na importância 
 - **Caminhos de apoio:**  
   Diversas formas flexíveis para que organizações possam colaborar conforme sua capacidade e interesse.  
 
-- Para mais informações e para apoiar, acesse: [formulário de apoio institucional](https://github.com/qway-tech/qats-brasil/wiki/Apoio-Institucional)  
+- Para mais informações e para apoiar, acesse: [formulário de apoio institucional](https://github.com/qway-tech/qats/wiki/Apoio-Institucional)  
 
 ---
 
@@ -83,9 +83,9 @@ O QATS-Brasil conta com o apoio de instituições que acreditam na importância 
 Você pode:
 
 - 📖 Explorar esta documentação para entender como o projeto funciona  
-- 🧵 Participar das [issues abertas](https://github.com/qway-tech/qats-brasil/issues)  
+- 🧵 Participar das [issues abertas](https://github.com/qway-tech/qats/issues)  
 - 🛠️ Sugerir melhorias, reportar erros ou revisar conteúdos  
-- 🙋‍♀️ Candidatar-se como [colaborador(a) oficial do projeto](https://github.com/qway-tech/qats-brasil/issues/new?template=candidatura-colaborador.yml)  
+- 🙋‍♀️ Candidatar-se como [colaborador(a) oficial do projeto](https://github.com/qway-tech/qats/issues/new?template=candidatura-colaborador.yml)  
 
 > Todas as contribuições são bem-vindas — de conteúdo técnico a design, infraestrutura, comunicação e mentoria!
 
@@ -102,19 +102,19 @@ Você pode:
 
 ## 📂 Documentação Técnica e Operacional
 
-Para detalhes técnicos, operacionais e orientações de contribuição, consulte a Wiki do projeto QATS-Brasil. Lá você encontra:
+Para detalhes técnicos, operacionais e orientações de contribuição, consulte a Wiki do projeto QATS. Lá você encontra:
 
-- 🏠 [Home da Wiki](https://github.com/qway-tech/qats-brasil/wiki)
-- 🛠 [Processo de Trabalho (Way of Working)](https://github.com/qway-tech/qats-brasil/wiki/01-%E2%80%90-Processo-de-Trabalho)
-- 🏗 [Arquitetura](https://github.com/qway-tech/qats-brasil/wiki/02-%E2%80%90-Arquitetura)
-- 🛠 [Solução Técnica](https://github.com/qway-tech/qats-brasil/wiki/03-%E2%80%90-Solu%C3%A7%C3%A3o-T%C3%A9cnica)
-- 🧰 [Configuração do Ambiente](https://github.com/qway-tech/qats-brasil/wiki/04-%E2%80%90-Configura%C3%A7%C3%A3o-do-Ambiente)
-- 📦 [Estrutura do Repositório](https://github.com/qway-tech/qats-brasil/wiki/05-%E2%80%90-Estrutura-do-Reposit%C3%B3rio)
-- 🧪 [Testes e Qualidade](https://github.com/qway-tech/qats-brasil/wiki/06-%E2%80%90-Testes-e-Qualidade)
-- 🚀 [Guia de Contribuição Avançado](https://github.com/qway-tech/qats-brasil/wiki/07-%E2%80%90-Guia-de-Contribui%C3%A7%C3%A3o-Avan%C3%A7ado)
-- 🧭 [Padrões e Convenções](https://github.com/qway-tech/qats-brasil/wiki/08-%E2%80%90-Padr%C3%B5es-e-Conven%C3%A7%C3%B5es)
-- 📈 [Roadmap e Backlog Público](https://github.com/qway-tech/qats-brasil/wiki/09-%E2%80%90-Roadmap-e-Backlog-P%C3%BAblico)
-- 📚 [Referências e Recursos](https://github.com/qway-tech/qats-brasil/wiki/10-%E2%80%90-Refer%C3%AAncias-e-Recursos)
+- 🏠 [Home da Wiki](https://github.com/qway-tech/qats/wiki)
+- 🛠 [Processo de Trabalho (Way of Working)](https://github.com/qway-tech/qats/wiki/01-%E2%80%90-Processo-de-Trabalho)
+- 🏗 [Arquitetura](https://github.com/qway-tech/qats/wiki/02-%E2%80%90-Arquitetura)
+- 🛠 [Solução Técnica](https://github.com/qway-tech/qats/wiki/03-%E2%80%90-Solu%C3%A7%C3%A3o-T%C3%A9cnica)
+- 🧰 [Configuração do Ambiente](https://github.com/qway-tech/qats/wiki/04-%E2%80%90-Configura%C3%A7%C3%A3o-do-Ambiente)
+- 📦 [Estrutura do Repositório](https://github.com/qway-tech/qats/wiki/05-%E2%80%90-Estrutura-do-Reposit%C3%B3rio)
+- 🧪 [Testes e Qualidade](https://github.com/qway-tech/qats/wiki/06-%E2%80%90-Testes-e-Qualidade)
+- 🚀 [Guia de Contribuição Avançado](https://github.com/qway-tech/qats/wiki/07-%E2%80%90-Guia-de-Contribui%C3%A7%C3%A3o-Avan%C3%A7ado)
+- 🧭 [Padrões e Convenções](https://github.com/qway-tech/qats/wiki/08-%E2%80%90-Padr%C3%B5es-e-Conven%C3%A7%C3%B5es)
+- 📈 [Roadmap e Backlog Público](https://github.com/qway-tech/qats/wiki/09-%E2%80%90-Roadmap-e-Backlog-P%C3%BAblico)
+- 📚 [Referências e Recursos](https://github.com/qway-tech/qats/wiki/10-%E2%80%90-Refer%C3%AAncias-e-Recursos)
 
 ---
 

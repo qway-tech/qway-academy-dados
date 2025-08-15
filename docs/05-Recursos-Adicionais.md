@@ -3,8 +3,8 @@
 Coleção de links úteis, templates e materiais de apoio.
 
 ## 📎 Links
-- Issues do projeto: https://github.com/qway-tech/qats-brasil/issues
-- Templates de contribuição: https://github.com/qway-tech/qats-brasil/issues/new/choose
+- Issues do projeto: https://github.com/qway-tech/qats/issues
+- Templates de contribuição: https://github.com/qway-tech/qats/issues/new/choose
 - README (visão geral): ../README.md
 - Sobre o Projeto: ./01-Sobre-o-Projeto.md
 - Como Participar: ./02-Como-Participar.md

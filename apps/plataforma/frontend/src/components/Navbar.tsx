@@ -61,7 +61,7 @@ export default function Navbar() {
                 </Link>
               </li>
               <li>
-                <Link to="https://github.com/qway-tech/qats-brasil" className="navbar-link">
+                <Link to="https://github.com/qway-tech/qats" className="navbar-link">
                   Repositório
                 </Link>
               </li>
@@ -125,7 +125,7 @@ export default function Navbar() {
             </li>
             <li>
               <Link
-                to="https://github.com/qway-tech/qats-brasil"
+                to="https://github.com/qway-tech/qats"
                 className="navbar-link block"
                 onClick={() => setIsMobileMenuOpen(false)}
               >

@@ -1,6 +1,6 @@
 # 📚 Pasta de Recursos
 
-Esta pasta reúne materiais complementares para apoiar os estudos, aplicação prática e aprofundamento dos conteúdos abordados nas trilhas do projeto **QATS-Brasil**.
+Esta pasta reúne materiais complementares para apoiar os estudos, aplicação prática e aprofundamento dos conteúdos abordados nas trilhas do projeto **QATS**.
 
 Os recursos aqui organizados são públicos e colaborativos, e podem ser utilizados livremente para fins educacionais.
 

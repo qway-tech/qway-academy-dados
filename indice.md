@@ -68,6 +68,6 @@ Para profissionais que desejam atuar com visão sistêmica e impacto organizacio
 
 ## 📝 Observações
 
-- Estes capítulos seguem a estrutura definida na [Wiki Oficial do Projeto](https://github.com/qway-tech/qats-brasil/wiki/04-%E2%80%90-Trilhas-de-Forma%C3%A7%C3%A3o).
+- Estes capítulos seguem a estrutura definida na [Wiki Oficial do Projeto](https://github.com/qway-tech/qats/wiki/04-%E2%80%90-Trilhas-de-Forma%C3%A7%C3%A3o).
 - Os links levam diretamente para os diretórios de cada capítulo com conteúdo e quiz.
 - Este índice será atualizado conforme novos módulos e trilhas forem adicionados ao projeto.

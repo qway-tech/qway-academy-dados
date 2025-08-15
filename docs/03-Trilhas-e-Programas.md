@@ -1,6 +1,6 @@
 # 🧭 Trilhas e Programas
 
-As formações do **QATS-Brasil** são organizadas em trilhas com módulos, quizzes automatizados e avaliações práticas.
+As formações do **QATS** são organizadas em trilhas com módulos, quizzes automatizados e avaliações práticas.
 
 ---
 
@@ -115,4 +115,4 @@ A certificação é gratuita, transparente e baseada em mérito.
 - Sem prazo de validade
 - Vinculado ao login do GitHub
 
-> Dúvidas? Abra uma [Issue](https://github.com/qway-tech/qats-brasil/issues).
+> Dúvidas? Abra uma [Issue](https://github.com/qway-tech/qats/issues).

@@ -8,7 +8,7 @@ body:
     attributes:
       value: |
         ## 📄 Solicitação de Comentários (RFC)
-        Use este template para documentar e propor alterações significativas que impactem arquitetura, solução técnica, processos ou estratégias do projeto QATS-Brasil.
+        Use este template para documentar e propor alterações significativas que impactem arquitetura, solução técnica, processos ou estratégias do projeto QATS.
         Todas as RFCs serão discutidas publicamente e registradas para referência futura.
 
   - type: textarea
@@ -64,6 +64,6 @@ body:
     attributes:
       label: "🔗 Referências"
       description: "Links, artigos, PRs ou discussões relacionadas."
-      placeholder: "Ex.: https://github.com/qway-tech/qats-brasil/discussions/123"
+      placeholder: "Ex.: https://github.com/qway-tech/qats/discussions/123"
     validations:
       required: false
