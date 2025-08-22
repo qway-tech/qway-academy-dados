@@ -6,7 +6,7 @@
   "tipo": "quiz",
   "tentativa": 1,
   "avaliado_em": "2025-08-08T16:01:12Z",
-  "avaliador": "workflow_auto",
+  "avaliador": "workflow_corrigir_quiz",
   "pontuacao": {
     "total_questoes": 5,
     "acertos": 4,
@@ -16,32 +16,22 @@
   "resultado_por_pergunta": [
     {
       "pergunta_id": "P02",
-      "resposta_usuario": 0,
-      "resposta_correta": 0,
       "correta": true
     },
     {
       "pergunta_id": "P03",
-      "resposta_usuario": 3,
-      "resposta_correta": 2,
       "correta": false
     },
     {
       "pergunta_id": "P07",
-      "resposta_usuario": 1,
-      "resposta_correta": 1,
       "correta": true
     },
     {
       "pergunta_id": "P12",
-      "resposta_usuario": 0,
-      "resposta_correta": 0,
       "correta": true
     },
     {
       "pergunta_id": "P20",
-      "resposta_usuario": 2,
-      "resposta_correta": 2,
       "correta": true
     }
   ],
