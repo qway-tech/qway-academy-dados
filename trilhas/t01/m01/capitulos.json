@@ -1,0 +1,61 @@
+{
+  "trilha": "t01",
+  "modulo": "m01",
+  "capitulos": [
+    {
+      "id": "c01",
+      "nome": "📘 Capítulo 1 – Introdução à QA e Testes de Software",
+      "ordem": 1
+    },
+    {
+      "id": "c02",
+      "nome": "📘 Capítulo 02 – Princípios e Objetivos dos Testes",
+      "ordem": 2
+    },
+    {
+      "id": "c03",
+      "nome": "📘 Capítulo 03 – Ciclo de Vida do Desenvolvimento e dos Testes",
+      "ordem": 3
+    },
+    {
+      "id": "c04",
+      "nome": "📘 Capítulo 04 – Tipos, Níveis e Classificações de Teste",
+      "ordem": 4
+    },
+    {
+      "id": "c05",
+      "nome": "📘 Capítulo 05 – Técnicas de Teste: Caixa-Preta, Caixa-Branca e Baseadas em Experiência",
+      "ordem": 5
+    },
+    {
+      "id": "c06",
+      "nome": "📘 Capítulo 06 – Gestão de Defeitos e Comunicação de Resultados",
+      "ordem": 6
+    },
+    {
+      "id": "c07",
+      "nome": "📘 Capítulo 07 – Testes em Diferentes Contextos e Abordagens",
+      "ordem": 7
+    },
+    {
+      "id": "c08",
+      "nome": "📘 Capítulo 08 – Atividades e Processo Estruturado de Teste",
+      "ordem": 8
+    },
+    {
+      "id": "c09",
+      "nome": "📘 Capítulo 09 – Ferramentas de Teste e Suporte",
+      "ordem": 9
+    },
+    {
+      "id": "c10",
+      "nome": "📘 Capítulo 10 – Qualidade, Risco e Cobertura",
+      "ordem": 10
+    },
+    {
+      "id": "c11",
+      "nome": "📘 Capítulo 11 – Considerações Finais e Preparação para Avaliação",
+      "ordem": 11
+    }
+  ]
+}
