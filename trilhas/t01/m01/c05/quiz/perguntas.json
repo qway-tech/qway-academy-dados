@@ -1,219 +1,202 @@
-{
-  "trilha": {
-    "id": "T01",
-    "titulo": "Trilha de Fundamentos",
-    "descricao": "Esta trilha apresenta os conhecimentos essenciais para atuar com Garantia da Qualidade (QA) e Testes de Software. Baseada no CTFL v4.0, ela aborda os conceitos, práticas, níveis, tipos e técnicas de teste, preparando o aluno para compreender e aplicar os pilares da qualidade em projetos reais."
+[
+  {
+    "id": "P01",
+    "pergunta": "Qual é a principal diferença entre testes de caixa-preta e caixa-branca?",
+    "alternativas": [
+      "Caixa-preta foca na funcionalidade, enquanto caixa-branca foca na estrutura interna.",
+      "Caixa-preta é mais fácil de implementar do que caixa-branca.",
+      "Caixa-branca é usada apenas para testes de unidade.",
+      "Não há diferença significativa entre os dois."
+    ]
   },
-  "modulo": {
-    "id": "M01",
-    "titulo": "Fundamentos de QA e Testes de Software",
-    "descricao": "Este módulo cobre os conceitos-chave da área de QA, desde a definição de qualidade, princípios e objetivos dos testes, até os ciclos de vida, níveis, técnicas, ferramentas e processos estruturados de teste. Ideal para quem está começando ou deseja consolidar a base teórica com aplicação prática."
+  {
+    "id": "P02",
+    "pergunta": "Em qual técnica de teste o testador não precisa conhecer o código-fonte?",
+    "alternativas": [
+      "Caixa-preta",
+      "Caixa-branca",
+      "Teste estrutural",
+      "Teste de loop"
+    ]
   },
-  "capitulo": {
-    "id": "C05",
-    "titulo": "Técnicas de Teste: Caixa Preta, Caixa Branca e Baseadas em Experiência",
-    "descricao": "Este capítulo explora as diferentes técnicas de teste, incluindo caixa-preta, caixa-branca e técnicas baseadas em experiência, fornecendo uma compreensão abrangente de como e quando aplicar cada abordagem."
+  {
+    "id": "P03",
+    "pergunta": "Qual técnica analisa a lógica e os caminhos do código?",
+    "alternativas": [
+      "Caixa-branca",
+      "Caixa-preta",
+      "Teste funcional",
+      "Teste de aceitação"
+    ]
   },
-  "perguntas": [
-    {
-      "id": "P01",
-      "pergunta": "Qual é a principal diferença entre testes de caixa-preta e caixa-branca?",
-      "alternativas": [
-        "Caixa-preta foca na funcionalidade, enquanto caixa-branca foca na estrutura interna.",
-        "Caixa-preta é mais fácil de implementar do que caixa-branca.",
-        "Caixa-branca é usada apenas para testes de unidade.",
-        "Não há diferença significativa entre os dois."
-      ]
-    },
-    {
-      "id": "P02",
-      "pergunta": "Em qual técnica de teste o testador não precisa conhecer o código-fonte?",
-      "alternativas": [
-        "Caixa-preta",
-        "Caixa-branca",
-        "Teste estrutural",
-        "Teste de loop"
-      ]
-    },
-    {
-      "id": "P03",
-      "pergunta": "Qual técnica analisa a lógica e os caminhos do código?",
-      "alternativas": [
-        "Caixa-branca",
-        "Caixa-preta",
-        "Teste funcional",
-        "Teste de aceitação"
-      ]
-    },
-    {
-      "id": "P04",
-      "pergunta": "O que caracteriza os testes baseados em experiência?",
-      "alternativas": [
-        "São conduzidos com base na intuição e conhecimento prévio do testador",
-        "Exigem cobertura de código",
-        "São sempre automatizados",
-        "Não precisam de nenhum tipo de documentação"
-      ]
-    },
-    {
-      "id": "P05",
-      "pergunta": "Qual técnica de teste envolve heurísticas e exploração sem roteiro fixo?",
-      "alternativas": [
-        "Teste exploratório",
-        "Teste de regressão",
-        "Teste de integração",
-        "Teste funcional"
-      ]
-    },
-    {
-      "id": "P06",
-      "pergunta": "Qual técnica de caixa-preta verifica se o software responde corretamente a diferentes entradas?",
-      "alternativas": [
-        "Particionamento de equivalência",
-        "Cobertura de decisão",
-        "Teste estrutural",
-        "Teste de caminho"
-      ]
-    },
-    {
-      "id": "P07",
-      "pergunta": "O que é análise do valor limite?",
-      "alternativas": [
-        "Testar os valores nas extremidades de uma faixa de entrada",
-        "Verificar se há falhas em componentes internos",
-        "Testar todos os caminhos possíveis do código",
-        "Analisar o valor de variáveis globais"
-      ]
-    },
-    {
-      "id": "P08",
-      "pergunta": "Qual técnica de caixa-branca verifica todos os caminhos de execução?",
-      "alternativas": [
-        "Cobertura de caminho",
-        "Particionamento de equivalência",
-        "Teste funcional",
-        "Teste de aceitação"
-      ]
-    },
-    {
-      "id": "P09",
-      "pergunta": "Quando se usa a técnica de adivinhação de erros?",
-      "alternativas": [
-        "Quando o testador utiliza sua experiência para antecipar falhas prováveis",
-        "Quando o sistema está completo e documentado",
-        "Quando se testa apenas a interface gráfica",
-        "Quando os requisitos estão 100% definidos"
-      ]
-    },
-    {
-      "id": "P10",
-      "pergunta": "Qual é o foco da cobertura de decisão em testes caixa-branca?",
-      "alternativas": [
-        "Verificar todas as condições booleanas verdadeiras e falsas",
-        "Cobrir os fluxos alternativos de navegação",
-        "Testar limites de entrada e saída",
-        "Avaliar o desempenho de cada função"
-      ]
-    },
-    {
-      "id": "P11",
-      "pergunta": "Quando usamos testes baseados em experiência?",
-      "alternativas": [
-        "Quando há pouco tempo ou documentação insuficiente",
-        "Apenas em ambientes de produção",
-        "Somente após o deploy",
-        "Sempre no início do projeto"
-      ]
-    },
-    {
-      "id": "P12",
-      "pergunta": "Qual técnica de teste ajuda a reduzir a quantidade de testes redundantes?",
-      "alternativas": [
-        "Particionamento de equivalência",
-        "Teste exploratório",
-        "Cobertura de condição",
-        "Teste de regressão"
-      ]
-    },
-    {
-      "id": "P13",
-      "pergunta": "Qual técnica é melhor aplicada a campos de entrada numérica?",
-      "alternativas": [
-        "Análise de valor limite",
-        "Teste de usabilidade",
-        "Cobertura de decisão",
-        "Teste de segurança"
-      ]
-    },
-    {
-      "id": "P14",
-      "pergunta": "Qual técnica exige conhecimento de algoritmos e estruturas de decisão?",
-      "alternativas": [
-        "Caixa-branca",
-        "Caixa-preta",
-        "Baseada em experiência",
-        "Teste exploratório"
-      ]
-    },
-    {
-      "id": "P15",
-      "pergunta": "Qual tipo de teste é comum em revisões rápidas feitas por QAs experientes?",
-      "alternativas": [
-        "Teste baseado em experiência",
-        "Teste de carga",
-        "Teste de volume",
-        "Teste de acessibilidade"
-      ]
-    },
-    {
-      "id": "P16",
-      "pergunta": "Qual das seguintes opções é um exemplo de técnica de caixa-preta?",
-      "alternativas": [
-        "Análise de valor limite",
-        "Cobertura de decisão",
-        "Teste de loop",
-        "Cobertura de condição"
-      ]
-    },
-    {
-      "id": "P17",
-      "pergunta": "Qual das técnicas pode ser combinada com testes automatizados?",
-      "alternativas": [
-        "Todas as anteriores (preta, branca e experiência)",
-        "Apenas caixa-preta",
-        "Somente testes exploratórios",
-        "Somente testes funcionais"
-      ]
-    },
-    {
-      "id": "P18",
-      "pergunta": "Qual é uma limitação comum da técnica baseada em experiência?",
-      "alternativas": [
-        "Pode deixar passar testes importantes por falta de documentação ou viés pessoal",
-        "É sempre manual",
-        "Exige automação",
-        "Não pode ser usada em ambientes ágeis"
-      ]
-    },
-    {
-      "id": "P19",
-      "pergunta": "Em qual técnica o testador testa sem saber a lógica interna do código?",
-      "alternativas": [
-        "Caixa-preta",
-        "Caixa-branca",
-        "Cobertura de condição",
-        "Análise de caminhos"
-      ]
-    },
-    {
-      "id": "P20",
-      "pergunta": "Qual tipo de técnica é comumente utilizada em testes de API com dados dinâmicos?",
-      "alternativas": [
-        "Teste exploratório",
-        "Teste de valor limite",
-        "Teste estrutural",
-        "Cobertura de decisão"
-      ]
-    }
-  ]
-}
+  {
+    "id": "P04",
+    "pergunta": "O que caracteriza os testes baseados em experiência?",
+    "alternativas": [
+      "São conduzidos com base na intuição e conhecimento prévio do testador",
+      "Exigem cobertura de código",
+      "São sempre automatizados",
+      "Não precisam de nenhum tipo de documentação"
+    ]
+  },
+  {
+    "id": "P05",
+    "pergunta": "Qual técnica de teste envolve heurísticas e exploração sem roteiro fixo?",
+    "alternativas": [
+      "Teste exploratório",
+      "Teste de regressão",
+      "Teste de integração",
+      "Teste funcional"
+    ]
+  },
+  {
+    "id": "P06",
+    "pergunta": "Qual técnica de caixa-preta verifica se o software responde corretamente a diferentes entradas?",
+    "alternativas": [
+      "Particionamento de equivalência",
+      "Cobertura de decisão",
+      "Teste estrutural",
+      "Teste de caminho"
+    ]
+  },
+  {
+    "id": "P07",
+    "pergunta": "O que é análise do valor limite?",
+    "alternativas": [
+      "Testar os valores nas extremidades de uma faixa de entrada",
+      "Verificar se há falhas em componentes internos",
+      "Testar todos os caminhos possíveis do código",
+      "Analisar o valor de variáveis globais"
+    ]
+  },
+  {
+    "id": "P08",
+    "pergunta": "Qual técnica de caixa-branca verifica todos os caminhos de execução?",
+    "alternativas": [
+      "Cobertura de caminho",
+      "Particionamento de equivalência",
+      "Teste funcional",
+      "Teste de aceitação"
+    ]
+  },
+  {
+    "id": "P09",
+    "pergunta": "Quando se usa a técnica de adivinhação de erros?",
+    "alternativas": [
+      "Quando o testador utiliza sua experiência para antecipar falhas prováveis",
+      "Quando o sistema está completo e documentado",
+      "Quando se testa apenas a interface gráfica",
+      "Quando os requisitos estão 100% definidos"
+    ]
+  },
+  {
+    "id": "P10",
+    "pergunta": "Qual é o foco da cobertura de decisão em testes caixa-branca?",
+    "alternativas": [
+      "Verificar todas as condições booleanas verdadeiras e falsas",
+      "Cobrir os fluxos alternativos de navegação",
+      "Testar limites de entrada e saída",
+      "Avaliar o desempenho de cada função"
+    ]
+  },
+  {
+    "id": "P11",
+    "pergunta": "Quando usamos testes baseados em experiência?",
+    "alternativas": [
+      "Quando há pouco tempo ou documentação insuficiente",
+      "Apenas em ambientes de produção",
+      "Somente após o deploy",
+      "Sempre no início do projeto"
+    ]
+  },
+  {
+    "id": "P12",
+    "pergunta": "Qual técnica de teste ajuda a reduzir a quantidade de testes redundantes?",
+    "alternativas": [
+      "Particionamento de equivalência",
+      "Teste exploratório",
+      "Cobertura de condição",
+      "Teste de regressão"
+    ]
+  },
+  {
+    "id": "P13",
+    "pergunta": "Qual técnica é melhor aplicada a campos de entrada numérica?",
+    "alternativas": [
+      "Análise de valor limite",
+      "Teste de usabilidade",
+      "Cobertura de decisão",
+      "Teste de segurança"
+    ]
+  },
+  {
+    "id": "P14",
+    "pergunta": "Qual técnica exige conhecimento de algoritmos e estruturas de decisão?",
+    "alternativas": [
+      "Caixa-branca",
+      "Caixa-preta",
+      "Baseada em experiência",
+      "Teste exploratório"
+    ]
+  },
+  {
+    "id": "P15",
+    "pergunta": "Qual tipo de teste é comum em revisões rápidas feitas por QAs experientes?",
+    "alternativas": [
+      "Teste baseado em experiência",
+      "Teste de carga",
+      "Teste de volume",
+      "Teste de acessibilidade"
+    ]
+  },
+  {
+    "id": "P16",
+    "pergunta": "Qual das seguintes opções é um exemplo de técnica de caixa-preta?",
+    "alternativas": [
+      "Análise de valor limite",
+      "Cobertura de decisão",
+      "Teste de loop",
+      "Cobertura de condição"
+    ]
+  },
+  {
+    "id": "P17",
+    "pergunta": "Qual das técnicas pode ser combinada com testes automatizados?",
+    "alternativas": [
+      "Todas as anteriores (preta, branca e experiência)",
+      "Apenas caixa-preta",
+      "Somente testes exploratórios",
+      "Somente testes funcionais"
+    ]
+  },
+  {
+    "id": "P18",
+    "pergunta": "Qual é uma limitação comum da técnica baseada em experiência?",
+    "alternativas": [
+      "Pode deixar passar testes importantes por falta de documentação ou viés pessoal",
+      "É sempre manual",
+      "Exige automação",
+      "Não pode ser usada em ambientes ágeis"
+    ]
+  },
+  {
+    "id": "P19",
+    "pergunta": "Em qual técnica o testador testa sem saber a lógica interna do código?",
+    "alternativas": [
+      "Caixa-preta",
+      "Caixa-branca",
+      "Cobertura de condição",
+      "Análise de caminhos"
+    ]
+  },
+  {
+    "id": "P20",
+    "pergunta": "Qual tipo de técnica é comumente utilizada em testes de API com dados dinâmicos?",
+    "alternativas": [
+      "Teste exploratório",
+      "Teste de valor limite",
+      "Teste estrutural",
+      "Cobertura de decisão"
+    ]
+  }
+]

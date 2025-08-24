@@ -1,219 +1,202 @@
-{
-  "trilha": {
-    "id": "T01",
-    "titulo": "Trilha de Fundamentos",
-    "descricao": "Esta trilha apresenta os conhecimentos essenciais para atuar com Garantia da Qualidade (QA) e Testes de Software. Baseada no CTFL v4.0, ela aborda os conceitos, práticas, níveis, tipos e técnicas de teste, preparando o aluno para compreender e aplicar os pilares da qualidade em projetos reais."
+[
+  {
+    "id": "P01",
+    "pergunta": "Qual ferramenta é comumente usada para gestão de defeitos?",
+    "alternativas": [
+      "Microsoft Word",
+      "JIRA",
+      "Excel",
+      "PowerPoint"
+    ]
   },
-  "modulo": {
-    "id": "M01",
-    "titulo": "Fundamentos de QA e Testes de Software",
-    "descricao": "Este módulo cobre os conceitos-chave da área de QA, desde a definição de qualidade, princípios e objetivos dos testes, até os ciclos de vida, níveis, técnicas, ferramentas e processos estruturados de teste. Ideal para quem está começando ou deseja consolidar a base teórica com aplicação prática."
+  {
+    "id": "P02",
+    "pergunta": "O que é triagem de defeitos?",
+    "alternativas": [
+      "Avaliação e priorização de defeitos reportados",
+      "Processo de teste de software",
+      "Documentação de requisitos",
+      "Análise de desempenho"
+    ]
   },
-  "capitulo": {
-    "id": "C06",
-    "titulo": "Gestão de Defeitos e Comunicação de Resultados",
-    "descricao": "Este capítulo apresenta o ciclo de vida dos defeitos, desde a identificação até o encerramento, incluindo boas práticas de registro, priorização, triagem e comunicação eficiente entre os envolvidos."
+  {
+    "id": "P03",
+    "pergunta": "O que é um defeito em software?",
+    "alternativas": [
+      "Uma falha que causa comportamento inesperado",
+      "Uma funcionalidade extra",
+      "Uma melhoria solicitada pelo cliente",
+      "Uma atualização de versão"
+    ]
   },
-  "perguntas": [
-    {
-      "id": "P01",
-      "pergunta": "Qual ferramenta é comumente usada para gestão de defeitos?",
-      "alternativas": [
-        "Microsoft Word",
-        "JIRA",
-        "Excel",
-        "PowerPoint"
-      ]
-    },
-    {
-      "id": "P02",
-      "pergunta": "O que é triagem de defeitos?",
-      "alternativas": [
-        "Avaliação e priorização de defeitos reportados",
-        "Processo de teste de software",
-        "Documentação de requisitos",
-        "Análise de desempenho"
-      ]
-    },
-    {
-      "id": "P03",
-      "pergunta": "O que é um defeito em software?",
-      "alternativas": [
-        "Uma falha que causa comportamento inesperado",
-        "Uma funcionalidade extra",
-        "Uma melhoria solicitada pelo cliente",
-        "Uma atualização de versão"
-      ]
-    },
-    {
-      "id": "P04",
-      "pergunta": "Qual é o objetivo da triagem de defeitos?",
-      "alternativas": [
-        "Priorizar e categorizar os bugs encontrados",
-        "Ignorar defeitos menores",
-        "Corrigir todos os defeitos imediatamente",
-        "Testar sem registrar defeitos"
-      ]
-    },
-    {
-      "id": "P05",
-      "pergunta": "Quais são as etapas do ciclo de vida de um defeito?",
-      "alternativas": [
-        "Registro, análise, correção, verificação e encerramento",
-        "Planejamento, execução, entrega",
-        "Desenvolvimento, homologação, produção",
-        "Testes, documentação, manutenção"
-      ]
-    },
-    {
-      "id": "P06",
-      "pergunta": "Quem normalmente participa da triagem de defeitos?",
-      "alternativas": [
-        "QA, desenvolvedores e Product Owner",
-        "Somente testadores",
-        "Apenas o gerente de projeto",
-        "Usuários finais"
-      ]
-    },
-    {
-      "id": "P07",
-      "pergunta": "O que deve conter um bom relatório de bug?",
-      "alternativas": [
-        "Título claro, passos para reproduzir, resultado esperado e evidências",
-        "Somente prints",
-        "Nome do desenvolvedor responsável",
-        "Descrição técnica em linguagem de programação"
-      ]
-    },
-    {
-      "id": "P08",
-      "pergunta": "Quando um defeito pode ser considerado encerrado?",
-      "alternativas": [
-        "Após ser verificado e validado como corrigido",
-        "Assim que o desenvolvedor corrige",
-        "Quando o gerente aprova",
-        "Após o deploy em produção"
-      ]
-    },
-    {
-      "id": "P09",
-      "pergunta": "Qual é a diferença entre prioridade e severidade?",
-      "alternativas": [
-        "Severidade indica o impacto técnico; prioridade define a ordem de correção",
-        "São sinônimos",
-        "Prioridade é para bugs, severidade é para melhorias",
-        "Severidade só é usada em produção"
-      ]
-    },
-    {
-      "id": "P10",
-      "pergunta": "O que caracteriza um defeito crítico?",
-      "alternativas": [
-        "Interrompe funcionalidades principais do sistema",
-        "Afeta apenas a documentação",
-        "É difícil de reproduzir",
-        "É reportado por usuários externos"
-      ]
-    },
-    {
-      "id": "P11",
-      "pergunta": "Qual tipo de evidência pode ajudar a descrever um bug?",
-      "alternativas": [
-        "Prints, vídeos, logs e dados de entrada",
-        "Opinião pessoal do QA",
-        "Descrição resumida e genérica",
-        "Comentários dos usuários"
-      ]
-    },
-    {
-      "id": "P12",
-      "pergunta": "Qual é o papel do QA após reportar um defeito?",
-      "alternativas": [
-        "Acompanhar a correção e validar a solução",
-        "Corrigir o bug",
-        "Fechar o defeito imediatamente",
-        "Documentar o código"
-      ]
-    },
-    {
-      "id": "P13",
-      "pergunta": "Por que a comunicação clara nos bugs é importante?",
-      "alternativas": [
-        "Facilita a correção e evita mal-entendidos com a equipe",
-        "Serve apenas como histórico",
-        "Evita que o QA precise testar novamente",
-        "Substitui reuniões com o time"
-      ]
-    },
-    {
-      "id": "P14",
-      "pergunta": "O que significa um defeito reaberto?",
-      "alternativas": [
-        "O defeito foi corrigido, mas o problema persiste ou voltou a ocorrer",
-        "Um novo bug foi identificado",
-        "A funcionalidade mudou",
-        "O ambiente estava fora do ar"
-      ]
-    },
-    {
-      "id": "P15",
-      "pergunta": "Qual status indica que um bug foi corrigido e validado com sucesso?",
-      "alternativas": [
-        "Encerrado",
-        "Novo",
-        "Em correção",
-        "Reaberto"
-      ]
-    },
-    {
-      "id": "P16",
-      "pergunta": "Quando um bug pode ser marcado como 'Não Reproduzido'?",
-      "alternativas": [
-        "Quando não há evidências suficientes ou não ocorre nas condições descritas",
-        "Quando foi resolvido sem testes",
-        "Quando está documentado em backlog",
-        "Quando foi reportado há muito tempo"
-      ]
-    },
-    {
-      "id": "P17",
-      "pergunta": "Qual alternativa abaixo representa um status comum em ferramentas de gestão de bugs?",
-      "alternativas": [
-        "Novo, Em andamento, Resolvido, Validado, Encerrado",
-        "Em produção, Em desenvolvimento, Homologado",
-        "Espera, Lento, Em uso, Recusado",
-        "Desenvolvido, Testado, Publicado, Analisado"
-      ]
-    },
-    {
-      "id": "P18",
-      "pergunta": "Qual o impacto de não categorizar corretamente os defeitos?",
-      "alternativas": [
-        "Pode comprometer o planejamento e a priorização da equipe",
-        "Gera mais métricas de sucesso",
-        "Aumenta a cobertura de testes",
-        "Facilita a automação"
-      ]
-    },
-    {
-      "id": "P19",
-      "pergunta": "Por que acompanhar indicadores de defeitos é importante?",
-      "alternativas": [
-        "Ajuda a monitorar a qualidade do produto e identificar padrões",
-        "Serve apenas para relatórios gerenciais",
-        "Reduz o esforço de desenvolvimento",
-        "Facilita a vida do time de marketing"
-      ]
-    },
-    {
-      "id": "P20",
-      "pergunta": "Qual ferramenta é mais adequada para reportar bugs e acompanhar seu ciclo de vida?",
-      "alternativas": [
-        "JIRA",
-        "Slack",
-        "Notion",
-        "VS Code"
-      ]
-    }
-  ]
-}
+  {
+    "id": "P04",
+    "pergunta": "Qual é o objetivo da triagem de defeitos?",
+    "alternativas": [
+      "Priorizar e categorizar os bugs encontrados",
+      "Ignorar defeitos menores",
+      "Corrigir todos os defeitos imediatamente",
+      "Testar sem registrar defeitos"
+    ]
+  },
+  {
+    "id": "P05",
+    "pergunta": "Quais são as etapas do ciclo de vida de um defeito?",
+    "alternativas": [
+      "Registro, análise, correção, verificação e encerramento",
+      "Planejamento, execução, entrega",
+      "Desenvolvimento, homologação, produção",
+      "Testes, documentação, manutenção"
+    ]
+  },
+  {
+    "id": "P06",
+    "pergunta": "Quem normalmente participa da triagem de defeitos?",
+    "alternativas": [
+      "QA, desenvolvedores e Product Owner",
+      "Somente testadores",
+      "Apenas o gerente de projeto",
+      "Usuários finais"
+    ]
+  },
+  {
+    "id": "P07",
+    "pergunta": "O que deve conter um bom relatório de bug?",
+    "alternativas": [
+      "Título claro, passos para reproduzir, resultado esperado e evidências",
+      "Somente prints",
+      "Nome do desenvolvedor responsável",
+      "Descrição técnica em linguagem de programação"
+    ]
+  },
+  {
+    "id": "P08",
+    "pergunta": "Quando um defeito pode ser considerado encerrado?",
+    "alternativas": [
+      "Após ser verificado e validado como corrigido",
+      "Assim que o desenvolvedor corrige",
+      "Quando o gerente aprova",
+      "Após o deploy em produção"
+    ]
+  },
+  {
+    "id": "P09",
+    "pergunta": "Qual é a diferença entre prioridade e severidade?",
+    "alternativas": [
+      "Severidade indica o impacto técnico; prioridade define a ordem de correção",
+      "São sinônimos",
+      "Prioridade é para bugs, severidade é para melhorias",
+      "Severidade só é usada em produção"
+    ]
+  },
+  {
+    "id": "P10",
+    "pergunta": "O que caracteriza um defeito crítico?",
+    "alternativas": [
+      "Interrompe funcionalidades principais do sistema",
+      "Afeta apenas a documentação",
+      "É difícil de reproduzir",
+      "É reportado por usuários externos"
+    ]
+  },
+  {
+    "id": "P11",
+    "pergunta": "Qual tipo de evidência pode ajudar a descrever um bug?",
+    "alternativas": [
+      "Prints, vídeos, logs e dados de entrada",
+      "Opinião pessoal do QA",
+      "Descrição resumida e genérica",
+      "Comentários dos usuários"
+    ]
+  },
+  {
+    "id": "P12",
+    "pergunta": "Qual é o papel do QA após reportar um defeito?",
+    "alternativas": [
+      "Acompanhar a correção e validar a solução",
+      "Corrigir o bug",
+      "Fechar o defeito imediatamente",
+      "Documentar o código"
+    ]
+  },
+  {
+    "id": "P13",
+    "pergunta": "Por que a comunicação clara nos bugs é importante?",
+    "alternativas": [
+      "Facilita a correção e evita mal-entendidos com a equipe",
+      "Serve apenas como histórico",
+      "Evita que o QA precise testar novamente",
+      "Substitui reuniões com o time"
+    ]
+  },
+  {
+    "id": "P14",
+    "pergunta": "O que significa um defeito reaberto?",
+    "alternativas": [
+      "O defeito foi corrigido, mas o problema persiste ou voltou a ocorrer",
+      "Um novo bug foi identificado",
+      "A funcionalidade mudou",
+      "O ambiente estava fora do ar"
+    ]
+  },
+  {
+    "id": "P15",
+    "pergunta": "Qual status indica que um bug foi corrigido e validado com sucesso?",
+    "alternativas": [
+      "Encerrado",
+      "Novo",
+      "Em correção",
+      "Reaberto"
+    ]
+  },
+  {
+    "id": "P16",
+    "pergunta": "Quando um bug pode ser marcado como 'Não Reproduzido'?",
+    "alternativas": [
+      "Quando não há evidências suficientes ou não ocorre nas condições descritas",
+      "Quando foi resolvido sem testes",
+      "Quando está documentado em backlog",
+      "Quando foi reportado há muito tempo"
+    ]
+  },
+  {
+    "id": "P17",
+    "pergunta": "Qual alternativa abaixo representa um status comum em ferramentas de gestão de bugs?",
+    "alternativas": [
+      "Novo, Em andamento, Resolvido, Validado, Encerrado",
+      "Em produção, Em desenvolvimento, Homologado",
+      "Espera, Lento, Em uso, Recusado",
+      "Desenvolvido, Testado, Publicado, Analisado"
+    ]
+  },
+  {
+    "id": "P18",
+    "pergunta": "Qual o impacto de não categorizar corretamente os defeitos?",
+    "alternativas": [
+      "Pode comprometer o planejamento e a priorização da equipe",
+      "Gera mais métricas de sucesso",
+      "Aumenta a cobertura de testes",
+      "Facilita a automação"
+    ]
+  },
+  {
+    "id": "P19",
+    "pergunta": "Por que acompanhar indicadores de defeitos é importante?",
+    "alternativas": [
+      "Ajuda a monitorar a qualidade do produto e identificar padrões",
+      "Serve apenas para relatórios gerenciais",
+      "Reduz o esforço de desenvolvimento",
+      "Facilita a vida do time de marketing"
+    ]
+  },
+  {
+    "id": "P20",
+    "pergunta": "Qual ferramenta é mais adequada para reportar bugs e acompanhar seu ciclo de vida?",
+    "alternativas": [
+      "JIRA",
+      "Slack",
+      "Notion",
+      "VS Code"
+    ]
+  }
+]

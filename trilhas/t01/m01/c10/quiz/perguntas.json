@@ -1,219 +1,202 @@
-{
-  "trilha": {
-    "id": "T01",
-    "titulo": "Trilha de Fundamentos",
-    "descricao": "Esta trilha apresenta os conhecimentos essenciais para atuar com Garantia da Qualidade (QA) e Testes de Software. Baseada no CTFL v4.0, ela aborda os conceitos, práticas, níveis, tipos e técnicas de teste, preparando o aluno para compreender e aplicar os pilares da qualidade em projetos reais."
+[
+  {
+    "id": "P01",
+    "pergunta": "O que é risco em testes de software?",
+    "alternativas": [
+      "A possibilidade de que algo indesejado aconteça no software",
+      "Uma falha já confirmada",
+      "A entrega de um requisito extra",
+      "A substituição de uma funcionalidade"
+    ]
   },
-  "modulo": {
-    "id": "M01",
-    "titulo": "Fundamentos de QA e Testes de Software",
-    "descricao": "Este módulo cobre os conceitos-chave da área de QA, desde a definição de qualidade, princípios e objetivos dos testes, até os ciclos de vida, níveis, técnicas, ferramentas e processos estruturados de teste. Ideal para quem está começando ou deseja consolidar a base teórica com aplicação prática."
+  {
+    "id": "P02",
+    "pergunta": "Quais são os dois principais componentes do risco?",
+    "alternativas": [
+      "Probabilidade e impacto",
+      "Velocidade e custo",
+      "Valor e retorno",
+      "Prazo e orçamento"
+    ]
   },
-  "capitulo": {
-    "id": "C10",
-    "titulo": "Qualidade, Risco e Cobertura",
-    "descricao": "Este capítulo apresenta os conceitos essenciais de qualidade de software, análise de risco e cobertura de testes. O foco é desenvolver uma mentalidade preventiva, priorizando testes com base em impacto, probabilidade de falha e rastreabilidade de requisitos, conforme normas como ISO 29119 e práticas do CTFL."
+  {
+    "id": "P03",
+    "pergunta": "O que é análise de risco?",
+    "alternativas": [
+      "Avaliação sistemática do que pode dar errado e do impacto disso",
+      "Análise de performance do software",
+      "Planejamento de sprints",
+      "Revisão de código-fonte"
+    ]
   },
-  "perguntas": [
-    {
-      "id": "P01",
-      "pergunta": "O que é risco em testes de software?",
-      "alternativas": [
-        "A possibilidade de que algo indesejado aconteça no software",
-        "Uma falha já confirmada",
-        "A entrega de um requisito extra",
-        "A substituição de uma funcionalidade"
-      ]
-    },
-    {
-      "id": "P02",
-      "pergunta": "Quais são os dois principais componentes do risco?",
-      "alternativas": [
-        "Probabilidade e impacto",
-        "Velocidade e custo",
-        "Valor e retorno",
-        "Prazo e orçamento"
-      ]
-    },
-    {
-      "id": "P03",
-      "pergunta": "O que é análise de risco?",
-      "alternativas": [
-        "Avaliação sistemática do que pode dar errado e do impacto disso",
-        "Análise de performance do software",
-        "Planejamento de sprints",
-        "Revisão de código-fonte"
-      ]
-    },
-    {
-      "id": "P04",
-      "pergunta": "O que representa um risco produto-relacionado?",
-      "alternativas": [
-        "Falha técnica que afeta o funcionamento do sistema",
-        "Problema de contratação da equipe",
-        "Mudança no prazo do projeto",
-        "Erros de comunicação entre departamentos"
-      ]
-    },
-    {
-      "id": "P05",
-      "pergunta": "O que representa um risco projeto-relacionado?",
-      "alternativas": [
-        "Falta de tempo, recursos ou ambiente de teste",
-        "Bug na aplicação",
-        "Erro de validação de formulário",
-        "Rejeição do usuário"
-      ]
-    },
-    {
-      "id": "P06",
-      "pergunta": "Como o risco pode orientar o esforço de teste?",
-      "alternativas": [
-        "Testando mais onde o risco é maior",
-        "Testando aleatoriamente todos os componentes",
-        "Executando apenas testes automatizados",
-        "Concentrando-se apenas no layout"
-      ]
-    },
-    {
-      "id": "P07",
-      "pergunta": "O que é cobertura de testes?",
-      "alternativas": [
-        "A extensão com que os requisitos ou código foram testados",
-        "A quantidade de bugs encontrados",
-        "O tempo total de execução",
-        "A lista de testes manuais"
-      ]
-    },
-    {
-      "id": "P08",
-      "pergunta": "Como a cobertura pode ser medida?",
-      "alternativas": [
-        "Por número de requisitos, linhas de código ou caminhos testados",
-        "Por quantidade de sprints",
-        "Pelo número de releases",
-        "Pelo tamanho da equipe de QA"
-      ]
-    },
-    {
-      "id": "P09",
-      "pergunta": "O que é matriz de rastreabilidade?",
-      "alternativas": [
-        "Documento que liga requisitos, testes e resultados",
-        "Tabela com custo de bugs",
-        "Mapa de dependências entre arquivos",
-        "Relatório de produtividade do time"
-      ]
-    },
-    {
-      "id": "P10",
-      "pergunta": "Como a rastreabilidade auxilia na cobertura?",
-      "alternativas": [
-        "Verificando se todos os requisitos têm testes associados",
-        "Calculando o tempo de build",
-        "Comparando releases antigas",
-        "Organizando o backlog"
-      ]
-    },
-    {
-      "id": "P11",
-      "pergunta": "Qual das opções a seguir é um risco de qualidade?",
-      "alternativas": [
-        "Baixa usabilidade percebida pelo usuário final",
-        "Excesso de documentação",
-        "Ambiente de testes muito robusto",
-        "Equipe com grande experiência"
-      ]
-    },
-    {
-      "id": "P12",
-      "pergunta": "Qual é uma prática eficaz na mitigação de riscos em QA?",
-      "alternativas": [
-        "Planejamento e priorização de testes baseados em risco",
-        "Focar apenas nos testes mais rápidos",
-        "Executar apenas testes manuais",
-        "Evitar documentação"
-      ]
-    },
-    {
-      "id": "P13",
-      "pergunta": "O que é cobertura de requisitos?",
-      "alternativas": [
-        "Proporção de requisitos que foram testados",
-        "Quantidade de testes escritos",
-        "Tempo de execução total",
-        "Porcentagem de bugs resolvidos"
-      ]
-    },
-    {
-      "id": "P14",
-      "pergunta": "O que é cobertura de código?",
-      "alternativas": [
-        "Percentual de linhas, condições ou caminhos que foram testados",
-        "Percentual de bugs encontrados",
-        "Total de funcionalidades testadas",
-        "Porcentagem de builds bem-sucedidos"
-      ]
-    },
-    {
-      "id": "P15",
-      "pergunta": "O que significa priorizar testes por risco?",
-      "alternativas": [
-        "Executar primeiro os testes onde o impacto e a chance de falha são maiores",
-        "Testar apenas as interfaces visuais",
-        "Executar testes em ordem alfabética",
-        "Priorizar testes mais fáceis"
-      ]
-    },
-    {
-      "id": "P16",
-      "pergunta": "Quais técnicas ajudam a definir cobertura de teste?",
-      "alternativas": [
-        "Particionamento de equivalência, valor limite e matriz de rastreabilidade",
-        "Planejamento de sprints e backlog",
-        "Histórico de bugs antigos",
-        "Reuniões com a equipe"
-      ]
-    },
-    {
-      "id": "P17",
-      "pergunta": "O que um baixo nível de cobertura pode indicar?",
-      "alternativas": [
-        "Risco de requisitos não testados",
-        "Desempenho excelente do time de dev",
-        "Melhora no tempo de build",
-        "Alta taxa de retenção de bugs"
-      ]
-    },
-    {
-      "id": "P18",
-      "pergunta": "Como a ISO/IEC/IEEE 29119 define risco?",
-      "alternativas": [
-        "Um fator de incerteza com impacto potencial nos objetivos do projeto",
-        "Uma falha já ocorrida em produção",
-        "Qualquer defeito registrado em ferramenta",
-        "Um atraso na entrega do sprint"
-      ]
-    },
-    {
-      "id": "P19",
-      "pergunta": "Qual é o papel do QA na gestão de riscos?",
-      "alternativas": [
-        "Identificar, comunicar e contribuir com ações de mitigação",
-        "Apenas executar testes",
-        "Gerar builds automatizados",
-        "Definir o orçamento do projeto"
-      ]
-    },
-    {
-      "id": "P20",
-      "pergunta": "Como o conceito de qualidade é abordado no CTFL?",
-      "alternativas": [
-        "Como adequação ao uso e conformidade com os requisitos",
-        "Apenas como ausência de defeitos",
-        "Como resultado exclusivo da automação",
-        "Como responsabilidade exclusiva do time de QA"
-      ]
-    }
-  ]
-}
+  {
+    "id": "P04",
+    "pergunta": "O que representa um risco produto-relacionado?",
+    "alternativas": [
+      "Falha técnica que afeta o funcionamento do sistema",
+      "Problema de contratação da equipe",
+      "Mudança no prazo do projeto",
+      "Erros de comunicação entre departamentos"
+    ]
+  },
+  {
+    "id": "P05",
+    "pergunta": "O que representa um risco projeto-relacionado?",
+    "alternativas": [
+      "Falta de tempo, recursos ou ambiente de teste",
+      "Bug na aplicação",
+      "Erro de validação de formulário",
+      "Rejeição do usuário"
+    ]
+  },
+  {
+    "id": "P06",
+    "pergunta": "Como o risco pode orientar o esforço de teste?",
+    "alternativas": [
+      "Testando mais onde o risco é maior",
+      "Testando aleatoriamente todos os componentes",
+      "Executando apenas testes automatizados",
+      "Concentrando-se apenas no layout"
+    ]
+  },
+  {
+    "id": "P07",
+    "pergunta": "O que é cobertura de testes?",
+    "alternativas": [
+      "A extensão com que os requisitos ou código foram testados",
+      "A quantidade de bugs encontrados",
+      "O tempo total de execução",
+      "A lista de testes manuais"
+    ]
+  },
+  {
+    "id": "P08",
+    "pergunta": "Como a cobertura pode ser medida?",
+    "alternativas": [
+      "Por número de requisitos, linhas de código ou caminhos testados",
+      "Por quantidade de sprints",
+      "Pelo número de releases",
+      "Pelo tamanho da equipe de QA"
+    ]
+  },
+  {
+    "id": "P09",
+    "pergunta": "O que é matriz de rastreabilidade?",
+    "alternativas": [
+      "Documento que liga requisitos, testes e resultados",
+      "Tabela com custo de bugs",
+      "Mapa de dependências entre arquivos",
+      "Relatório de produtividade do time"
+    ]
+  },
+  {
+    "id": "P10",
+    "pergunta": "Como a rastreabilidade auxilia na cobertura?",
+    "alternativas": [
+      "Verificando se todos os requisitos têm testes associados",
+      "Calculando o tempo de build",
+      "Comparando releases antigas",
+      "Organizando o backlog"
+    ]
+  },
+  {
+    "id": "P11",
+    "pergunta": "Qual das opções a seguir é um risco de qualidade?",
+    "alternativas": [
+      "Baixa usabilidade percebida pelo usuário final",
+      "Excesso de documentação",
+      "Ambiente de testes muito robusto",
+      "Equipe com grande experiência"
+    ]
+  },
+  {
+    "id": "P12",
+    "pergunta": "Qual é uma prática eficaz na mitigação de riscos em QA?",
+    "alternativas": [
+      "Planejamento e priorização de testes baseados em risco",
+      "Focar apenas nos testes mais rápidos",
+      "Executar apenas testes manuais",
+      "Evitar documentação"
+    ]
+  },
+  {
+    "id": "P13",
+    "pergunta": "O que é cobertura de requisitos?",
+    "alternativas": [
+      "Proporção de requisitos que foram testados",
+      "Quantidade de testes escritos",
+      "Tempo de execução total",
+      "Porcentagem de bugs resolvidos"
+    ]
+  },
+  {
+    "id": "P14",
+    "pergunta": "O que é cobertura de código?",
+    "alternativas": [
+      "Percentual de linhas, condições ou caminhos que foram testados",
+      "Percentual de bugs encontrados",
+      "Total de funcionalidades testadas",
+      "Porcentagem de builds bem-sucedidos"
+    ]
+  },
+  {
+    "id": "P15",
+    "pergunta": "O que significa priorizar testes por risco?",
+    "alternativas": [
+      "Executar primeiro os testes onde o impacto e a chance de falha são maiores",
+      "Testar apenas as interfaces visuais",
+      "Executar testes em ordem alfabética",
+      "Priorizar testes mais fáceis"
+    ]
+  },
+  {
+    "id": "P16",
+    "pergunta": "Quais técnicas ajudam a definir cobertura de teste?",
+    "alternativas": [
+      "Particionamento de equivalência, valor limite e matriz de rastreabilidade",
+      "Planejamento de sprints e backlog",
+      "Histórico de bugs antigos",
+      "Reuniões com a equipe"
+    ]
+  },
+  {
+    "id": "P17",
+    "pergunta": "O que um baixo nível de cobertura pode indicar?",
+    "alternativas": [
+      "Risco de requisitos não testados",
+      "Desempenho excelente do time de dev",
+      "Melhora no tempo de build",
+      "Alta taxa de retenção de bugs"
+    ]
+  },
+  {
+    "id": "P18",
+    "pergunta": "Como a ISO/IEC/IEEE 29119 define risco?",
+    "alternativas": [
+      "Um fator de incerteza com impacto potencial nos objetivos do projeto",
+      "Uma falha já ocorrida em produção",
+      "Qualquer defeito registrado em ferramenta",
+      "Um atraso na entrega do sprint"
+    ]
+  },
+  {
+    "id": "P19",
+    "pergunta": "Qual é o papel do QA na gestão de riscos?",
+    "alternativas": [
+      "Identificar, comunicar e contribuir com ações de mitigação",
+      "Apenas executar testes",
+      "Gerar builds automatizados",
+      "Definir o orçamento do projeto"
+    ]
+  },
+  {
+    "id": "P20",
+    "pergunta": "Como o conceito de qualidade é abordado no CTFL?",
+    "alternativas": [
+      "Como adequação ao uso e conformidade com os requisitos",
+      "Apenas como ausência de defeitos",
+      "Como resultado exclusivo da automação",
+      "Como responsabilidade exclusiva do time de QA"
+    ]
+  }
+]

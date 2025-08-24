@@ -1,219 +1,202 @@
-{
-  "trilha": {
-    "id": "T01",
-    "titulo": "Trilha de Fundamentos",
-    "descricao": "Esta trilha apresenta os conhecimentos essenciais para atuar com Garantia da Qualidade (QA) e Testes de Software. Baseada no CTFL v4.0, ela aborda os conceitos, práticas, níveis, tipos e técnicas de teste, preparando o aluno para compreender e aplicar os pilares da qualidade em projetos reais."
+[
+  {
+    "id": "P01",
+    "pergunta": "Qual é a função de uma ferramenta de gerenciamento de testes?",
+    "alternativas": [
+      "Documentar, organizar e rastrear casos e execuções de teste",
+      "Gerar código-fonte",
+      "Criar banco de dados",
+      "Gerenciar repositórios Git"
+    ]
   },
-  "modulo": {
-    "id": "M01",
-    "titulo": "Fundamentos de QA e Testes de Software",
-    "descricao": "Este módulo cobre os conceitos-chave da área de QA, desde a definição de qualidade, princípios e objetivos dos testes, até os ciclos de vida, níveis, técnicas, ferramentas e processos estruturados de teste. Ideal para quem está começando ou deseja consolidar a base teórica com aplicação prática."
+  {
+    "id": "P02",
+    "pergunta": "JIRA, TestRail e Xray são exemplos de:",
+    "alternativas": [
+      "Ferramentas de gestão de testes",
+      "IDE de desenvolvimento",
+      "Ferramentas de controle de versão",
+      "Sistemas operacionais"
+    ]
   },
-  "capitulo": {
-    "id": "C09",
-    "titulo": "Ferramentas de Teste e Suporte",
-    "descricao": "Este capítulo apresenta as principais categorias de ferramentas que apoiam a atividade de testes: desde a gestão de testes e defeitos até automação, geração de dados, análise estática e execução contínua. O objetivo é mostrar como essas ferramentas otimizam a qualidade e eficiência dos processos de QA."
+  {
+    "id": "P03",
+    "pergunta": "Qual tipo de ferramenta executa scripts de forma automatizada?",
+    "alternativas": [
+      "Ferramenta de automação de testes",
+      "Ferramenta de monitoramento",
+      "Ferramenta de análise estática",
+      "Ferramenta de backlog"
+    ]
   },
-  "perguntas": [
-    {
-      "id": "P01",
-      "pergunta": "Qual é a função de uma ferramenta de gerenciamento de testes?",
-      "alternativas": [
-        "Documentar, organizar e rastrear casos e execuções de teste",
-        "Gerar código-fonte",
-        "Criar banco de dados",
-        "Gerenciar repositórios Git"
-      ]
-    },
-    {
-      "id": "P02",
-      "pergunta": "JIRA, TestRail e Xray são exemplos de:",
-      "alternativas": [
-        "Ferramentas de gestão de testes",
-        "IDE de desenvolvimento",
-        "Ferramentas de controle de versão",
-        "Sistemas operacionais"
-      ]
-    },
-    {
-      "id": "P03",
-      "pergunta": "Qual tipo de ferramenta executa scripts de forma automatizada?",
-      "alternativas": [
-        "Ferramenta de automação de testes",
-        "Ferramenta de monitoramento",
-        "Ferramenta de análise estática",
-        "Ferramenta de backlog"
-      ]
-    },
-    {
-      "id": "P04",
-      "pergunta": "O que é uma ferramenta de análise estática?",
-      "alternativas": [
-        "Ferramenta que analisa código sem executá-lo",
-        "Ferramenta de testes exploratórios",
-        "Ferramenta de gerenciamento de build",
-        "Ferramenta de performance"
-      ]
-    },
-    {
-      "id": "P05",
-      "pergunta": "Postman é uma ferramenta usada para:",
-      "alternativas": [
-        "Testar APIs REST",
-        "Analisar banco de dados",
-        "Executar testes manuais",
-        "Gerenciar tarefas do time"
-      ]
-    },
-    {
-      "id": "P06",
-      "pergunta": "Ferramentas como Jenkins, GitHub Actions e GitLab CI são usadas para:",
-      "alternativas": [
-        "Integração e entrega contínua",
-        "Criação de requisitos",
-        "Testes manuais",
-        "Gestão de clientes"
-      ]
-    },
-    {
-      "id": "P07",
-      "pergunta": "Qual ferramenta é mais indicada para testes de carga e performance?",
-      "alternativas": [
-        "Apache JMeter",
-        "Selenium IDE",
-        "Postman",
-        "Xray"
-      ]
-    },
-    {
-      "id": "P08",
-      "pergunta": "Ferramentas de gestão de defeitos ajudam a:",
-      "alternativas": [
-        "Registrar, priorizar e acompanhar bugs",
-        "Codificar novas funcionalidades",
-        "Executar testes exploratórios",
-        "Medir a performance do QA"
-      ]
-    },
-    {
-      "id": "P09",
-      "pergunta": "Ferramentas como OWASP ZAP são usadas em:",
-      "alternativas": [
-        "Testes de segurança",
-        "Testes de integração",
-        "Testes de acessibilidade",
-        "Testes de compatibilidade"
-      ]
-    },
-    {
-      "id": "P10",
-      "pergunta": "Qual das opções abaixo é uma ferramenta de automação de testes de interface?",
-      "alternativas": [
-        "Selenium WebDriver",
-        "Postman",
-        "JIRA",
-        "JMeter"
-      ]
-    },
-    {
-      "id": "P11",
-      "pergunta": "Por que usar ferramentas de teste?",
-      "alternativas": [
-        "Para aumentar a eficiência, padronização e rastreabilidade dos testes",
-        "Para substituir toda a equipe de QA",
-        "Apenas para fins legais",
-        "Porque são obrigatórias pela ISO"
-      ]
-    },
-    {
-      "id": "P12",
-      "pergunta": "Ferramentas de geração de dados servem para:",
-      "alternativas": [
-        "Criar dados de teste representativos",
-        "Gerar relatórios de marketing",
-        "Coletar dados de produção",
-        "Fazer deploy de ambientes"
-      ]
-    },
-    {
-      "id": "P13",
-      "pergunta": "Qual categoria de ferramenta é usada para controlar a execução automatizada em pipelines?",
-      "alternativas": [
-        "Ferramentas de CI/CD",
-        "Ferramentas de design",
-        "Ferramentas de compilação",
-        "Ferramentas de versionamento"
-      ]
-    },
-    {
-      "id": "P14",
-      "pergunta": "Qual das opções NÃO é uma vantagem direta do uso de ferramentas de teste?",
-      "alternativas": [
-        "Eliminação de toda a documentação",
-        "Padronização de execuções",
-        "Aumento da rastreabilidade",
-        "Eficiência na execução"
-      ]
-    },
-    {
-      "id": "P15",
-      "pergunta": "Ferramentas de análise dinâmica analisam o software:",
-      "alternativas": [
-        "Durante a execução",
-        "Apenas antes da codificação",
-        "Somente por leitura de documentação",
-        "De forma estatística"
-      ]
-    },
-    {
-      "id": "P16",
-      "pergunta": "TestNG e JUnit são exemplos de:",
-      "alternativas": [
-        "Frameworks de teste automatizado",
-        "Ferramentas de requisitos",
-        "Serviços em nuvem",
-        "Plugins de navegador"
-      ]
-    },
-    {
-      "id": "P17",
-      "pergunta": "Ferramentas de rastreamento de requisitos ajudam a:",
-      "alternativas": [
-        "Garantir cobertura entre o que foi pedido e o que foi testado",
-        "Executar testes automatizados",
-        "Gerar dados aleatórios",
-        "Publicar o sistema em produção"
-      ]
-    },
-    {
-      "id": "P18",
-      "pergunta": "O que significa CI/CD?",
-      "alternativas": [
-        "Integração Contínua e Entrega Contínua",
-        "Conexão de Interface com Componentes de Deploy",
-        "Ciclo Iterativo de Codificação e Design",
-        "Controle Interno de Componentes e Dados"
-      ]
-    },
-    {
-      "id": "P19",
-      "pergunta": "O que pode dificultar a adoção de ferramentas em projetos?",
-      "alternativas": [
-        "Curva de aprendizado e resistência a mudanças",
-        "Falta de bugs",
-        "Excesso de automação",
-        "Presença de documentação técnica"
-      ]
-    },
-    {
-      "id": "P20",
-      "pergunta": "Qual das opções melhor representa uma integração típica de ferramentas de teste?",
-      "alternativas": [
-        "Postman com Newman em pipeline de CI",
-        "Excel com PowerPoint",
-        "JIRA com Paint",
-        "Notepad com CMD"
-      ]
-    }
-  ]
-}
+  {
+    "id": "P04",
+    "pergunta": "O que é uma ferramenta de análise estática?",
+    "alternativas": [
+      "Ferramenta que analisa código sem executá-lo",
+      "Ferramenta de testes exploratórios",
+      "Ferramenta de gerenciamento de build",
+      "Ferramenta de performance"
+    ]
+  },
+  {
+    "id": "P05",
+    "pergunta": "Postman é uma ferramenta usada para:",
+    "alternativas": [
+      "Testar APIs REST",
+      "Analisar banco de dados",
+      "Executar testes manuais",
+      "Gerenciar tarefas do time"
+    ]
+  },
+  {
+    "id": "P06",
+    "pergunta": "Ferramentas como Jenkins, GitHub Actions e GitLab CI são usadas para:",
+    "alternativas": [
+      "Integração e entrega contínua",
+      "Criação de requisitos",
+      "Testes manuais",
+      "Gestão de clientes"
+    ]
+  },
+  {
+    "id": "P07",
+    "pergunta": "Qual ferramenta é mais indicada para testes de carga e performance?",
+    "alternativas": [
+      "Apache JMeter",
+      "Selenium IDE",
+      "Postman",
+      "Xray"
+    ]
+  },
+  {
+    "id": "P08",
+    "pergunta": "Ferramentas de gestão de defeitos ajudam a:",
+    "alternativas": [
+      "Registrar, priorizar e acompanhar bugs",
+      "Codificar novas funcionalidades",
+      "Executar testes exploratórios",
+      "Medir a performance do QA"
+    ]
+  },
+  {
+    "id": "P09",
+    "pergunta": "Ferramentas como OWASP ZAP são usadas em:",
+    "alternativas": [
+      "Testes de segurança",
+      "Testes de integração",
+      "Testes de acessibilidade",
+      "Testes de compatibilidade"
+    ]
+  },
+  {
+    "id": "P10",
+    "pergunta": "Qual das opções abaixo é uma ferramenta de automação de testes de interface?",
+    "alternativas": [
+      "Selenium WebDriver",
+      "Postman",
+      "JIRA",
+      "JMeter"
+    ]
+  },
+  {
+    "id": "P11",
+    "pergunta": "Por que usar ferramentas de teste?",
+    "alternativas": [
+      "Para aumentar a eficiência, padronização e rastreabilidade dos testes",
+      "Para substituir toda a equipe de QA",
+      "Apenas para fins legais",
+      "Porque são obrigatórias pela ISO"
+    ]
+  },
+  {
+    "id": "P12",
+    "pergunta": "Ferramentas de geração de dados servem para:",
+    "alternativas": [
+      "Criar dados de teste representativos",
+      "Gerar relatórios de marketing",
+      "Coletar dados de produção",
+      "Fazer deploy de ambientes"
+    ]
+  },
+  {
+    "id": "P13",
+    "pergunta": "Qual categoria de ferramenta é usada para controlar a execução automatizada em pipelines?",
+    "alternativas": [
+      "Ferramentas de CI/CD",
+      "Ferramentas de design",
+      "Ferramentas de compilação",
+      "Ferramentas de versionamento"
+    ]
+  },
+  {
+    "id": "P14",
+    "pergunta": "Qual das opções NÃO é uma vantagem direta do uso de ferramentas de teste?",
+    "alternativas": [
+      "Eliminação de toda a documentação",
+      "Padronização de execuções",
+      "Aumento da rastreabilidade",
+      "Eficiência na execução"
+    ]
+  },
+  {
+    "id": "P15",
+    "pergunta": "Ferramentas de análise dinâmica analisam o software:",
+    "alternativas": [
+      "Durante a execução",
+      "Apenas antes da codificação",
+      "Somente por leitura de documentação",
+      "De forma estatística"
+    ]
+  },
+  {
+    "id": "P16",
+    "pergunta": "TestNG e JUnit são exemplos de:",
+    "alternativas": [
+      "Frameworks de teste automatizado",
+      "Ferramentas de requisitos",
+      "Serviços em nuvem",
+      "Plugins de navegador"
+    ]
+  },
+  {
+    "id": "P17",
+    "pergunta": "Ferramentas de rastreamento de requisitos ajudam a:",
+    "alternativas": [
+      "Garantir cobertura entre o que foi pedido e o que foi testado",
+      "Executar testes automatizados",
+      "Gerar dados aleatórios",
+      "Publicar o sistema em produção"
+    ]
+  },
+  {
+    "id": "P18",
+    "pergunta": "O que significa CI/CD?",
+    "alternativas": [
+      "Integração Contínua e Entrega Contínua",
+      "Conexão de Interface com Componentes de Deploy",
+      "Ciclo Iterativo de Codificação e Design",
+      "Controle Interno de Componentes e Dados"
+    ]
+  },
+  {
+    "id": "P19",
+    "pergunta": "O que pode dificultar a adoção de ferramentas em projetos?",
+    "alternativas": [
+      "Curva de aprendizado e resistência a mudanças",
+      "Falta de bugs",
+      "Excesso de automação",
+      "Presença de documentação técnica"
+    ]
+  },
+  {
+    "id": "P20",
+    "pergunta": "Qual das opções melhor representa uma integração típica de ferramentas de teste?",
+    "alternativas": [
+      "Postman com Newman em pipeline de CI",
+      "Excel com PowerPoint",
+      "JIRA com Paint",
+      "Notepad com CMD"
+    ]
+  }
+]

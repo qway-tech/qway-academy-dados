@@ -1,239 +1,202 @@
-{
-  "trilha": {
-    "id": "T99",
-    "titulo": "Título da Trilha (template)",
-    "descricao": "Descrição da trilha de exemplo usada como template para novas trilhas."
+[
+  {
+    "id": "P01",
+    "pergunta": "O que é QA?",
+    "alternativas": [
+      "Qualidade de Software",
+      "Garantia de Qualidade",
+      "Teste de Software",
+      "Desenvolvimento Ágil"
+    ]
   },
-  "modulo": {
-    "id": "M99",
-    "titulo": "Título do Módulo (template)",
-    "descricao": "Descrição do módulo de exemplo usada como template para novos módulos."
+  {
+    "id": "P02",
+    "pergunta": "Qual é o principal objetivo dos testes de software?",
+    "alternativas": [
+      "Encontrar bugs",
+      "Melhorar a performance",
+      "Garantir a satisfação do cliente",
+      "Reduzir custos"
+    ]
   },
-  "capitulo": {
-    "id": "C99",
-    "titulo": "Título do Capítulo (template)",
-    "descricao": "Descrição do capítulo de exemplo usada como template para novos capítulos."
+  {
+    "id": "P03",
+    "pergunta": "Qual das opções abaixo é um tipo de teste?",
+    "alternativas": [
+      "Teste de Unidade",
+      "Teste de Integração",
+      "Teste de Sistema",
+      "Todas as anteriores"
+    ]
   },
-  "perguntas": [
-    {
-      "id": "P01",
-      "pergunta": "O que é QA?",
-      "alternativas": [
-        "Qualidade de Software",
-        "Garantia de Qualidade",
-        "Teste de Software",
-        "Desenvolvimento Ágil"
-      ],
-      "tempo_sugerido_segundos": 90
-    },
-    {
-      "id": "P02",
-      "pergunta": "Qual é o principal objetivo dos testes de software?",
-      "alternativas": [
-        "Encontrar bugs",
-        "Melhorar a performance",
-        "Garantir a satisfação do cliente",
-        "Reduzir custos"
-      ],
-      "tempo_sugerido_segundos": 90
-    },
-    {
-      "id": "P03",
-      "pergunta": "Qual das opções abaixo é um tipo de teste?",
-      "alternativas": [
-        "Teste de Unidade",
-        "Teste de Integração",
-        "Teste de Sistema",
-        "Todas as anteriores"
-      ],
-      "tempo_sugerido_segundos": 90
-    },
-    {
-      "id": "P04",
-      "pergunta": "Qual das opções abaixo NÃO é um princípio de teste?",
-      "alternativas": [
-        "Testes mostram a ausência de defeitos",
-        "Testes exaustivos são possíveis",
-        "Testes antecipados economizam tempo e dinheiro",
-        "Agrupamento de defeitos é comum"
-      ],
-      "tempo_sugerido_segundos": 90
-    },
-    {
-      "id": "P05",
-      "pergunta": "O que significa 'defeito' em QA?",
-      "alternativas": [
-        "Erro de sintaxe no código",
-        "Qualquer falha estética na interface",
-        "Desvio entre o comportamento esperado e o real",
-        "Interrupção do build automático"
-      ],
-      "tempo_sugerido_segundos": 90
-    },
-    {
-      "id": "P06",
-      "pergunta": "O que é um teste de regressão?",
-      "alternativas": [
-        "Um teste feito por usuários finais",
-        "Um teste para validar requisitos novos",
-        "Um teste para verificar se uma mudança não quebrou algo que já funcionava",
-        "Um teste de performance sob carga"
-      ],
-      "tempo_sugerido_segundos": 90
-    },
-    {
-      "id": "P07",
-      "pergunta": "Quem normalmente escreve os casos de teste?",
-      "alternativas": [
-        "Product Owner",
-        "Testadores ou QAs",
-        "Clientes",
-        "Desenvolvedores de infraestrutura"
-      ],
-      "tempo_sugerido_segundos": 90
-    },
-    {
-      "id": "P08",
-      "pergunta": "Em que fase do ciclo de vida o QA pode começar a atuar?",
-      "alternativas": [
-        "Apenas na homologação",
-        "Após o desenvolvimento",
-        "Desde a análise de requisitos",
-        "No momento da entrega para o cliente"
-      ],
-      "tempo_sugerido_segundos": 90
-    },
-    {
-      "id": "P09",
-      "pergunta": "Qual é a principal vantagem de testes bem documentados?",
-      "alternativas": [
-        "Servem para treinar desenvolvedores",
-        "Permitem testes mais caros",
-        "Facilitam a repetibilidade e rastreabilidade",
-        "Reduzem o número de reuniões"
-      ],
-      "tempo_sugerido_segundos": 90
-    },
-    {
-      "id": "P10",
-      "pergunta": "O que é o ciclo de vida do teste?",
-      "alternativas": [
-        "Um documento que lista defeitos",
-        "O conjunto de fases de planejamento, execução e encerramento de testes",
-        "A sequência de builds num pipeline CI/CD",
-        "A evolução das ferramentas de teste"
-      ],
-      "tempo_sugerido_segundos": 90
-    },
-    {
-      "id": "P11",
-      "pergunta": "Qual é a diferença entre teste funcional e não funcional?",
-      "alternativas": [
-        "Funcional testa o código-fonte, não funcional testa o layout",
-        "Funcional verifica comportamentos, não funcional avalia atributos como performance",
-        "Funcional é feito manualmente, não funcional é sempre automatizado",
-        "Funcional testa usuários, não funcional testa requisitos"
-      ],
-      "tempo_sugerido_segundos": 90
-    },
-    {
-      "id": "P12",
-      "pergunta": "Qual das opções representa um nível de teste?",
-      "alternativas": [
-        "Teste de unidade",
-        "Teste de desempenho",
-        "Teste exploratório",
-        "Teste caixa-preta"
-      ],
-      "tempo_sugerido_segundos": 90
-    },
-    {
-      "id": "P13",
-      "pergunta": "Quem normalmente aprova a entrega de uma funcionalidade?",
-      "alternativas": [
-        "Scrum Master",
-        "Equipe de QA",
-        "Product Owner ou cliente",
-        "Equipe de infraestrutura"
-      ],
-      "tempo_sugerido_segundos": 90
-    },
-    {
-      "id": "P14",
-      "pergunta": "O que é teste exploratório?",
-      "alternativas": [
-        "Um teste que segue scripts rígidos",
-        "Uma técnica onde o testador aprende e testa ao mesmo tempo",
-        "Um tipo de teste não documentado e sem valor",
-        "Um teste feito por bots"
-      ],
-      "tempo_sugerido_segundos": 90
-    },
-    {
-      "id": "P15",
-      "pergunta": "Qual é a principal característica de um bom relatório de bug?",
-      "alternativas": [
-        "Ser curto",
-        "Ter muitos prints",
-        "Reproduzível e claro",
-        "Apontar o culpado"
-      ],
-      "tempo_sugerido_segundos": 90
-    },
-    {
-      "id": "P16",
-      "pergunta": "A responsabilidade pelo controle da qualidade é de quem?",
-      "alternativas": [
-        "Apenas do time de QA",
-        "Dos testadores sêniores",
-        "De toda a equipe de desenvolvimento",
-        "Do gerente de projeto"
-      ],
-      "tempo_sugerido_segundos": 90
-    },
-    {
-      "id": "P17",
-      "pergunta": "Qual dessas tarefas está fora do escopo do QA?",
-      "alternativas": [
-        "Participar da definição de critérios de aceitação",
-        "Planejar testes automatizados",
-        "Desenvolver funcionalidades da aplicação",
-        "Reportar e acompanhar defeitos"
-      ],
-      "tempo_sugerido_segundos": 90
-    },
-    {
-      "id": "P18",
-      "pergunta": "O que é um ambiente de testes?",
-      "alternativas": [
-        "Um grupo de QAs trabalhando juntos",
-        "Uma cópia do ambiente de produção para executar testes",
-        "Um conjunto de documentos de teste",
-        "Um pipeline de CI/CD"
-      ],
-      "tempo_sugerido_segundos": 90
-    },
-    {
-      "id": "P19",
-      "pergunta": "Por que o QA participa das reuniões de planejamento?",
-      "alternativas": [
-        "Para acompanhar o desempenho da equipe",
-        "Para garantir que os critérios de qualidade sejam considerados desde o início",
-        "Para aprovar as tarefas dos desenvolvedores",
-        "Para atualizar os clientes"
-      ],
-      "tempo_sugerido_segundos": 90
-    },
-    {
-      "id": "P20",
-      "pergunta": "Qual das opções representa uma técnica de teste baseada em experiência?",
-      "alternativas": [
-        "Análise de valores-limite",
-        "Particionamento de equivalência",
-        "Teste exploratório",
-        "Tabela de decisão"
-      ],
-      "tempo_sugerido_segundos": 90
-    }
-  ]
-}
+  {
+    "id": "P04",
+    "pergunta": "Qual das opções abaixo NÃO é um princípio de teste?",
+    "alternativas": [
+      "Testes mostram a ausência de defeitos",
+      "Testes exaustivos são possíveis",
+      "Testes antecipados economizam tempo e dinheiro",
+      "Agrupamento de defeitos é comum"
+    ]
+  },
+  {
+    "id": "P05",
+    "pergunta": "O que significa 'defeito' em QA?",
+    "alternativas": [
+      "Erro de sintaxe no código",
+      "Qualquer falha estética na interface",
+      "Desvio entre o comportamento esperado e o real",
+      "Interrupção do build automático"
+    ]
+  },
+  {
+    "id": "P06",
+    "pergunta": "O que é um teste de regressão?",
+    "alternativas": [
+      "Um teste feito por usuários finais",
+      "Um teste para validar requisitos novos",
+      "Um teste para verificar se uma mudança não quebrou algo que já funcionava",
+      "Um teste de performance sob carga"
+    ]
+  },
+  {
+    "id": "P07",
+    "pergunta": "Quem normalmente escreve os casos de teste?",
+    "alternativas": [
+      "Product Owner",
+      "Testadores ou QAs",
+      "Clientes",
+      "Desenvolvedores de infraestrutura"
+    ]
+  },
+  {
+    "id": "P08",
+    "pergunta": "Em que fase do ciclo de vida o QA pode começar a atuar?",
+    "alternativas": [
+      "Apenas na homologação",
+      "Após o desenvolvimento",
+      "Desde a análise de requisitos",
+      "No momento da entrega para o cliente"
+    ]
+  },
+  {
+    "id": "P09",
+    "pergunta": "Qual é a principal vantagem de testes bem documentados?",
+    "alternativas": [
+      "Servem para treinar desenvolvedores",
+      "Permitem testes mais caros",
+      "Facilitam a repetibilidade e rastreabilidade",
+      "Reduzem o número de reuniões"
+    ]
+  },
+  {
+    "id": "P10",
+    "pergunta": "O que é o ciclo de vida do teste?",
+    "alternativas": [
+      "Um documento que lista defeitos",
+      "O conjunto de fases de planejamento, execução e encerramento de testes",
+      "A sequência de builds num pipeline CI/CD",
+      "A evolução das ferramentas de teste"
+    ]
+  },
+  {
+    "id": "P11",
+    "pergunta": "Qual é a diferença entre teste funcional e não funcional?",
+    "alternativas": [
+      "Funcional testa o código-fonte, não funcional testa o layout",
+      "Funcional verifica comportamentos, não funcional avalia atributos como performance",
+      "Funcional é feito manualmente, não funcional é sempre automatizado",
+      "Funcional testa usuários, não funcional testa requisitos"
+    ]
+  },
+  {
+    "id": "P12",
+    "pergunta": "Qual das opções representa um nível de teste?",
+    "alternativas": [
+      "Teste de unidade",
+      "Teste de desempenho",
+      "Teste exploratório",
+      "Teste caixa-preta"
+    ]
+  },
+  {
+    "id": "P13",
+    "pergunta": "Quem normalmente aprova a entrega de uma funcionalidade?",
+    "alternativas": [
+      "Scrum Master",
+      "Equipe de QA",
+      "Product Owner ou cliente",
+      "Equipe de infraestrutura"
+    ]
+  },
+  {
+    "id": "P14",
+    "pergunta": "O que é teste exploratório?",
+    "alternativas": [
+      "Um teste que segue scripts rígidos",
+      "Uma técnica onde o testador aprende e testa ao mesmo tempo",
+      "Um tipo de teste não documentado e sem valor",
+      "Um teste feito por bots"
+    ]
+  },
+  {
+    "id": "P15",
+    "pergunta": "Qual é a principal característica de um bom relatório de bug?",
+    "alternativas": [
+      "Ser curto",
+      "Ter muitos prints",
+      "Reproduzível e claro",
+      "Apontar o culpado"
+    ]
+  },
+  {
+    "id": "P16",
+    "pergunta": "A responsabilidade pelo controle da qualidade é de quem?",
+    "alternativas": [
+      "Apenas do time de QA",
+      "Dos testadores sêniores",
+      "De toda a equipe de desenvolvimento",
+      "Do gerente de projeto"
+    ]
+  },
+  {
+    "id": "P17",
+    "pergunta": "Qual dessas tarefas está fora do escopo do QA?",
+    "alternativas": [
+      "Participar da definição de critérios de aceitação",
+      "Planejar testes automatizados",
+      "Desenvolver funcionalidades da aplicação",
+      "Reportar e acompanhar defeitos"
+    ]
+  },
+  {
+    "id": "P18",
+    "pergunta": "O que é um ambiente de testes?",
+    "alternativas": [
+      "Um grupo de QAs trabalhando juntos",
+      "Uma cópia do ambiente de produção para executar testes",
+      "Um conjunto de documentos de teste",
+      "Um pipeline de CI/CD"
+    ]
+  },
+  {
+    "id": "P19",
+    "pergunta": "Por que o QA participa das reuniões de planejamento?",
+    "alternativas": [
+      "Para acompanhar o desempenho da equipe",
+      "Para garantir que os critérios de qualidade sejam considerados desde o início",
+      "Para aprovar as tarefas dos desenvolvedores",
+      "Para atualizar os clientes"
+    ]
+  },
+  {
+    "id": "P20",
+    "pergunta": "Qual das opções representa uma técnica de teste baseada em experiência?",
+    "alternativas": [
+      "Análise de valores-limite",
+      "Particionamento de equivalência",
+      "Teste exploratório",
+      "Tabela de decisão"
+    ]
+  }
+]
