@@ -1,0 +1,25 @@
+{
+  "trilhas": [
+    {
+      "id": "t01",
+      "nome": "Fundamentos",
+      "modulos": [
+        { "id": "m01", "nome": "Fundamentos de QA e Testes de Software", "status": "ativo" }
+      ]
+    },
+    {
+      "id": "t02",
+      "nome": "Especializações Técnicas",
+      "modulos": [
+        { "id": "m01", "nome": "Automação de Testes Web e API", "status": "em_breve" },
+        { "id": "m02", "nome": "Testes de Performance e Segurança", "status": "em_breve" },
+        { "id": "m03", "nome": "Testes Ágeis e Integração Contínua", "status": "em_breve" }
+      ]
+    },
+    {
+      "id": "t03",
+      "nome": "Estratégia e Liderança",
+      "modulos": []
+    }
+  ]
+}
