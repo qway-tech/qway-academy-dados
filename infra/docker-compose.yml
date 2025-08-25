@@ -1,0 +1,40 @@
+version: "3.8"
+
+# Orquestração para desenvolvimento local. Disponibiliza serviços necessários para o
+# frontend e backend, incluindo banco de dados PostgreSQL e Redis para cache
+# e filas.
+services:
+  api:
+    build: ./apps/plataforma/backend
+    env_file:
+      - ./apps/plataforma/backend/.env
+    depends_on:
+      - db
+      - redis
+    ports:
+      - "4000:4000"
+    command: npm run start
+
+  web:
+    build: ./apps/plataforma/frontend
+    environment:
+      - VITE_API_BASE_URL=http://localhost:4000
+    ports:
+      - "5173:5173"
+    command: npm run dev
+
+  db:
+    image: postgres:16
+    restart: always
+    environment:
+      POSTGRES_USER: qats
+      POSTGRES_PASSWORD: qats
+      POSTGRES_DB: qats
+    ports:
+      - "5432:5432"
+
+  redis:
+    image: redis:7
+    restart: always
+    ports:
+      - "6379:6379"

@@ -1,0 +1,55 @@
+# infra/docker/docker-compose.yml
+
+services:
+  db:
+    image: postgres:15-alpine
+    environment:
+      - POSTGRES_USER=qats
+      - POSTGRES_PASSWORD=qats
+      - POSTGRES_DB=qats
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U qats -d qats -h 127.0.0.1"]
+      interval: 3s
+      timeout: 3s
+      retries: 20
+      start_period: 5s
+
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+
+  api:
+    build:
+      context: ../../apps/plataforma/backend
+      dockerfile: Dockerfile
+      target: runner
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_started
+    restart: on-failure
+    environment:
+      DATABASE_URL: postgresql://qats:qats@db:5432/qats
+      REDIS_URL: redis://redis:6379
+      JWT_SECRET: 6604cfe4b0a7a7f213ce185ccb1f6058
+      GITHUB_CLIENT_ID: Ov23ct1x6DSQyvJBKTZJ
+      GITHUB_CLIENT_SECRET: 9e399ef8466276610c5ae60a0e6c368d52c54443
+    ports:
+      - "4000:4000"
+
+  web:
+    build:
+      context: ../../apps/plataforma/frontend
+      dockerfile: Dockerfile
+      target: dev
+    depends_on:
+      api:
+        condition: service_started
+    env_file:
+      - ../../apps/plataforma/frontend/.env
+    ports:
+      - "5173:5173"

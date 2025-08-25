@@ -1,0 +1,108 @@
+// Esquema Prisma para QWay Plataforma.
+// Define as entidades principais do domínio educacional e as
+// respectivas relações. Pode ser evoluído com novas tabelas e
+// campos à medida que a plataforma cresça.
+
+generator client {
+  provider = "prisma-client-js"
+  binaryTargets = ["native", "linux-musl"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+
+model User {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  name      String?
+  provider  String?
+  role      Role     @default(STUDENT)
+  createdAt DateTime @default(now())
+  // Relações
+  attempts  Attempt[]
+}
+
+model Trail {
+  id      String   @id @default(cuid())
+  slug    String   @unique
+  title   String
+  modules Module[]
+}
+
+model Module {
+  id       String   @id @default(cuid())
+  trailId  String
+  title    String
+  lessons  Lesson[]
+  trail    Trail    @relation(fields: [trailId], references: [id])
+  assessments Assessment[]
+}
+
+model Lesson {
+  id       String   @id @default(cuid())
+  moduleId String
+  title    String
+  content  String
+  module   Module   @relation(fields: [moduleId], references: [id])
+}
+
+model Assessment {
+  id        String      @id @default(cuid())
+  moduleId  String
+  title     String
+  questions Question[]
+  module    Module      @relation(fields: [moduleId], references: [id])
+  attempts  Attempt[]
+}
+
+model Question {
+  id           String     @id @default(cuid())
+  assessmentId String
+  stem         String
+  choices      Choice[]
+  correctId    String?
+  // lado inverso da relação Answer -> Question
+  answers      Answer[]   @relation("QuestionAnswers")
+  assessment   Assessment @relation(fields: [assessmentId], references: [id])
+}
+
+model Choice {
+  id         String   @id @default(cuid())
+  questionId String
+  text       String
+  // lado inverso da relação Answer -> Choice
+  answers    Answer[] @relation("ChoiceAnswers")
+  question   Question @relation(fields: [questionId], references: [id])
+}
+
+model Attempt {
+  id           String     @id @default(cuid())
+  assessmentId String
+  userId       String
+  startedAt    DateTime   @default(now())
+  finishedAt   DateTime?
+  score        Float?
+  answers      Answer[]
+  assessment   Assessment @relation(fields: [assessmentId], references: [id])
+  user         User       @relation(fields: [userId], references: [id])
+}
+
+model Answer {
+  id         String   @id @default(cuid())
+  attemptId  String
+  questionId String
+  choiceId   String
+
+  attempt    Attempt  @relation(fields: [attemptId], references: [id])
+  // usa o mesmo nome da relação declarado no lado inverso
+  question   Question @relation("QuestionAnswers", fields: [questionId], references: [id])
+  choice     Choice   @relation("ChoiceAnswers", fields: [choiceId], references: [id])
+}
+
+enum Role {
+  STUDENT
+  ADMIN
+}

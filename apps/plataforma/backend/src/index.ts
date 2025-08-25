@@ -1,7 +1,6 @@
 import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
-import fetch from "node-fetch"; // Se estiver usando Node <18
 import type { Request, Response } from "express";
 
 dotenv.config();

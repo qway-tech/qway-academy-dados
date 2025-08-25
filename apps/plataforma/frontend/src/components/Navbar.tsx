@@ -69,12 +69,22 @@ export default function Navbar() {
                 <>
                   <li>
                     <Link to="/quiz" className="navbar-link">
-                      Quizzes
+                      Avaliações
                     </Link>
                   </li>
                   <li>
-                    <Link to="/prova" className="navbar-link">
-                      Provas
+                    <Link to="/progresso" className="navbar-link">
+                      Progresso
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/certificados" className="navbar-link">
+                      Certificados
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/admin" className="navbar-link">
+                      Admin
                     </Link>
                   </li>
                 </>
@@ -140,16 +150,34 @@ export default function Navbar() {
                     className="navbar-link block"
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
-                    Quizzes
+                    Avaliações
                   </Link>
                 </li>
                 <li>
                   <Link
-                    to="/prova"
+                    to="/progresso"
                     className="navbar-link block"
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
-                    Provas
+                    Progresso
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/certificados"
+                    className="navbar-link block"
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    Certificados
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/admin"
+                    className="navbar-link block"
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    Admin
                   </Link>
                 </li>
               </>

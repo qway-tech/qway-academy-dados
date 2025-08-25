@@ -1,16 +1,18 @@
 {
   "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
     "target": "ES2022",
-    "module": "NodeNext",
-    "moduleResolution": "NodeNext",
     "lib": ["ES2022"],
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
     "strict": true,
+    "esModuleInterop": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
     "skipLibCheck": true,
-    "outDir": "dist",
-    "rootDir": "src"
+    "types": ["node", "express"]
   },
-  "include": ["src"],
+  "include": ["src/**/*.ts"],
   "exclude": ["node_modules", "dist"]
 }

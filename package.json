@@ -11,6 +11,9 @@
     "bootstrap": "npm install --workspaces --include-workspace-root",
     "dev:fe": "npm --prefix apps/plataforma/frontend run dev",
     "dev:be": "npm --prefix apps/plataforma/backend run dev"
+    ,
+    "docker:compose": "docker compose -f infra/docker/docker-compose.yml up --build",
+    "docker:down": "docker compose -f infra/docker/docker-compose.yml down"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^6.6.4",
