@@ -1,0 +1,32 @@
+name: Validar JSONs de usuários
+
+on:
+  pull_request:
+    paths:
+      - 'usuarios/**'
+      - 'schemas/**'
+      - 'scripts/validate-jsons.mjs'
+  push:
+    paths:
+      - 'usuarios/**'
+      - 'schemas/**'
+      - 'scripts/validate-jsons.mjs'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install deps
+        run: |
+          npm ci --ignore-scripts=false || npm i
+
+      - name: Validate JSONs (usuarios/*)
+        run: npm run validate:jsons

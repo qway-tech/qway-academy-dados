@@ -1,0 +1,262 @@
+[
+  {
+    "id": "P01",
+    "pergunta": "Por que o contexto do projeto impacta as atividades de teste?",
+    "alternativas": [
+      "Porque diferentes contextos exigem estratégias e abordagens específicas",
+      "Porque os testes devem seguir um padrão universal",
+      "Porque o QA não participa do projeto",
+      "Porque o teste não depende do contexto"
+    ],
+    "trilha": "T01",
+    "modulo": "M01",
+    "capitulo": "C07"
+  },
+  {
+    "id": "P02",
+    "pergunta": "Em projetos críticos, como os testes são geralmente tratados?",
+    "alternativas": [
+      "Com maior formalidade, rastreabilidade e foco em riscos",
+      "Com testes exploratórios apenas",
+      "Sem planejamento formal",
+      "De forma informal, para agilizar entregas"
+    ],
+    "trilha": "T01",
+    "modulo": "M01",
+    "capitulo": "C07"
+  },
+  {
+    "id": "P03",
+    "pergunta": "O que é uma abordagem baseada em risco?",
+    "alternativas": [
+      "Priorização de testes com base em impacto e probabilidade de falhas",
+      "Testes realizados apenas quando falhas ocorrem",
+      "Eliminação de testes não automatizados",
+      "Foco em testes que envolvem maior custo"
+    ],
+    "trilha": "T01",
+    "modulo": "M01",
+    "capitulo": "C07"
+  },
+  {
+    "id": "P04",
+    "pergunta": "Quando há pouca documentação, qual abordagem é recomendada?",
+    "alternativas": [
+      "Testes exploratórios combinados com comunicação contínua",
+      "Testes formais baseados em scripts",
+      "Aguardar mais informações antes de testar",
+      "Automatizar sem entender o escopo"
+    ],
+    "trilha": "T01",
+    "modulo": "M01",
+    "capitulo": "C07"
+  },
+  {
+    "id": "P05",
+    "pergunta": "Por que os testes em sistemas regulados exigem maior formalização?",
+    "alternativas": [
+      "Porque há exigências legais e de auditoria envolvidas",
+      "Porque não se pode automatizar testes",
+      "Porque são sempre sistemas legados",
+      "Porque o cliente aprova tudo manualmente"
+    ],
+    "trilha": "T01",
+    "modulo": "M01",
+    "capitulo": "C07"
+  },
+  {
+    "id": "P06",
+    "pergunta": "O que caracteriza um sistema crítico?",
+    "alternativas": [
+      "Impacto significativo em caso de falhas (ex: saúde, aviação, energia)",
+      "Baixo número de usuários",
+      "Foco exclusivo em usabilidade",
+      "Desenvolvimento sem controle de qualidade"
+    ],
+    "trilha": "T01",
+    "modulo": "M01",
+    "capitulo": "C07"
+  },
+  {
+    "id": "P07",
+    "pergunta": "Como adaptar os testes em ambientes ágeis?",
+    "alternativas": [
+      "Com testes contínuos, foco em colaboração e critérios de aceitação",
+      "Executando testes apenas no final do sprint",
+      "Com testes manuais fora do escopo da sprint",
+      "Eliminando testes de regressão"
+    ],
+    "trilha": "T01",
+    "modulo": "M01",
+    "capitulo": "C07"
+  },
+  {
+    "id": "P08",
+    "pergunta": "O que são critérios de aceitação?",
+    "alternativas": [
+      "Condições que definem se uma funcionalidade atende aos requisitos",
+      "Um tipo de teste automatizado",
+      "Checklist para testes exploratórios",
+      "Critérios definidos apenas pelo QA"
+    ],
+    "trilha": "T01",
+    "modulo": "M01",
+    "capitulo": "C07"
+  },
+  {
+    "id": "P09",
+    "pergunta": "Qual o papel do QA em ambientes DevOps?",
+    "alternativas": [
+      "Apoiar a automação, colaborar nos pipelines e promover feedback contínuo",
+      "Executar testes apenas após o deploy",
+      "Validar funcionalidades de forma manual",
+      "Evitar envolvimento com infraestrutura"
+    ],
+    "trilha": "T01",
+    "modulo": "M01",
+    "capitulo": "C07"
+  },
+  {
+    "id": "P10",
+    "pergunta": "O que é tolerância a falhas em ambientes de produção?",
+    "alternativas": [
+      "Capacidade do sistema continuar funcionando mesmo com erros",
+      "Evitar qualquer tipo de erro em produção",
+      "Realizar rollback automático",
+      "Executar testes exploratórios no deploy"
+    ],
+    "trilha": "T01",
+    "modulo": "M01",
+    "capitulo": "C07"
+  },
+  {
+    "id": "P11",
+    "pergunta": "Por que testes em software legado exigem atenção especial?",
+    "alternativas": [
+      "Porque nem sempre há documentação ou cobertura de testes adequada",
+      "Porque são sempre automatizados",
+      "Porque já foram testados antes",
+      "Porque não possuem risco"
+    ],
+    "trilha": "T01",
+    "modulo": "M01",
+    "capitulo": "C07"
+  },
+  {
+    "id": "P12",
+    "pergunta": "Qual a importância da rastreabilidade em contextos regulatórios?",
+    "alternativas": [
+      "Permite rastrear requisitos, testes e evidências de execução",
+      "Ajuda a melhorar a performance do sistema",
+      "Reduz o número de reuniões",
+      "Facilita a automação de interface"
+    ],
+    "trilha": "T01",
+    "modulo": "M01",
+    "capitulo": "C07"
+  },
+  {
+    "id": "P13",
+    "pergunta": "O que são testes smoke (fumaça)?",
+    "alternativas": [
+      "Testes rápidos para verificar se o sistema está minimamente funcional",
+      "Testes de stress sob carga extrema",
+      "Testes de acessibilidade",
+      "Testes executados em produção"
+    ],
+    "trilha": "T01",
+    "modulo": "M01",
+    "capitulo": "C07"
+  },
+  {
+    "id": "P14",
+    "pergunta": "Qual abordagem é comum quando há grande rotatividade de equipe?",
+    "alternativas": [
+      "Documentação mínima viável e testes automatizados priorizados",
+      "Foco em testes manuais longos",
+      "Testes exploratórios não documentados",
+      "Evitar testes até a equipe estar estável"
+    ],
+    "trilha": "T01",
+    "modulo": "M01",
+    "capitulo": "C07"
+  },
+  {
+    "id": "P15",
+    "pergunta": "Qual é um dos desafios de testes em startups?",
+    "alternativas": [
+      "Alta velocidade de mudanças e pouca documentação formal",
+      "Falta de ferramentas de automação",
+      "Projetos sempre monolíticos",
+      "QA com foco exclusivo em testes manuais"
+    ],
+    "trilha": "T01",
+    "modulo": "M01",
+    "capitulo": "C07"
+  },
+  {
+    "id": "P16",
+    "pergunta": "Como adaptar os testes para MVPs (produtos mínimos viáveis)?",
+    "alternativas": [
+      "Focar no essencial, priorizar riscos e manter cobertura mínima necessária",
+      "Testar tudo exaustivamente",
+      "Evitar testes automatizados",
+      "Postergar testes até a versão final"
+    ],
+    "trilha": "T01",
+    "modulo": "M01",
+    "capitulo": "C07"
+  },
+  {
+    "id": "P17",
+    "pergunta": "O que é rastreabilidade bidirecional?",
+    "alternativas": [
+      "Capacidade de rastrear da origem (requisito) ao resultado (teste) e vice-versa",
+      "Testar nos dois ambientes: dev e prod",
+      "Garantir testes manuais e automatizados simultaneamente",
+      "Identificar falhas apenas na homologação"
+    ],
+    "trilha": "T01",
+    "modulo": "M01",
+    "capitulo": "C07"
+  },
+  {
+    "id": "P18",
+    "pergunta": "Qual abordagem é mais recomendada para projetos críticos de missão?",
+    "alternativas": [
+      "Planejamento formal, evidências completas e validação contínua",
+      "Testes improvisados para ganhar tempo",
+      "Documentação mínima e testes manuais apenas",
+      "Execução parcial de testes automatizados"
+    ],
+    "trilha": "T01",
+    "modulo": "M01",
+    "capitulo": "C07"
+  },
+  {
+    "id": "P19",
+    "pergunta": "Como os testes contribuem em projetos com alta dependência externa?",
+    "alternativas": [
+      "Simulando dependências com mocks ou ambientes controlados",
+      "Postergando testes até todas as dependências estarem prontas",
+      "Eliminando testes de integração",
+      "Testando apenas localmente"
+    ],
+    "trilha": "T01",
+    "modulo": "M01",
+    "capitulo": "C07"
+  },
+  {
+    "id": "P20",
+    "pergunta": "Por que adaptar os testes ao contexto é considerado uma boa prática?",
+    "alternativas": [
+      "Porque aumenta a efetividade dos testes de acordo com o cenário real do projeto",
+      "Porque reduz o trabalho do time de QA",
+      "Porque padroniza todos os testes",
+      "Porque elimina a necessidade de planejamento"
+    ],
+    "trilha": "T01",
+    "modulo": "M01",
+    "capitulo": "C07"
+  }
+]

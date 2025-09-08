@@ -1,0 +1,44 @@
+{
+  "faq": [
+    {
+      "pergunta": "Como obtenho um certificado na QWay Academy?",
+      "resposta": "Você precisa concluir todos os capítulos de um módulo, realizar os quizzes intermediários e ser aprovado no exame final correspondente. Cada certificado é auditável publicamente e vinculado à sua conta GitHub."
+    },
+    {
+      "pergunta": "Posso contribuir com conteúdo mesmo sem experiência em QA?",
+      "resposta": "Sim! Você pode participar como revisor, designer, desenvolvedor, testador ou até mesmo sugerir melhorias nos conteúdos. A comunidade é aberta a todos os níveis de experiência."
+    },
+    {
+      "pergunta": "O que significa 'auditável pela comunidade'?",
+      "resposta": "Significa que os certificados, quizzes, critérios de avaliação e contribuições são transparentes, públicos e podem ser revisados por qualquer membro da comunidade."
+    },
+    {
+      "pergunta": "A QWay Academy é gratuita?",
+      "resposta": "Sim, os recursos educacionais e as trilhas de certificação são totalmente gratuitos. No entanto, algumas mentorias e programas especiais podem ter vagas limitadas ou custos associados, sempre de forma transparente e acessível."
+    },
+    {
+      "pergunta": "Como posso acessar os simulados do exame para a certificação CTFL?",
+      "resposta": "Você pode acessar os simulados navegando até a seção 'Recursos Educacionais' e clicando em 'Ver todos os recursos'. Lá você encontrará simulados de CTFL e outros exames."
+    },
+    {
+      "pergunta": "Qual a diferença entre Trilha, Módulo e Capítulo?",
+      "resposta": "A Trilha é uma formação completa com foco temático. Cada trilha é composta por Módulos, que por sua vez são subdivididos em Capítulos, com conteúdos específicos, exemplos e quizzes."
+    },
+    {
+      "pergunta": "Onde posso acompanhar as novidades da QWay?",
+      "resposta": "Você pode seguir a QWay no [Instagram](https://www.instagram.com/qway.tech), [LinkedIn](https://www.linkedin.com/company/qway-tech), se inscrever no nosso [canal do YouTube](https://www.youtube.com/@qwaytech) e participar dos grupos da QWay em nossa Comunidade. Os links estão [AQUI](/#acompanhe)."
+    },
+    {
+      "pergunta": "Quem pode participar das mentorias?",
+      "resposta": "As mentorias são voltadas para pessoas que desejam aprofundar seus conhecimentos com orientação técnica e estratégica. Você pode se inscrever conforme seu perfil e objetivo profissional."
+    },
+    {
+      "pergunta": "Como posso me tornar um colaborador ativo do projeto?",
+      "resposta": "Basta acessar a seção 'Como Participar' e clicar no botão 'Quero colaborar'. Você será direcionado para um template de issue no GitHub onde poderá enviar sua candidatura com o papel desejado."
+    },
+    {
+      "pergunta": "Os conteúdos seguem algum padrão de qualidade?",
+      "resposta": "Sim. Todos os conteúdos são inspirados por padrões como ISTQB, ISO/IEC/IEEE 29119 e boas práticas reais do mercado. Além disso, todo material passa por revisão comunitária."
+    }
+  ]
+}

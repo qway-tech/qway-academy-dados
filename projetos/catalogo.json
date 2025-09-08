@@ -1,0 +1,25 @@
+{
+  "projetos": [
+    {
+      "id": "p01",
+      "nome": "🧪 Projetos Técnicos",
+      "descricao": "Desafios práticos para aplicar testes manuais, automação, ferramentas e documentação.",
+      "caminho": "projetos/tecnicos",
+      "home": "true"
+    },
+    {
+      "id": "p02",
+      "nome": "🤝 Voluntariado em QA",
+      "descricao": "Participe de iniciativas sociais aplicando práticas de QA em projetos com impacto real.",
+      "caminho": "projetos/voluntariado",
+      "home": "true"
+    },
+    {
+      "id": "p03",
+      "nome": "🌐 Open Source com a QWay",
+      "descricao": "Contribua com projetos open source como QATS, QAfé com QA e QWally, ganhando experiência prática.",
+      "caminho": "projetos/opensource",
+      "home": "true"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "usuario": "@QWay",
+  "trilha": "T01",
+  "modulo": "M01",
+  "capitulo": "C02",
+  "tipo": "quiz",
+  "tentativa": 1,
+  "iniciado_em": "2025-09-05T07:16:26.398Z",
+  "enviado_em": "2025-09-05T07:16:34.441Z",
+  "duracao_segundos": 8,
+  "respostas": [
+    {
+      "pergunta_id": "P15",
+      "resposta_index": 1,
+      "tempo_por_questao": 2
+    },
+    {
+      "pergunta_id": "P05",
+      "resposta_index": 0,
+      "tempo_por_questao": 0
+    },
+    {
+      "pergunta_id": "P13",
+      "resposta_index": 0,
+      "tempo_por_questao": 2
+    },
+    {
+      "pergunta_id": "P02",
+      "resposta_index": 1,
+      "tempo_por_questao": 1
+    },
+    {
+      "pergunta_id": "P08",
+      "resposta_index": 2,
+      "tempo_por_questao": 2
+    }
+  ],
+  "meta": {
+    "versao_quiz": "v1.0",
+    "limite_tentativas": 3,
+    "origem": "plataforma-web"
+  }
+}

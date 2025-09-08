@@ -1,0 +1,28 @@
+{
+  "formacoes": [
+    {
+      "id": "t01",
+      "nome": "🔰 Fundamentos",
+      "descricao": "Ideal para iniciantes. Inclui conceitos de Garantia de Qualidade (QA), Ciclo de Vida de Testes de Software e Automação Básica.",
+      "modulos": [
+        { "id": "m01", "nome": "Fundamentos de QA e Testes de Software", "status": "ativo" }
+      ]
+    },
+    {
+      "id": "t02",
+      "nome": "🧪 Especializações Técnicas",
+      "descricao": "Performance, Segurança, Automação Avançada, Testes Mobile e mais.",
+      "modulos": [
+        { "id": "m01", "nome": "Automação de Testes Web e API", "status": "em_breve" },
+        { "id": "m02", "nome": "Testes de Performance e Segurança", "status": "em_breve" },
+        { "id": "m03", "nome": "Testes Ágeis e Integração Contínua", "status": "em_breve" }
+      ]
+    },
+    {
+      "id": "t03",
+      "nome": "🧠 Estratégia e Liderança",
+      "descricao": "Trilha dedicada ao desenvolvimento de visão sistêmica, liderança de QA e tomada de decisão.",
+      "modulos": []
+    }
+  ]
+}

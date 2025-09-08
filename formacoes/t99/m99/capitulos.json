@@ -1,0 +1,12 @@
+{
+  "trilha": "t99",
+  "modulo": "m99",
+  "capitulos": [
+    {
+      "id": "c99",
+      "titulo": "📘 Capítulo CXX – Título do Capítulo",
+      "descricao": "> **Como usar este template:** Substitua `CXX` pelo identificador do capítulo (ex.: `C01`) e \"*Título do Capítulo*\" pelo nome oficial.  ",
+      "ordem": 99
+    }
+  ]
+}

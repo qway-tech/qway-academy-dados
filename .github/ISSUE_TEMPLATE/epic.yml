@@ -1,0 +1,27 @@
+name: "Epic"
+description: "Defina um objetivo estratégico de alto nível para o projeto"
+title: "Epic: [Nome resumido]"
+labels: ["epic"]
+body:
+  - type: markdown
+    attributes:
+      value: "## 🗺️ Epic — Objetivo Estratégico\nPreencha os campos abaixo para registrar a Epic."
+  - type: textarea
+    id: descricao
+    attributes:
+      label: "Descrição"
+      description: "Descreva o objetivo estratégico, contexto e impacto esperado."
+      placeholder: "Ex.: Implementar a primeira versão do sistema de quizzes..."
+    validations:
+      required: true
+  - type: textarea
+    id: criterios
+    attributes:
+      label: "Critérios de Sucesso"
+      description: "Defina como saberemos que a Epic foi concluída."
+      placeholder: "- Critério 1\n- Critério 2"
+  - type: textarea
+    id: relacionamento
+    attributes:
+      label: "Relacionamentos"
+      description: "Liste Features relacionadas."

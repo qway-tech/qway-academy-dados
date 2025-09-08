@@ -1,0 +1,23 @@
+name: "♿ Acessibilidade"
+description: Relatórios e melhorias relacionadas à acessibilidade
+title: "♿ A11y: "
+labels: ["acessibilidade", "prioridade: média"]
+assignees: []
+body:
+  - type: textarea
+    id: problema
+    attributes:
+      label: Problema de acessibilidade
+      placeholder: Descreva o ponto de falha (ex.: contraste, foco, landmarks)
+    validations:
+      required: true
+  - type: textarea
+    id: reproducao
+    attributes:
+      label: Como reproduzir
+      placeholder: Inclua passos, ferramenta (axe, Lighthouse), prints
+  - type: textarea
+    id: proposta
+    attributes:
+      label: Proposta de correção
+      placeholder: Sugestão de ajuste técnico/semântico

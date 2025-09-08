@@ -1,0 +1,262 @@
+[
+  {
+    "id": "P01",
+    "pergunta": "Qual é o principal objetivo dos testes de software?",
+    "alternativas": [
+      "Aumentar a complexidade do software",
+      "Identificar e corrigir defeitos",
+      "Reduzir o tempo de desenvolvimento",
+      "Aumentar o custo do projeto"
+    ],
+    "trilha": "T01",
+    "modulo": "M01",
+    "capitulo": "C02"
+  },
+  {
+    "id": "P02",
+    "pergunta": "O que é um teste de regressão?",
+    "alternativas": [
+      "Um teste realizado para verificar novas funcionalidades",
+      "Um teste que garante que funcionalidades existentes não foram afetadas por mudanças",
+      "Um teste que avalia a performance do sistema",
+      "Um teste que é feito apenas uma vez"
+    ],
+    "trilha": "T01",
+    "modulo": "M01",
+    "capitulo": "C02"
+  },
+  {
+    "id": "P03",
+    "pergunta": "Qual dos seguintes não é um tipo de teste?",
+    "alternativas": [
+      "Teste de unidade",
+      "Teste de integração",
+      "Teste de sistema",
+      "Teste de documentação"
+    ],
+    "trilha": "T01",
+    "modulo": "M01",
+    "capitulo": "C02"
+  },
+  {
+    "id": "P04",
+    "pergunta": "Qual princípio afirma que testar tudo é impossível?",
+    "alternativas": [
+      "Testes exaustivos",
+      "Pesticide Paradox",
+      "Testes dependem do contexto",
+      "Defeitos agrupados"
+    ],
+    "trilha": "T01",
+    "modulo": "M01",
+    "capitulo": "C02"
+  },
+  {
+    "id": "P05",
+    "pergunta": "O que significa o princípio 'ausência de erros equivale à utilidade'?",
+    "alternativas": [
+      "Se não há erros, o sistema é útil",
+      "A ausência de erros não garante que o sistema seja útil",
+      "Todo sistema sem erros é perfeito",
+      "Erros são necessários para utilidade"
+    ],
+    "trilha": "T01",
+    "modulo": "M01",
+    "capitulo": "C02"
+  },
+  {
+    "id": "P06",
+    "pergunta": "Qual princípio destaca que defeitos se concentram em poucos módulos?",
+    "alternativas": [
+      "Defeitos agrupados",
+      "Testes exaustivos",
+      "Testes dependem do contexto",
+      "Pesticide Paradox"
+    ],
+    "trilha": "T01",
+    "modulo": "M01",
+    "capitulo": "C02"
+  },
+  {
+    "id": "P07",
+    "pergunta": "O que é o 'Pesticide Paradox'?",
+    "alternativas": [
+      "Testes repetidos deixam de encontrar novos defeitos",
+      "Testes eliminam todos os defeitos",
+      "Testes são inúteis",
+      "Testes aumentam defeitos"
+    ],
+    "trilha": "T01",
+    "modulo": "M01",
+    "capitulo": "C02"
+  },
+  {
+    "id": "P08",
+    "pergunta": "Qual princípio reforça que testes devem ser adaptados ao contexto?",
+    "alternativas": [
+      "Testes dependem do contexto",
+      "Defeitos agrupados",
+      "Testes exaustivos",
+      "Pesticide Paradox"
+    ],
+    "trilha": "T01",
+    "modulo": "M01",
+    "capitulo": "C02"
+  },
+  {
+    "id": "P09",
+    "pergunta": "Qual objetivo dos testes está relacionado à prevenção de defeitos?",
+    "alternativas": [
+      "Detectar defeitos",
+      "Prevenir defeitos",
+      "Ignorar defeitos",
+      "Documentar defeitos"
+    ],
+    "trilha": "T01",
+    "modulo": "M01",
+    "capitulo": "C02"
+  },
+  {
+    "id": "P10",
+    "pergunta": "O que é um teste de aceitação?",
+    "alternativas": [
+      "Teste realizado pelo cliente",
+      "Teste realizado pelo desenvolvedor",
+      "Teste realizado pelo gerente de projeto",
+      "Teste realizado pelo analista de negócios"
+    ],
+    "trilha": "T01",
+    "modulo": "M01",
+    "capitulo": "C02"
+  },
+  {
+    "id": "P11",
+    "pergunta": "Qual é o objetivo do teste de integração?",
+    "alternativas": [
+      "Verificar a interação entre componentes",
+      "Testar funcionalidades isoladas",
+      "Testar a interface gráfica",
+      "Testar a documentação"
+    ],
+    "trilha": "T01",
+    "modulo": "M01",
+    "capitulo": "C02"
+  },
+  {
+    "id": "P12",
+    "pergunta": "O que caracteriza um teste funcional?",
+    "alternativas": [
+      "Avalia requisitos especificados",
+      "Avalia performance",
+      "Avalia segurança",
+      "Avalia usabilidade"
+    ],
+    "trilha": "T01",
+    "modulo": "M01",
+    "capitulo": "C02"
+  },
+  {
+    "id": "P13",
+    "pergunta": "Qual é o objetivo do teste de sistema?",
+    "alternativas": [
+      "Testar o sistema como um todo",
+      "Testar uma unidade isolada",
+      "Testar um requisito",
+      "Testar uma funcionalidade específica"
+    ],
+    "trilha": "T01",
+    "modulo": "M01",
+    "capitulo": "C02"
+  },
+  {
+    "id": "P14",
+    "pergunta": "O que é um caso de teste?",
+    "alternativas": [
+      "Uma condição a ser verificada",
+      "Um erro encontrado",
+      "Uma funcionalidade desenvolvida",
+      "Um requisito do cliente"
+    ],
+    "trilha": "T01",
+    "modulo": "M01",
+    "capitulo": "C02"
+  },
+  {
+    "id": "P15",
+    "pergunta": "Qual documento descreve o planejamento dos testes?",
+    "alternativas": [
+      "Plano de Testes",
+      "Plano de Projeto",
+      "Plano de Negócios",
+      "Plano de Implantação"
+    ],
+    "trilha": "T01",
+    "modulo": "M01",
+    "capitulo": "C02"
+  },
+  {
+    "id": "P16",
+    "pergunta": "O que é teste exploratório?",
+    "alternativas": [
+      "Teste sem roteiro pré-definido",
+      "Teste automatizado",
+      "Teste de regressão",
+      "Teste de performance"
+    ],
+    "trilha": "T01",
+    "modulo": "M01",
+    "capitulo": "C02"
+  },
+  {
+    "id": "P17",
+    "pergunta": "Qual é a importância dos testes de software?",
+    "alternativas": [
+      "Reduzir riscos e custos",
+      "Aumentar o tempo de entrega",
+      "Ignorar requisitos",
+      "Evitar documentação"
+    ],
+    "trilha": "T01",
+    "modulo": "M01",
+    "capitulo": "C02"
+  },
+  {
+    "id": "P18",
+    "pergunta": "O que é automação de testes?",
+    "alternativas": [
+      "Uso de ferramentas para executar testes automaticamente",
+      "Execução manual dos testes",
+      "Documentação dos testes",
+      "Planejamento dos testes"
+    ],
+    "trilha": "T01",
+    "modulo": "M01",
+    "capitulo": "C02"
+  },
+  {
+    "id": "P19",
+    "pergunta": "O que é um ambiente de teste?",
+    "alternativas": [
+      "Infraestrutura para execução dos testes",
+      "Ambiente de produção",
+      "Ambiente de desenvolvimento",
+      "Ambiente de homologação"
+    ],
+    "trilha": "T01",
+    "modulo": "M01",
+    "capitulo": "C02"
+  },
+  {
+    "id": "P20",
+    "pergunta": "Qual é o ciclo de vida de um defeito?",
+    "alternativas": [
+      "Registro, análise, correção, verificação, encerramento",
+      "Planejamento, execução, entrega",
+      "Desenvolvimento, homologação, produção",
+      "Testes, documentação, manutenção"
+    ],
+    "trilha": "T01",
+    "modulo": "M01",
+    "capitulo": "C02"
+  }
+]

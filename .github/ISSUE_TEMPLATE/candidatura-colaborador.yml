@@ -1,0 +1,41 @@
+name: "🙋 Candidatura — Colaborador(a)"
+description: Candidate-se para contribuir regularmente
+title: "🙋 [Candidatura] Seu Nome — Papel"
+labels: ["governança"]
+assignees: []
+body:
+  - type: input
+    id: nome
+    attributes:
+      label: Nome
+    validations:
+      required: true
+  - type: input
+    id: contato
+    attributes:
+      label: Contato (GitHub/LinkedIn/Email)
+    validations:
+      required: true
+  - type: textarea
+    id: motivacao
+    attributes:
+      label: Motivação
+      placeholder: Por que deseja contribuir com regularidade?
+    validations:
+      required: true
+  - type: checkboxes
+    id: papeis
+    attributes:
+      label: Papéis de interesse
+      options:
+        - label: Curadoria de conteúdo técnico
+        - label: Criação/revisão de quizzes
+        - label: Infra/automação/CI
+        - label: Comunicação/divulgação
+        - label: Governança/organização
+        - label: Outras (descrever abaixo)
+  - type: textarea
+    id: disponibilidade
+    attributes:
+      label: Disponibilidade
+      placeholder: Horas por semana, período, fuso

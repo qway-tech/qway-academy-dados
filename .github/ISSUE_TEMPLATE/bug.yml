@@ -1,0 +1,46 @@
+name: "🐞 Reportar erro"
+description: Relate um problema que encontrou
+title: "🐞 Erro: "
+labels: ["erro", "prioridade: média"]
+assignees: []
+body:
+  - type: textarea
+    id: descricao
+    attributes:
+      label: Descrição
+      description: Descreva claramente o problema observado.
+      placeholder: Ex. Ao clicar em "Entrar", ocorre um erro 500...
+    validations:
+      required: true
+  - type: textarea
+    id: passos
+    attributes:
+      label: Passos para reproduzir
+      placeholder: |
+        1. Acessar ...
+        2. Clicar em ...
+        3. Observar ...
+    validations:
+      required: true
+  - type: input
+    id: esperado
+    attributes:
+      label: Comportamento esperado
+      placeholder: O que você esperava que acontecesse?
+    validations:
+      required: true
+  - type: textarea
+    id: evidencias
+    attributes:
+      label: Evidências
+      description: Logs, prints, vídeo, console, rede, etc.
+  - type: dropdown
+    id: impacto
+    attributes:
+      label: Impacto
+      options:
+        - baixo
+        - médio
+        - alto
+    validations:
+      required: true

@@ -1,0 +1,262 @@
+[
+  {
+    "id": "P01",
+    "pergunta": "O que é QA?",
+    "alternativas": [
+      "Qualidade de Software",
+      "Garantia de Qualidade",
+      "Teste de Software",
+      "Desenvolvimento Ágil"
+    ],
+    "trilha": "T99",
+    "modulo": "M99",
+    "capitulo": "C99"
+  },
+  {
+    "id": "P02",
+    "pergunta": "Qual é o principal objetivo dos testes de software?",
+    "alternativas": [
+      "Encontrar bugs",
+      "Melhorar a performance",
+      "Garantir a satisfação do cliente",
+      "Reduzir custos"
+    ],
+    "trilha": "T99",
+    "modulo": "M99",
+    "capitulo": "C99"
+  },
+  {
+    "id": "P03",
+    "pergunta": "Qual das opções abaixo é um tipo de teste?",
+    "alternativas": [
+      "Teste de Unidade",
+      "Teste de Integração",
+      "Teste de Sistema",
+      "Todas as anteriores"
+    ],
+    "trilha": "T99",
+    "modulo": "M99",
+    "capitulo": "C99"
+  },
+  {
+    "id": "P04",
+    "pergunta": "Qual das opções abaixo NÃO é um princípio de teste?",
+    "alternativas": [
+      "Testes mostram a ausência de defeitos",
+      "Testes exaustivos são possíveis",
+      "Testes antecipados economizam tempo e dinheiro",
+      "Agrupamento de defeitos é comum"
+    ],
+    "trilha": "T99",
+    "modulo": "M99",
+    "capitulo": "C99"
+  },
+  {
+    "id": "P05",
+    "pergunta": "O que significa 'defeito' em QA?",
+    "alternativas": [
+      "Erro de sintaxe no código",
+      "Qualquer falha estética na interface",
+      "Desvio entre o comportamento esperado e o real",
+      "Interrupção do build automático"
+    ],
+    "trilha": "T99",
+    "modulo": "M99",
+    "capitulo": "C99"
+  },
+  {
+    "id": "P06",
+    "pergunta": "O que é um teste de regressão?",
+    "alternativas": [
+      "Um teste feito por usuários finais",
+      "Um teste para validar requisitos novos",
+      "Um teste para verificar se uma mudança não quebrou algo que já funcionava",
+      "Um teste de performance sob carga"
+    ],
+    "trilha": "T99",
+    "modulo": "M99",
+    "capitulo": "C99"
+  },
+  {
+    "id": "P07",
+    "pergunta": "Quem normalmente escreve os casos de teste?",
+    "alternativas": [
+      "Product Owner",
+      "Testadores ou QAs",
+      "Clientes",
+      "Desenvolvedores de infraestrutura"
+    ],
+    "trilha": "T99",
+    "modulo": "M99",
+    "capitulo": "C99"
+  },
+  {
+    "id": "P08",
+    "pergunta": "Em que fase do ciclo de vida o QA pode começar a atuar?",
+    "alternativas": [
+      "Apenas na homologação",
+      "Após o desenvolvimento",
+      "Desde a análise de requisitos",
+      "No momento da entrega para o cliente"
+    ],
+    "trilha": "T99",
+    "modulo": "M99",
+    "capitulo": "C99"
+  },
+  {
+    "id": "P09",
+    "pergunta": "Qual é a principal vantagem de testes bem documentados?",
+    "alternativas": [
+      "Servem para treinar desenvolvedores",
+      "Permitem testes mais caros",
+      "Facilitam a repetibilidade e rastreabilidade",
+      "Reduzem o número de reuniões"
+    ],
+    "trilha": "T99",
+    "modulo": "M99",
+    "capitulo": "C99"
+  },
+  {
+    "id": "P10",
+    "pergunta": "O que é o ciclo de vida do teste?",
+    "alternativas": [
+      "Um documento que lista defeitos",
+      "O conjunto de fases de planejamento, execução e encerramento de testes",
+      "A sequência de builds num pipeline CI/CD",
+      "A evolução das ferramentas de teste"
+    ],
+    "trilha": "T99",
+    "modulo": "M99",
+    "capitulo": "C99"
+  },
+  {
+    "id": "P11",
+    "pergunta": "Qual é a diferença entre teste funcional e não funcional?",
+    "alternativas": [
+      "Funcional testa o código-fonte, não funcional testa o layout",
+      "Funcional verifica comportamentos, não funcional avalia atributos como performance",
+      "Funcional é feito manualmente, não funcional é sempre automatizado",
+      "Funcional testa usuários, não funcional testa requisitos"
+    ],
+    "trilha": "T99",
+    "modulo": "M99",
+    "capitulo": "C99"
+  },
+  {
+    "id": "P12",
+    "pergunta": "Qual das opções representa um nível de teste?",
+    "alternativas": [
+      "Teste de unidade",
+      "Teste de desempenho",
+      "Teste exploratório",
+      "Teste caixa-preta"
+    ],
+    "trilha": "T99",
+    "modulo": "M99",
+    "capitulo": "C99"
+  },
+  {
+    "id": "P13",
+    "pergunta": "Quem normalmente aprova a entrega de uma funcionalidade?",
+    "alternativas": [
+      "Scrum Master",
+      "Equipe de QA",
+      "Product Owner ou cliente",
+      "Equipe de infraestrutura"
+    ],
+    "trilha": "T99",
+    "modulo": "M99",
+    "capitulo": "C99"
+  },
+  {
+    "id": "P14",
+    "pergunta": "O que é teste exploratório?",
+    "alternativas": [
+      "Um teste que segue scripts rígidos",
+      "Uma técnica onde o testador aprende e testa ao mesmo tempo",
+      "Um tipo de teste não documentado e sem valor",
+      "Um teste feito por bots"
+    ],
+    "trilha": "T99",
+    "modulo": "M99",
+    "capitulo": "C99"
+  },
+  {
+    "id": "P15",
+    "pergunta": "Qual é a principal característica de um bom relatório de bug?",
+    "alternativas": [
+      "Ser curto",
+      "Ter muitos prints",
+      "Reproduzível e claro",
+      "Apontar o culpado"
+    ],
+    "trilha": "T99",
+    "modulo": "M99",
+    "capitulo": "C99"
+  },
+  {
+    "id": "P16",
+    "pergunta": "A responsabilidade pelo controle da qualidade é de quem?",
+    "alternativas": [
+      "Apenas do time de QA",
+      "Dos testadores sêniores",
+      "De toda a equipe de desenvolvimento",
+      "Do gerente de projeto"
+    ],
+    "trilha": "T99",
+    "modulo": "M99",
+    "capitulo": "C99"
+  },
+  {
+    "id": "P17",
+    "pergunta": "Qual dessas tarefas está fora do escopo do QA?",
+    "alternativas": [
+      "Participar da definição de critérios de aceitação",
+      "Planejar testes automatizados",
+      "Desenvolver funcionalidades da aplicação",
+      "Reportar e acompanhar defeitos"
+    ],
+    "trilha": "T99",
+    "modulo": "M99",
+    "capitulo": "C99"
+  },
+  {
+    "id": "P18",
+    "pergunta": "O que é um ambiente de testes?",
+    "alternativas": [
+      "Um grupo de QAs trabalhando juntos",
+      "Uma cópia do ambiente de produção para executar testes",
+      "Um conjunto de documentos de teste",
+      "Um pipeline de CI/CD"
+    ],
+    "trilha": "T99",
+    "modulo": "M99",
+    "capitulo": "C99"
+  },
+  {
+    "id": "P19",
+    "pergunta": "Por que o QA participa das reuniões de planejamento?",
+    "alternativas": [
+      "Para acompanhar o desempenho da equipe",
+      "Para garantir que os critérios de qualidade sejam considerados desde o início",
+      "Para aprovar as tarefas dos desenvolvedores",
+      "Para atualizar os clientes"
+    ],
+    "trilha": "T99",
+    "modulo": "M99",
+    "capitulo": "C99"
+  },
+  {
+    "id": "P20",
+    "pergunta": "Qual das opções representa uma técnica de teste baseada em experiência?",
+    "alternativas": [
+      "Análise de valores-limite",
+      "Particionamento de equivalência",
+      "Teste exploratório",
+      "Tabela de decisão"
+    ],
+    "trilha": "T99",
+    "modulo": "M99",
+    "capitulo": "C99"
+  }
+]

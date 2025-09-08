@@ -1,0 +1,72 @@
+{
+  "trilha": "t01",
+  "modulo": "m01",
+  "capitulos": [
+    {
+      "id": "c01",
+      "titulo": "📘 Capítulo 1 – Introdução à QA e Testes de Software",
+      "descricao": "Apresenta os fundamentos de QA e Testes de Software, diferenças entre QA e QC, objetivos e importância no ciclo de desenvolvimento.",
+      "ordem": 1
+    },
+    {
+      "id": "c02",
+      "titulo": "📘 Capítulo 02 – Princípios e Objetivos dos Testes",
+      "descricao": "Explora princípios e objetivos dos testes, reforçando prevenção de defeitos, melhoria contínua e entrega de valor ao negócio.",
+      "ordem": 2
+    },
+    {
+      "id": "c03",
+      "titulo": "📘 Capítulo 03 – Ciclo de Vida do Desenvolvimento e dos Testes",
+      "descricao": "Relaciona ciclos de vida de desenvolvimento e de testes, mapeando atividades, artefatos e responsabilidades por fase.",
+      "ordem": 3
+    },
+    {
+      "id": "c04",
+      "titulo": "📘 Capítulo 04 – Tipos, Níveis e Classificações de Teste",
+      "descricao": "Define tipos, níveis e classificações de teste, quando aplicar cada um e como combiná-los na estratégia de testes.",
+      "ordem": 4
+    },
+    {
+      "id": "c05",
+      "titulo": "📘 Capítulo 05 – Técnicas de Teste: Caixa-Preta, Caixa-Branca e Baseadas em Experiência",
+      "descricao": "Apresenta técnicas de caixa‑preta, caixa‑branca e baseadas em experiência, com exemplos práticos de aplicação.",
+      "ordem": 5
+    },
+    {
+      "id": "c06",
+      "titulo": "📘 Capítulo 06 – Gestão de Defeitos e Comunicação de Resultados",
+      "descricao": "Cobre gestão de defeitos: ciclo de vida, severidade e prioridade, comunicação, triagem e rastreabilidade.",
+      "ordem": 6
+    },
+    {
+      "id": "c07",
+      "titulo": "📘 Capítulo 07 – Testes em Diferentes Contextos e Abordagens",
+      "descricao": "Discute testes em diferentes contextos (ágil, web, mobile, APIs, dados) e abordagens complementares de validação.",
+      "ordem": 7
+    },
+    {
+      "id": "c08",
+      "titulo": "📘 Capítulo 08 – Atividades e Processo Estruturado de Teste",
+      "descricao": "Descreve um processo estruturado de testes: planejamento, projeto, execução, registro, avaliação e encerramento, com métricas.",
+      "ordem": 8
+    },
+    {
+      "id": "c09",
+      "titulo": "📘 Capítulo 09 – Ferramentas de Teste e Suporte",
+      "descricao": "Introduz categorias de ferramentas de teste e suporte, critérios de seleção e boas práticas de adoção no time.",
+      "ordem": 9
+    },
+    {
+      "id": "c10",
+      "titulo": "📘 Capítulo 10 – Qualidade, Risco e Cobertura",
+      "descricao": "Trata de qualidade, risco e cobertura; como medir, priorizar, comunicar risco residual e orientar decisões.",
+      "ordem": 10
+    },
+    {
+      "id": "c11",
+      "titulo": "📘 Capítulo 11 – Considerações Finais e Preparação para Avaliação",
+      "descricao": "Revisão geral e preparação para avaliação: consolidação dos conceitos, dicas de estudo e próximos passos.",
+      "ordem": 11
+    }
+  ]
+}

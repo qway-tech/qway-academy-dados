@@ -1,0 +1,27 @@
+name: "🏢 Apoio institucional"
+description: Proposta para se tornar Apoiador(a) do projeto
+title: "🏢 [Apoio] Nome da Instituição"
+labels: ["governança", "documentação"]
+assignees: []
+body:
+  - type: input
+    id: instituicao
+    attributes:
+      label: Nome da instituição/comunidade
+    validations:
+      required: true
+  - type: input
+    id: site
+    attributes:
+      label: Site ou rede social principal
+  - type: textarea
+    id: motivo
+    attributes:
+      label: Motivação do apoio
+    validations:
+      required: true
+  - type: textarea
+    id: forma
+    attributes:
+      label: Forma de colaboração pretendida
+      placeholder: Divulgação, adoção das certificações, participação, etc.

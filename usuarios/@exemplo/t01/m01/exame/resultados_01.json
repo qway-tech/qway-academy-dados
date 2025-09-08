@@ -1,0 +1,21 @@
+{
+  "usuario": "@exemplo",
+  "trilha": "T01",
+  "modulo": "M01",
+  "tipo": "exame",
+  "tentativa": 1,
+  "avaliado_em": "2025-08-08T18:33:10Z",
+  "avaliador": "workflow_auto",
+  "pontuacao": {
+    "total_questoes": 10,
+    "acertos": 7,
+    "erros": 3,
+    "percentual": 70
+  },
+  "feedback": "Você está no caminho! Revise os tópicos com erro e tente novamente.",
+  "meta": {
+    "versao_exame": "v1.0",
+    "corrigido_via": "github-action",
+    "env": "T01-M01"
+  }
+}

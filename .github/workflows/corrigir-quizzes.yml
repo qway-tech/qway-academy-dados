@@ -1,0 +1,125 @@
+name: Corrigir Quizzes
+
+on:
+  push:
+    paths:
+      - "usuarios/**/t*/m*/c*/quiz/respostas_*.json"
+
+permissions:
+  contents: write
+
+defaults:
+  run:
+    shell: bash
+
+concurrency:
+  group: quizzes-corrigir-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  detectar:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.build.outputs.matrix }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Localizar respostas alteradas
+        id: changed
+        run: |
+          set -euo pipefail
+          BEFORE="${{ github.event.before }}"
+          AFTER="${{ github.sha }}"
+          PATTERN='^usuarios/.*/t[0-9]+/m[0-9]+/c[0-9]+/quiz/respostas_.*\.json$'
+
+          if [ "$BEFORE" = "0000000000000000000000000000000000000000" ]; then
+            git ls-files -m -o --exclude-standard | grep -E "$PATTERN" || true
+          else
+            git diff --name-only "$BEFORE" "$AFTER" | grep -E "$PATTERN" || true
+          fi > changed.txt
+
+          echo "Arquivos alterados:"
+          cat changed.txt || true
+
+      - name: Montar matriz {file, trilha, modulo, capitulo, envname}
+        id: build
+        run: |
+          set -euo pipefail
+          arr="[]"
+          while IFS= read -r f; do
+            [ -z "$f" ] && continue
+            # Path esperado: usuarios/@login/tXX/mYY/cZZ/quiz/respostas_*.json
+            TID=$(sed -E 's#^usuarios/[^/]+/(t[0-9]+)/.*#\1#;t;d' <<<"$f" | tr '[:lower:]' '[:upper:]')
+            MID=$(sed -E 's#^usuarios/[^/]+/t[0-9]+/(m[0-9]+)/.*#\1#;t;d' <<<"$f" | tr '[:lower:]' '[:upper:]')
+            CID=$(sed -E 's#^usuarios/[^/]+/t[0-9]+/m[0-9]+/(c[0-9]+)/.*#\1#;t;d' <<<"$f" | tr '[:lower:]' '[:upper:]')
+            ENVNAME="${TID}-${MID}"   # ex.: T01-M01 (Environment com o secret do módulo)
+            arr=$(node -e "let a=$arr; a.push({file:'$f', trilha:'$TID', modulo:'$MID', capitulo:'$CID', envname:'$ENVNAME'}); console.log(JSON.stringify(a))")
+          done < changed.txt
+
+          echo "matrix=$arr" >> "$GITHUB_OUTPUT"
+
+  corrigir:
+    needs: detectar
+    if: needs.detectar.outputs.matrix != '' && needs.detectar.outputs.matrix != '[]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    strategy:
+      fail-fast: false
+      matrix:
+        include: ${{ fromJson(needs.detectar.outputs.matrix) }}
+
+    # Seleciona dinamicamente o Environment Txx-Myy para puxar o secret do módulo
+    environment: ${{ matrix.envname }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Instalar dependências (se houver lockfile)
+        run: |
+          if [ -f package-lock.json ]; then
+            npm ci --omit=dev || true
+          fi
+
+      - name: Executar script de correção
+        env:
+          # Caminho do arquivo de respostas alterado (relativo ao repo)
+          ARQUIVO_RESPOSTAS: ${{ matrix.file }}
+          # Identificadores capturados do path (maiúsculos)
+          TID: ${{ matrix.trilha }}
+          MID: ${{ matrix.modulo }}
+          CID: ${{ matrix.capitulo }}
+          # 🔐 Secret por MÓDULO (definido no Environment Txx-Myy)
+          # Conteúdo recomendado: JSON { "P01": 1, "P02": 3, ... }
+          GABARITOS_JSON: ${{ secrets.GABARITOS }}
+        run: |
+          node --version
+          # O script deve:
+          # - Ler process.env.ARQUIVO_RESPOSTAS
+          # - Carregar o JSON de respostas
+          # - Ler process.env.GABARITOS_JSON (map pergunta_id -> indice correto)
+          # - Calcular pontuação
+          # - Gravar usuarios/@login/tXX/mYY/cZZ/quiz/resultados_01.json
+          node scripts/corrigir-quiz-por-modulo.mjs
+
+      - name: Commit resultados
+        run: |
+          git config user.name  "qats-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add usuarios/**/t*/m*/c*/quiz/resultados_*.json || true
+          if ! git diff --cached --quiet; then
+            git commit -m "Resultados de quizzes (workflow automático)"
+            git push
+          else
+            echo "Sem resultados para commit."
+          fi
