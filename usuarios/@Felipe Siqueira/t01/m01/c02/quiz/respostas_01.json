@@ -1,0 +1,43 @@
+{
+  "usuario": "@Felipe Siqueira",
+  "trilha": "T01",
+  "modulo": "M01",
+  "capitulo": "C02",
+  "tipo": "quiz",
+  "tentativa": 1,
+  "iniciado_em": "2025-09-12T20:39:53.213Z",
+  "enviado_em": "2025-09-12T20:43:25.345Z",
+  "duracao_segundos": 212,
+  "respostas": [
+    {
+      "pergunta_id": "P03",
+      "resposta_index": 3,
+      "tempo_por_questao": 48
+    },
+    {
+      "pergunta_id": "P08",
+      "resposta_index": 0,
+      "tempo_por_questao": 41
+    },
+    {
+      "pergunta_id": "P12",
+      "resposta_index": 0,
+      "tempo_por_questao": 9
+    },
+    {
+      "pergunta_id": "P10",
+      "resposta_index": 0,
+      "tempo_por_questao": 108
+    },
+    {
+      "pergunta_id": "P17",
+      "resposta_index": 0,
+      "tempo_por_questao": 6
+    }
+  ],
+  "meta": {
+    "versao_quiz": "v1.0",
+    "limite_tentativas": 3,
+    "origem": "plataforma-web"
+  }
+}
