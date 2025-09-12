@@ -4,36 +4,42 @@
             "id": "template01",
             "titulo": "Ferramenta de Gestão de Projeto",
             "descricao": "Planilha para organizar e acompanhar projetos.",
+            "detalhes": "Este template auxilia na gestão de projetos, permitindo acompanhar tarefas, prazos, responsáveis e status em uma planilha estruturada.",
             "link": "https://docs.google.com/spreadsheets/d/146z5e92_oq9ysziUwA_uzxYWSHZaIv2DPqdKuIOeN_c"
         },
         {
             "id": "template02",
             "titulo": "Backlog",
             "descricao": "Documento para registrar, priorizar e acompanhar itens de backlog.",
+            "detalhes": "Modelo para estruturar o backlog de um produto ou projeto, ajudando a registrar, priorizar e acompanhar o progresso dos itens ao longo do tempo.",
             "link": "https://docs.google.com/document/d/1LwtaiocP8sqhbWOnGun-W35MEXZEM2NZ3BOMhrzKv1M"
         },
         {
             "id": "template03",
             "titulo": "Estratégia de Testes",
             "descricao": "Template para definir a estratégia de testes de um projeto.",
+            "detalhes": "Documento base para detalhar os objetivos, escopo, tipos de testes, ferramentas e critérios de sucesso que irão nortear a execução dos testes.",
             "link": "https://docs.google.com/document/d/1E1X4VIcxF8criUPXTZLN0ntZgyQBM30vVa3aZGiAojo"
         },
         {
             "id": "template04",
             "titulo": "Plano de Testes",
             "descricao": "Modelo de plano de testes detalhado para diferentes fases de QA.",
+            "detalhes": "Modelo de plano de testes para organizar as atividades de QA, incluindo cronograma, recursos necessários, riscos e entregáveis esperados.",
             "link": "https://docs.google.com/document/d/1slhKmIRCYQsPxDiPiUbaUA3BiDG6q8wD6QUb_bw8kiw"
         },
         {
             "id": "template05",
             "titulo": "Ferramenta de Gestão de Testes",
             "descricao": "Planilha para acompanhar casos, execuções e resultados de testes.",
+            "detalhes": "Planilha para acompanhar casos de teste, execuções, status e resultados, oferecendo uma visão consolidada da qualidade do produto.",
             "link": "https://docs.google.com/spreadsheets/d/1JTKcUEZoNZzgK_HASaW8ssUdBXyvtfYPf-PEUuccssU"
         },
         {
             "id": "template06",
             "titulo": "Casos de Teste",
             "descricao": "Documento para criação e documentação de casos de teste.",
+            "detalhes": "Documento para criar e organizar casos de teste, descrevendo cenários, passos de execução, resultados esperados e critérios de aceitação.",
             "link": "https://docs.google.com/document/d/1cuQ8Syw3GD8YVpYmw6Jx6E1fNcL2WW_AcuvaKqqFaCw"
         }
     ]
