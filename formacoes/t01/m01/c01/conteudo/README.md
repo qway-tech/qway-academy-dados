@@ -8,8 +8,7 @@
   1. Leia o material na ordem sugerida, fazendo anotações.
   2. Monte um glossário pessoal (QA, QC, defeito, falha, regressão, etc.).
   3. Reflita em exemplos práticos do seu contexto de trabalho.
-- **Ao final:** realize o **Quiz do Capítulo** para consolidar o aprendizado:  
-  👉 **Quiz:** [http://academy.qway.com.br/quiz?trilha=t01&modulo=m01&capitulo=c01](http://academy.qway.com.br/quiz?trilha=t01&modulo=m01&capitulo=c01)
+- **Ao final:** realize o **[Quiz do Capítulo](http://academy.qway.com.br/quiz?trilha=t01&modulo=m01&capitulo=c01)** para consolidar o aprendizado.
 
 ---
 
