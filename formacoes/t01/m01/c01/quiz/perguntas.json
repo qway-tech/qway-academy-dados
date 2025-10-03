@@ -43,7 +43,7 @@
     "pergunta": "Qual das opções abaixo NÃO é um princípio de teste?",
     "alternativas": [
       "Testes mostram a ausência de defeitos",
-      "Testes exaustivos são possíveis",
+      "Testes exaustivos são impossíveis",
       "Testes antecipados economizam tempo e dinheiro",
       "Agrupamento de defeitos é comum"
     ],

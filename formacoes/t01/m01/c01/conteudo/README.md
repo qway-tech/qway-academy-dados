@@ -61,8 +61,12 @@ QA é como o planejamento e preparo de uma receita para garantir que o bolo saia
 - **Verificar conformidade** com requisitos e critérios de aceitação.  
 - **Reduzir riscos** técnicos, de negócio e regulatórios.  
 
+De acordo com o ISTQB, o principal objetivo dos testes de software é evidenciar defeitos antes que cheguem ao usuário. Outros objetivos incluem aumentar a confiança, verificar conformidade e reduzir riscos.
+
 **Explicação adicional:**  
 Testes ajudam a evitar que um sistema com falhas chegue ao usuário final, o que poderia causar perdas financeiras, insatisfação ou até problemas legais. Por exemplo, um erro em um sistema de pagamentos pode causar transações incorretas, impactando diretamente o negócio.
+
+> 📝 **Nota:** Os objetivos dos testes de software serão aprofundados no Capítulo 2, incluindo exemplos práticos e discussões sobre metas em diferentes contextos. Aqui, apresentamos apenas uma visão introdutória.
 
 **Exercício Prático:** Pense em um sistema que você já usou e identifique um possível risco que os testes poderiam ter evitado.
 
@@ -70,17 +74,19 @@ Testes ajudam a evitar que um sistema com falhas chegue ao usuário final, o que
 
 ## 4) Princípios fundamentais de teste (ISTQB)
 
-1. Testes mostram a **presença**, não a ausência de defeitos.  
-2. Testes **exaustivos são impossíveis** (priorização é essencial).  
-3. **Começar cedo** reduz custo e tempo.  
-4. **Defeitos se concentram** em áreas específicas.  
-5. **Paradoxo do pesticida:** variar técnicas e casos.  
-6. Testes **dependem do contexto**.  
+1. Testes mostram a **presença**, não a ausência de defeitos.
+2. Testes **exaustivos são impossíveis** (priorização é essencial).
+3. **Começar cedo** reduz custo e tempo.
+4. **Defeitos se concentram** em áreas específicas.
+5. **Paradoxo do pesticida:** variar técnicas e casos.
+6. Testes **dependem do contexto**.
 7. **Ausência de erros** não garante um produto **útil**.
 
 **Analogias e exemplos:**  
 - O princípio 1 é como testar um carro: se não encontrar defeitos, não significa que não existam.  
 - O 5º princípio lembra que usar sempre os mesmos testes é como usar sempre o mesmo pesticida na lavoura, que deixa de funcionar com o tempo.
+
+> 📝 **Nota:** O Capítulo 2 trará um detalhamento completo de cada princípio, com exemplos práticos, históricos e aplicações em diferentes contextos. Aqui, apresentamos apenas um panorama inicial.
 
 **Exercício Prático:** Identifique uma situação em que começar o teste cedo poderia ter evitado retrabalho.
 
@@ -171,6 +177,8 @@ Ter um ambiente de teste estável e isolado evita interferências externas e gar
 - **Product Owner/Cliente:** respondem pelos critérios de aceitação e aprovam entregas.  
 - **Práticas colaborativas:** *Refinement*, *Planning*, *Three Amigos* (Negócio + Dev + QA).
 
+Importante: o QA não é responsável por desenvolver funcionalidades do sistema, mas sim por apoiar a equipe na definição de critérios de qualidade, execução e análise de testes.
+
 ![Three Amigos – colaboração em Ágil](assets/image-3.png)  
 📷 **Three Amigos – colaboração em Ágil**
 
@@ -236,6 +244,8 @@ Um bom bug report deve ser:
 
 ![Ciclo de Vida do Teste – STLC](assets/image-4.png)
 📷 **Ciclo de Vida do Teste – STLC**
+
+> 📝 **Nota:** O Capítulo 3 irá explorar como o STLC se integra aos principais modelos de desenvolvimento de software, como Cascata, V-Model, Espiral e Ágil, detalhando adaptações e exemplos práticos.
 
 **Exercício Prático:** Escolha uma fase do STLC e descreva como você realizaria suas atividades em um projeto real.
 
@@ -308,7 +318,7 @@ Conclua seus estudos realizando o **[Quiz do Capítulo](http://academy.qway.com.
 
 ## Mini Glossário
 
-- **QA (Quality Assurance):** conjunto de atividades preventivas para garantir a qualidade do processo e produto.  
+- **QA (Quality Assurance / Garantia da Qualidade):** conjunto de atividades preventivas para garantir a qualidade do processo e produto.  
 - **QC (Quality Control):** conjunto de atividades detectivas para identificar defeitos no produto.  
 - **STLC (Software Testing Life Cycle):** ciclo de vida do teste, desde planejamento até encerramento.  
 - **Defeito (Defect):** falha no artefato que pode causar problemas no software.  

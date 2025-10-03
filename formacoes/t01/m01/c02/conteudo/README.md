@@ -16,7 +16,11 @@
 
 ---
 
+
 ## 1. Objetivos dos Testes de Software
+
+> 🔎 Nota: No Capítulo 1, vimos uma introdução breve sobre os objetivos dos testes.  
+> Neste capítulo, vamos aprofundar o tema, explorando sua aplicação prática e benefícios de longo prazo.
 
 ### 1.1 O que são objetivos de teste?
 
@@ -52,7 +56,28 @@ Além dos objetivos imediatos, os testes de software trazem benefícios signific
 
 ---
 
+### 1.4 Tipos e Níveis de Teste (Revisão e Aprofundamento)
+
+Os testes de software são organizados em diferentes **níveis**, cada um com seu objetivo e foco:
+
+- **Teste de Unidade:** Verifica partes isoladas do código (funções, métodos, componentes) para garantir que funcionam corretamente de forma independente. Exemplo: testar uma função de cálculo de juros.
+- **Teste de Integração:** Avalia a interação entre módulos ou componentes, verificando se trocam informações corretamente. Exemplo: testar se o módulo de pagamento conversa corretamente com o de emissão de recibos.
+- **Teste de Sistema:** Verifica o sistema como um todo, validando se todos os requisitos (funcionais e não funcionais) estão atendidos no ambiente integrado. Exemplo: testar um fluxo completo de compra em um e-commerce.
+- **Teste de Aceitação:** Realizado pelo cliente ou usuário final, valida se o sistema atende às necessidades e critérios de aceitação definidos. Exemplo: homologação do sistema por parte do cliente antes do go-live.
+
+Além dos níveis, os testes podem ser classificados como:
+- **Testes Funcionais:** Avaliam o que o sistema faz, ou seja, suas funcionalidades e comportamentos esperados (exemplo: cadastro de usuário, cálculo de desconto).
+- **Testes Não Funcionais:** Avaliam como o sistema se comporta, incluindo desempenho, segurança, usabilidade, compatibilidade, entre outros (exemplo: tempo de resposta, resistência a ataques).
+
+#### Exercício Prático
+Liste exemplos de testes funcionais e não funcionais em um sistema que você utiliza no dia a dia. Em seguida, identifique qual nível de teste seria mais adequado para cada exemplo.
+---
+
+
 ## 2. Princípios Fundamentais do Teste (ISTQB)
+
+> 🔎 Nota: O Capítulo 1 apresentou os sete princípios de forma resumida.  
+> Aqui, você encontrará o detalhamento completo de cada princípio, com exemplos práticos, históricos e conexões com práticas modernas.
 
 ### 2.1 Introdução aos Princípios
 
@@ -140,6 +165,7 @@ Esses casos ilustram como o descuido com princípios básicos de teste pode leva
 
 ---
 
+
 ## 3. Valor Agregado dos Testes
 
 ### 3.1 Por que investir em testes?
@@ -178,6 +204,20 @@ Além dos benefícios técnicos e de processo, os testes agregam valor organizac
 
 Esse conjunto de benefícios reforça a importância estratégica dos testes para o sucesso do negócio.
 
+> 🔮 Nota de transição: No próximo capítulo (Capítulo 3), veremos como os testes e seus princípios se integram aos diferentes modelos de desenvolvimento de software (Cascata, V-Model, Espiral, Ágil).
+
+---
+
+### 3.6 Casos de Teste e Planejamento
+
+Um **caso de teste** é uma condição, conjunto de entradas e resultados esperados, projetado para verificar se uma funcionalidade ou requisito do sistema está correto.
+
+- **Exemplo:** Caso de teste para login: inserir usuário e senha válidos → resultado esperado: acesso autorizado.
+
+O **plano de testes** é um documento que descreve o escopo, abordagem, recursos e cronograma das atividades de teste. Ele serve como guia para o time, garantindo que todos saibam o que, como e quando testar, além de definir critérios de sucesso e responsabilidades.
+
+#### Exercício Prático
+Elabore um caso de teste simples para uma funcionalidade de "recuperação de senha". Depois, liste três itens que você incluiria em um plano de testes para esse sistema.
 ---
 
 ### 3.5 Comparações entre Contextos: Ágil vs Tradicional
@@ -199,6 +239,10 @@ Em ambientes ágeis, os testes são integrados em todas as etapas do ciclo de vi
 - Nem tudo pode ser testado — limitações de tempo, orçamento e complexidade.
 - Testes não garantem produto livre de defeitos, mas aumentam a confiança.
 - Resultados de testes são amostragens, não provas absolutas.
+
+> 💡 **Nota:** O **teste exploratório** é uma técnica válida em que o testador utiliza sua experiência e criatividade para explorar o sistema sem um roteiro fixo, buscando identificar comportamentos inesperados ou falhas que passariam despercebidas em roteiros tradicionais.
+
+> ⚙️ **Automação de testes** é uma prática que utiliza ferramentas para executar scripts de teste automaticamente, ampliando a cobertura e a repetibilidade dos testes, além de acelerar a detecção de regressões e liberar tempo dos testadores para análises mais criativas.
 
 ---
 
@@ -230,6 +274,22 @@ Esses exemplos mostram como mitos podem comprometer a eficácia dos testes e o s
 ---
 
 ## 🚀 Próximo passo
+
+---
+
+### 4.5 Ambiente de Teste e Ciclo de Vida de Defeitos
+
+O **ambiente de teste** é a infraestrutura (hardware, software, dados, configurações) preparada para executar testes de forma segura, isolada do ambiente de produção. Ele permite simular situações reais sem riscos ao sistema em uso pelos clientes.
+
+O **ciclo de vida de um defeito** inclui as etapas:
+1. **Registro:** O defeito é identificado e documentado (ex: bug report).
+2. **Análise:** O time avalia o impacto, prioridade e causa do defeito.
+3. **Correção:** O desenvolvedor ajusta o código para resolver o problema.
+4. **Verificação:** O teste é reexecutado para garantir que o defeito foi corrigido.
+5. **Encerramento:** O defeito é fechado após validação.
+
+#### Exercício Prático
+Descreva um exemplo de ambiente de teste que você já utilizou ou conhece. Em seguida, relate um fluxo completo do ciclo de vida de um defeito, desde sua detecção até o encerramento.
 
 Conclua seus estudos realizando o **[Quiz do Capítulo](http://academy.qway.com.br/quiz?trilha=t01&modulo=m01&capitulo=c02)** para consolidar e validar seu aprendizado.
 
