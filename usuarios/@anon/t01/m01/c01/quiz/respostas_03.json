@@ -1,0 +1,43 @@
+{
+  "usuario": "@anon",
+  "trilha": "T01",
+  "modulo": "M01",
+  "capitulo": "C01",
+  "tipo": "quiz",
+  "tentativa": 3,
+  "iniciado_em": "2025-11-24T20:48:11.049Z",
+  "enviado_em": "2025-11-24T20:49:44.116Z",
+  "duracao_segundos": 93,
+  "respostas": [
+    {
+      "pergunta_id": "P12",
+      "resposta_index": 1,
+      "tempo_por_questao": 20
+    },
+    {
+      "pergunta_id": "P05",
+      "resposta_index": 2,
+      "tempo_por_questao": 20
+    },
+    {
+      "pergunta_id": "P20",
+      "resposta_index": 3,
+      "tempo_por_questao": 17
+    },
+    {
+      "pergunta_id": "P01",
+      "resposta_index": 0,
+      "tempo_por_questao": 18
+    },
+    {
+      "pergunta_id": "P18",
+      "resposta_index": 1,
+      "tempo_por_questao": 13
+    }
+  ],
+  "meta": {
+    "versao_quiz": "v1.0",
+    "limite_tentativas": 3,
+    "origem": "plataforma-web"
+  }
+}
