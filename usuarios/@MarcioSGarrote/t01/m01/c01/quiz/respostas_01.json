@@ -6,8 +6,8 @@
   "tipo": "quiz",
   "tentativa": 1,
   "iniciado_em": "2026-01-14T01:49:25.022Z",
-  "enviado_em": "2026-01-14T01:51:42.784Z",
-  "duracao_segundos": 138,
+  "enviado_em": "2026-01-14T01:53:01.656Z",
+  "duracao_segundos": 217,
   "respostas": [
     {
       "pergunta_id": "P20",
@@ -22,17 +22,17 @@
     {
       "pergunta_id": "P11",
       "resposta_index": 1,
-      "tempo_por_questao": 40
+      "tempo_por_questao": 42
     },
     {
       "pergunta_id": "P15",
       "resposta_index": 2,
-      "tempo_por_questao": 27
+      "tempo_por_questao": 41
     },
     {
       "pergunta_id": "P10",
       "resposta_index": 1,
-      "tempo_por_questao": 25
+      "tempo_por_questao": 88
     }
   ],
   "meta": {
