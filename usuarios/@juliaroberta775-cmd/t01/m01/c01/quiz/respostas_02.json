@@ -1,0 +1,43 @@
+{
+  "usuario": "@juliaroberta775-cmd",
+  "trilha": "T01",
+  "modulo": "M01",
+  "capitulo": "C01",
+  "tipo": "quiz",
+  "tentativa": 2,
+  "iniciado_em": "2026-06-24T14:29:48.770Z",
+  "enviado_em": "2026-06-24T14:31:01.435Z",
+  "duracao_segundos": 73,
+  "respostas": [
+    {
+      "pergunta_id": "P07",
+      "resposta_index": 1,
+      "tempo_por_questao": 16
+    },
+    {
+      "pergunta_id": "P15",
+      "resposta_index": 2,
+      "tempo_por_questao": 26
+    },
+    {
+      "pergunta_id": "P05",
+      "resposta_index": 2,
+      "tempo_por_questao": 5
+    },
+    {
+      "pergunta_id": "P18",
+      "resposta_index": 1,
+      "tempo_por_questao": 11
+    },
+    {
+      "pergunta_id": "P06",
+      "resposta_index": 2,
+      "tempo_por_questao": 4
+    }
+  ],
+  "meta": {
+    "versao_quiz": "v1.0",
+    "limite_tentativas": 3,
+    "origem": "plataforma-web"
+  }
+}
