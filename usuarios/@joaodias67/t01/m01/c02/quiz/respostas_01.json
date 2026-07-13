@@ -1,0 +1,43 @@
+{
+  "usuario": "@joaodias67",
+  "trilha": "T01",
+  "modulo": "M01",
+  "capitulo": "C02",
+  "tipo": "quiz",
+  "tentativa": 1,
+  "iniciado_em": "2026-07-13T05:03:24.387Z",
+  "enviado_em": "2026-07-13T05:04:27.177Z",
+  "duracao_segundos": 63,
+  "respostas": [
+    {
+      "pergunta_id": "P12",
+      "resposta_index": 0,
+      "tempo_por_questao": 4
+    },
+    {
+      "pergunta_id": "P14",
+      "resposta_index": 0,
+      "tempo_por_questao": 11
+    },
+    {
+      "pergunta_id": "P09",
+      "resposta_index": 1,
+      "tempo_por_questao": 19
+    },
+    {
+      "pergunta_id": "P19",
+      "resposta_index": 0,
+      "tempo_por_questao": 8
+    },
+    {
+      "pergunta_id": "P05",
+      "resposta_index": 1,
+      "tempo_por_questao": 12
+    }
+  ],
+  "meta": {
+    "versao_quiz": "v1.0",
+    "limite_tentativas": 3,
+    "origem": "plataforma-web"
+  }
+}
