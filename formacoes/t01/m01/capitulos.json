@@ -11,56 +11,56 @@
     },
     {
       "id": "c02",
-      "titulo": "📘 Capítulo 02 – Princípios e Objetivos dos Testes",
+      "titulo": "📘 Capítulo 2 – Princípios e Objetivos dos Testes",
       "descricao": "Explora princípios e objetivos dos testes, reforçando prevenção de defeitos, melhoria contínua e entrega de valor ao negócio.",
       "ordem": 2,
       "status": "em_breve"
     },
     {
       "id": "c03",
-      "titulo": "📘 Capítulo 03 – Ciclo de Vida do Desenvolvimento e dos Testes",
+      "titulo": "📘 Capítulo 3 – Ciclo de Vida do Desenvolvimento e dos Testes",
       "descricao": "Relaciona ciclos de vida de desenvolvimento e de testes, mapeando atividades, artefatos e responsabilidades por fase.",
       "ordem": 3,
       "status": "em_breve"
     },
     {
       "id": "c04",
-      "titulo": "📘 Capítulo 04 – Tipos, Níveis e Classificações de Teste",
+      "titulo": "📘 Capítulo 4 – Tipos, Níveis e Classificações de Teste",
       "descricao": "Define tipos, níveis e classificações de teste, quando aplicar cada um e como combiná-los na estratégia de testes.",
       "ordem": 4,
       "status": "em_breve"
     },
     {
       "id": "c05",
-      "titulo": "📘 Capítulo 05 – Técnicas de Teste: Caixa-Preta, Caixa-Branca e Baseadas em Experiência",
+      "titulo": "📘 Capítulo 5 – Técnicas de Teste: Caixa-Preta, Caixa-Branca e Baseadas em Experiência",
       "descricao": "Apresenta técnicas de caixa‑preta, caixa‑branca e baseadas em experiência, com exemplos práticos de aplicação.",
       "ordem": 5,
       "status": "em_breve"
     },
     {
       "id": "c06",
-      "titulo": "📘 Capítulo 06 – Gestão de Defeitos e Comunicação de Resultados",
+      "titulo": "📘 Capítulo 6 – Gestão de Defeitos e Comunicação de Resultados",
       "descricao": "Cobre gestão de defeitos: ciclo de vida, severidade e prioridade, comunicação, triagem e rastreabilidade.",
       "ordem": 6,
       "status": "em_breve"
     },
     {
       "id": "c07",
-      "titulo": "📘 Capítulo 07 – Testes em Diferentes Contextos e Abordagens",
+      "titulo": "📘 Capítulo 7 – Testes em Diferentes Contextos e Abordagens",
       "descricao": "Discute testes em diferentes contextos (ágil, web, mobile, APIs, dados) e abordagens complementares de validação.",
       "ordem": 7,
       "status": "em_breve"
     },
     {
       "id": "c08",
-      "titulo": "📘 Capítulo 08 – Atividades e Processo Estruturado de Teste",
+      "titulo": "📘 Capítulo 8 – Atividades e Processo Estruturado de Teste",
       "descricao": "Descreve um processo estruturado de testes: planejamento, projeto, execução, registro, avaliação e encerramento, com métricas.",
       "ordem": 8,
       "status": "em_breve"
     },
     {
       "id": "c09",
-      "titulo": "📘 Capítulo 09 – Ferramentas de Teste e Suporte",
+      "titulo": "📘 Capítulo 9 – Ferramentas de Teste e Suporte",
       "descricao": "Introduz categorias de ferramentas de teste e suporte, critérios de seleção e boas práticas de adoção no time.",
       "ordem": 9,
       "status": "em_breve"
