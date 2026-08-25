@@ -6,16 +6,16 @@
   "additionalProperties": false,
   "required": [
     "schemaVersion",
-    "generatedAt",
+    "generatorVersion",
     "items"
   ],
   "properties": {
     "schemaVersion": {
       "const": "2.0"
     },
-    "generatedAt": {
+    "generatorVersion": {
       "type": "string",
-      "format": "date-time"
+      "pattern": "^\\d+\\.\\d+$"
     },
     "items": {
       "type": "array",
@@ -29,7 +29,9 @@
           "type",
           "status",
           "sourceLocale",
-          "availableLocales"
+          "availableLocales",
+          "contentPath",
+          "locales"
         ],
         "properties": {
           "id": {
@@ -78,11 +80,56 @@
               ]
             }
           },
+          "contentPath": {
+            "type": "string",
+            "pattern": "^content/resources/"
+          },
           "tags": {
             "type": "array",
             "uniqueItems": true,
             "items": {
               "type": "string"
+            }
+          },
+          "authors": {
+            "type": "array",
+            "items": {
+              "type": "object"
+            }
+          },
+          "maintainers": {
+            "type": "array",
+            "items": {
+              "type": "object"
+            }
+          },
+          "metadata": {
+            "type": "object"
+          },
+          "assets": {
+            "type": "array",
+            "items": {
+              "type": "object"
+            }
+          },
+          "links": {
+            "type": "array",
+            "items": {
+              "type": "object"
+            }
+          },
+          "locales": {
+            "type": "object",
+            "minProperties": 1,
+            "propertyNames": {
+              "enum": [
+                "pt",
+                "en",
+                "es"
+              ]
+            },
+            "additionalProperties": {
+              "type": "object"
             }
           }
         }

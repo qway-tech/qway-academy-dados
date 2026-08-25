@@ -1,0 +1,10 @@
+{
+  "schemaVersion": "2.0",
+  "sourceLocale": "pt",
+  "supported": [
+    "pt",
+    "en",
+    "es"
+  ],
+  "migrationFallbackLocale": "pt"
+}
