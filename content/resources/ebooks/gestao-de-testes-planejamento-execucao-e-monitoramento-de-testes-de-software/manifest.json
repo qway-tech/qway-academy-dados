@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "2.0",
+  "id": "resource:ebook:gestao-de-testes-planejamento-execucao-e-monitoramento-de-testes-de-software",
+  "kind": "resource",
+  "type": "ebook",
+  "collection": "ebooks",
+  "slug": "gestao-de-testes-planejamento-execucao-e-monitoramento-de-testes-de-software",
+  "status": "published",
+  "sourceLocale": "pt",
+  "availableLocales": [
+    "pt"
+  ],
+  "legacyIds": [
+    "ebook05"
+  ],
+  "assets": [
+    {
+      "id": "cover",
+      "role": "cover",
+      "path": "assets/capa.png",
+      "mediaType": "image/png"
+    },
+    {
+      "id": "primary-pdf",
+      "role": "primary",
+      "path": "assets/ebook.pdf",
+      "mediaType": "application/pdf"
+    }
+  ],
+  "links": [],
+  "tags": [
+    "avaliacao-de-riscos",
+    "colaboracao-em-equipe",
+    "experiencia-do-usuario",
+    "gestao-de-testes",
+    "melhoria-continua",
+    "planejamento-de-testes",
+    "processos-de-qa",
+    "qualidade-de-software",
+    "revisao-de-processos",
+    "testes-manuais"
+  ],
+  "authors": [
+    {
+      "name": "Daniel Castro - QWay Academy"
+    }
+  ],
+  "metadata": {
+    "format": "PDF",
+    "pageCount": 45,
+    "difficulty": "intermediate",
+    "publicationDate": "2025-01"
+  }
+}

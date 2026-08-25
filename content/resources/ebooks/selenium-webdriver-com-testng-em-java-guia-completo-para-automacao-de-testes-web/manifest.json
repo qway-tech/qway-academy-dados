@@ -1,0 +1,52 @@
+{
+  "schemaVersion": "2.0",
+  "id": "resource:ebook:selenium-webdriver-com-testng-em-java-guia-completo-para-automacao-de-testes-web",
+  "kind": "resource",
+  "type": "ebook",
+  "collection": "ebooks",
+  "slug": "selenium-webdriver-com-testng-em-java-guia-completo-para-automacao-de-testes-web",
+  "status": "published",
+  "sourceLocale": "pt",
+  "availableLocales": [
+    "pt"
+  ],
+  "legacyIds": [
+    "ebook04"
+  ],
+  "assets": [
+    {
+      "id": "cover",
+      "role": "cover",
+      "path": "assets/capa.png",
+      "mediaType": "image/png"
+    },
+    {
+      "id": "primary-pdf",
+      "role": "primary",
+      "path": "assets/ebook.pdf",
+      "mediaType": "application/pdf"
+    }
+  ],
+  "links": [],
+  "tags": [
+    "agile-testing",
+    "automacao-de-testes",
+    "ci-cd",
+    "desenvolvimento-agil",
+    "java",
+    "selenium-webdriver",
+    "testes-de-software",
+    "testng"
+  ],
+  "authors": [
+    {
+      "name": "Daniel Castro - QWay Academy"
+    }
+  ],
+  "metadata": {
+    "format": "PDF",
+    "pageCount": 126,
+    "difficulty": "all-levels",
+    "publicationDate": "2024-08"
+  }
+}

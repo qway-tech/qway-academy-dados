@@ -1,0 +1,111 @@
+{
+  "title": "Agile Testing - Um Guia Prático para Testadores e Equipes Ágeis",
+  "description": "Transforme sua abordagem de testes de software com este guia abrangente sobre Agile Testing. Desenvolvido para testadores e equipes ágeis, o eBook cobre desde os fundamentos das metodologias ágeis até práticas avançadas de automação e CI/CD. Com exemplos práticos e estudos de caso, este recurso essencial ajudará você a entregar valor contínuo e se preparar para o futuro do Agile Testing. Ideal para iniciantes e profissionais experientes.",
+  "toc": [
+    {
+      "title": "Introdução",
+      "items": [
+        "O que é Agile Testing?",
+        "Principais Características do Agile Testing",
+        "Importância do Agile Testing no Desenvolvimento de Software"
+      ]
+    },
+    {
+      "title": "Capítulo 1 - Fundamentos das Metodologias Ágeis",
+      "items": [
+        "O que é Agile e por que é importante?",
+        "Princípios do Manifesto Ágil",
+        "Principais Metodologias Ágeis",
+        "Scrum",
+        "Kanban",
+        "XP",
+        "SAFe"
+      ]
+    },
+    {
+      "title": "Capítulo 2 - O Papel do Testador em Equipes Ágeis",
+      "items": [
+        "Mudança de Mentalidade",
+        "Habilidades Necessárias",
+        "Ferramentas e Tecnologias Relevantes"
+      ]
+    },
+    {
+      "title": "Capítulo 3 - Práticas de Agile Testing",
+      "items": [
+        "Test-Driven Development (TDD)",
+        "Behavior-Driven Development (BDD)",
+        "Acceptance Test-Driven Development (ATDD)",
+        "Exploratory Testing"
+      ]
+    },
+    {
+      "title": "Capítulo 4 - Automação de Testes em Ambientes Ágeis",
+      "items": [
+        "Importância da Automação de Testes",
+        "Estratégias de Automação"
+      ]
+    },
+    {
+      "title": "Capítulo 5 - Integração Contínua e Entrega Contínua (CI/CD)",
+      "items": [
+        "Conceitos de CI/CD",
+        "Implementação de Pipelines de Testes"
+      ]
+    },
+    {
+      "title": "Capítulo 6 - Planejamento e Gestão de Testes em Ágil",
+      "items": [
+        "Planejamento de Sprints",
+        "Gestão de Defeitos"
+      ]
+    },
+    {
+      "title": "Capítulo 7 - Qualidade e Métricas em Agile Testing",
+      "items": [
+        "Definindo Qualidade em Ágil",
+        "Métricas e Indicadores de Qualidade"
+      ]
+    },
+    {
+      "title": "Capítulo 8 - Desafios e Soluções em Agile Testing",
+      "items": [
+        "Principais Desafios",
+        "Soluções e Boas Práticas"
+      ]
+    },
+    {
+      "title": "Capítulo 9 - Estudos de Caso e Exemplos Reais",
+      "items": [
+        "Estudos de Caso de Sucesso",
+        "Ferramentas e Templates Úteis"
+      ]
+    },
+    {
+      "title": "Capítulo 10 - Futuro do Agile Testing",
+      "items": [
+        "Tendências Emergentes",
+        "Preparando-se para o Futuro"
+      ]
+    },
+    {
+      "title": "Conclusão",
+      "items": [
+        "Importância de Agile Testing",
+        "Resumo dos Conceitos Abordados",
+        "Recomendações para Continuar Aprendendo e Aplicando Agile Testing"
+      ]
+    },
+    {
+      "title": "Recursos Adicionais",
+      "items": [
+        "Leituras Recomendadas",
+        "Ferramentas de Testes Populares",
+        "Comunidades e Fóruns",
+        "Blogs e Artigos",
+        "Cursos Online",
+        "Considerações Finais"
+      ]
+    }
+  ]
+}

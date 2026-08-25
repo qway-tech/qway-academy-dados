@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "2.0",
+  "id": "resource:template:plano-de-testes",
+  "kind": "resource",
+  "type": "template",
+  "collection": "templates",
+  "slug": "plano-de-testes",
+  "status": "published",
+  "sourceLocale": "pt",
+  "availableLocales": [
+    "pt"
+  ],
+  "legacyIds": [
+    "template04"
+  ],
+  "assets": [],
+  "links": [
+    {
+      "id": "primary",
+      "role": "primary",
+      "url": "https://docs.google.com/document/d/1slhKmIRCYQsPxDiPiUbaUA3BiDG6q8wD6QUb_bw8kiw"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "title": "Fundamentos de Testes de Software - Um Guia Completo para Iniciantes na Carreira de QA",
+  "description": "Este ebook visa fornecer uma visão abrangente dos fundamentos de testes de software, especialmente direcionado para iniciantes na carreira de QA. Nele, exploraremos desde conceitos básicos até metodologias avançadas, fornecendo um guia passo a passo para ajudar você a se tornar um profissional de QA bem-sucedido.",
+  "toc": [
+    {
+      "title": "Capítulo 1 - Introdução",
+      "items": [
+        "Objetivos do Guia",
+        "Quem Deve Ler Este Guia",
+        "Estrutura do Guia",
+        "Diferença entre QA e Testes de Software"
+      ]
+    },
+    {
+      "title": "Capítulo 2 - O Papel do QA no Desenvolvimento de Software",
+      "items": [
+        "Responsabilidades de um QA",
+        "Habilidades Essenciais",
+        "Importância do QA no Ciclo de Desenvolvimento"
+      ]
+    },
+    {
+      "title": "Capítulo 3 - Tipos de Testes de Software",
+      "items": [
+        "Testes Funcionais",
+        "Testes Não Funcionais",
+        "Testes de Manutenção"
+      ]
+    },
+    {
+      "title": "Capítulo 4 - Ciclo de Vida dos Testes",
+      "items": [
+        "Planejamento de Testes",
+        "Desenvolvimento de Casos de Teste",
+        "Execução de Testes",
+        "Avaliação de Resultados",
+        "Reteste e Manutenção"
+      ]
+    },
+    {
+      "title": "Capítulo 5 - Ferramentas de Testes",
+      "items": [
+        "Gestão de Testes",
+        "Automação",
+        "API",
+        "Mobile",
+        "Acessibilidade",
+        "Unidade",
+        "Performance",
+        "Segurança",
+        "Gestão de Defeitos"
+      ]
+    },
+    {
+      "title": "Capítulo 6 - Automação de Testes",
+      "items": [
+        "Vantagens e Desvantagens",
+        "Boas Práticas",
+        "CI/CD",
+        "Desafios Comuns"
+      ]
+    },
+    {
+      "title": "Capítulo 7 - Testes de Performance e Segurança",
+      "items": [
+        "Tipos de Testes de Performance",
+        "Ferramentas de Performance",
+        "Boas Práticas em Performance",
+        "Tipos de Testes de Segurança",
+        "Ferramentas de Segurança",
+        "Integração no Ciclo de Desenvolvimento"
+      ]
+    },
+    {
+      "title": "Capítulo 8 - Boas Práticas em Testes de Software",
+      "items": [
+        "Planejamento e Organização",
+        "Execução de Testes",
+        "Gerenciamento de Bugs",
+        "Colaboração e Comunicação",
+        "Melhoria Contínua"
+      ]
+    },
+    {
+      "title": "Capítulo 9 - Desafios Comuns e Como Superá-los",
+      "items": [
+        "Cobertura Inadequada",
+        "Ambientes Inconsistentes",
+        "Testes Manuais",
+        "Gerenciamento de Dados",
+        "Prioridades e Comunicação"
+      ]
+    },
+    {
+      "title": "Capítulo 10 - Conclusão",
+      "items": []
+    },
+    {
+      "title": "Capítulo 11 - Próximos Passos na Carreira de QA",
+      "items": [
+        "Objetivos Profissionais",
+        "Habilidades Técnicas",
+        "Certificações",
+        "Oportunidades de Aprendizado",
+        "Habilidades Interpessoais",
+        "Liderança",
+        "Adaptação",
+        "Networking",
+        "Compromisso com Qualidade"
+      ]
+    },
+    {
+      "title": "Capítulo 12 - Recursos Adicionais",
+      "items": [
+        "Livros",
+        "Cursos Online",
+        "Comunidades e Fóruns",
+        "Blogs e Artigos"
+      ]
+    }
+  ]
+}

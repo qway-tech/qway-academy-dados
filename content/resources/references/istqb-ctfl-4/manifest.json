@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "2.0",
+  "id": "resource:reference:istqb-ctfl-4",
+  "kind": "resource",
+  "type": "syllabus",
+  "collection": "references",
+  "slug": "istqb-ctfl-4",
+  "status": "published",
+  "sourceLocale": "pt",
+  "availableLocales": [
+    "pt"
+  ],
+  "legacyIds": [
+    "recursos/syllabus/syllabus_ctfl_4.0br.pdf"
+  ],
+  "assets": [
+    {
+      "id": "primary-pdf",
+      "role": "primary",
+      "mediaType": "application/pdf",
+      "path": "assets/syllabus_ctfl_4.0br.pdf"
+    }
+  ],
+  "links": [],
+  "tags": [
+    "ctfl",
+    "istqb",
+    "software-testing"
+  ]
+}

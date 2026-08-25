@@ -1,0 +1,109 @@
+{
+  "title": "Selenium WebDriver com TestNG em Java - Guia Completo para Automação de Testes Web",
+  "description": "Este eBook visa proporcionar uma jornada passo-a-passo através de um conjunto de funcionalidades e exemplos práticos detalhados de seu uso, o que te permitirá aplicar este conhecimento em seus projetos pessoais de estudo, portfólio profissional, ou em seus projetos reais junto ao seus clientes ou empregadores.",
+  "toc": [
+    {
+      "title": "Capítulo 1 - Pré-Requisitos",
+      "items": [
+        "Instalando Java",
+        "Instalando IntelliJ",
+        "Instalando o Chrome Browser",
+        "Instalando o Chrome Driver",
+        "Criando um Novo Projeto no IntelliJ"
+      ]
+    },
+    {
+      "title": "Capítulo 2 - WebDriver",
+      "items": [
+        "Adicionando e Instanciando o WebDriver",
+        "Acessando a aplicação a ser testada"
+      ]
+    },
+    {
+      "title": "Capítulo 3 - Encontrando WebElements",
+      "items": []
+    },
+    {
+      "title": "Capítulo 4 - Interagindo com WebElements",
+      "items": [
+        "HomePage",
+        "LoginPage",
+        "SecureAreaPage"
+      ]
+    },
+    {
+      "title": "Capítulo 5 - Criando um Teste",
+      "items": [
+        "Classe LoginTests"
+      ]
+    },
+    {
+      "title": "Capítulo 6 - Executando o Teste",
+      "items": [
+        "Via IDE",
+        "Via Terminal"
+      ]
+    },
+    {
+      "title": "Capítulo 7 - Interagindo com elementos Dropdown",
+      "items": [
+        "DropdownPage",
+        "DropdownTests"
+      ]
+    },
+    {
+      "title": "Capítulo 8 - Interações avançadas",
+      "items": [
+        "Hovers"
+      ]
+    },
+    {
+      "title": "Capítulo 9 - Digitando teclas adicionais",
+      "items": []
+    },
+    {
+      "title": "Capítulo 10 - Alerts, Uploads e Modals",
+      "items": [
+        "Alerts",
+        "Execução de múltiplos testes",
+        "Upload",
+        "Modals"
+      ]
+    },
+    {
+      "title": "Capítulo 11 - Frames",
+      "items": []
+    },
+    {
+      "title": "Capítulo 12 - Estratégias de Wait",
+      "items": [
+        "Esperas Implícitas",
+        "Esperas Explícitas",
+        "Esperas Fluentes"
+      ]
+    },
+    {
+      "title": "Capítulo 13 - Usando JavaScript",
+      "items": []
+    },
+    {
+      "title": "Capítulo 14 - Navigation",
+      "items": []
+    },
+    {
+      "title": "Capítulo 15 - Capturando Screenshots",
+      "items": []
+    },
+    {
+      "title": "Capítulo 16 - Event Listeners",
+      "items": []
+    },
+    {
+      "title": "Capítulo 17 - Extras sobre Webdriver",
+      "items": [
+        "ChromeOptions",
+        "Usando Cookies"
+      ]
+    }
+  ]
+}

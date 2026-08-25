@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "2.0",
+  "id": "resource:ebook:ciclo-de-vida-dos-testes-de-software-um-guia-completo-para-garantir-a-qualidade-do-seu-software",
+  "kind": "resource",
+  "type": "ebook",
+  "collection": "ebooks",
+  "slug": "ciclo-de-vida-dos-testes-de-software-um-guia-completo-para-garantir-a-qualidade-do-seu-software",
+  "status": "published",
+  "sourceLocale": "pt",
+  "availableLocales": [
+    "pt"
+  ],
+  "legacyIds": [
+    "ebook02"
+  ],
+  "assets": [
+    {
+      "id": "cover",
+      "role": "cover",
+      "path": "assets/capa.png",
+      "mediaType": "image/png"
+    },
+    {
+      "id": "primary-pdf",
+      "role": "primary",
+      "path": "assets/ebook.pdf",
+      "mediaType": "application/pdf"
+    }
+  ],
+  "links": [],
+  "tags": [
+    "ciclo-de-vida-dos-testes",
+    "execucao-de-testes",
+    "planejamento-de-testes",
+    "qa",
+    "qualidade-de-software",
+    "testes-de-software"
+  ],
+  "authors": [
+    {
+      "name": "Daniel Castro - QWay Academy"
+    }
+  ],
+  "metadata": {
+    "format": "PDF",
+    "pageCount": 41,
+    "difficulty": "intermediate",
+    "publicationDate": "2024-08"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "schemaVersion": "2.0",
+  "id": "resource:ebook:fundamentos-de-testes-de-software-um-guia-completo-para-iniciantes-na-carreira-de-qa",
+  "kind": "resource",
+  "type": "ebook",
+  "collection": "ebooks",
+  "slug": "fundamentos-de-testes-de-software-um-guia-completo-para-iniciantes-na-carreira-de-qa",
+  "status": "published",
+  "sourceLocale": "pt",
+  "availableLocales": [
+    "pt"
+  ],
+  "legacyIds": [
+    "ebook01"
+  ],
+  "assets": [
+    {
+      "id": "cover",
+      "role": "cover",
+      "path": "assets/capa.png",
+      "mediaType": "image/png"
+    },
+    {
+      "id": "primary-pdf",
+      "role": "primary",
+      "path": "assets/ebook.pdf",
+      "mediaType": "application/pdf"
+    }
+  ],
+  "links": [],
+  "tags": [
+    "automacao",
+    "bugs",
+    "metodologias-ageis",
+    "qa",
+    "testes-de-software"
+  ],
+  "authors": [
+    {
+      "name": "Daniel Castro - QWay Academy"
+    }
+  ],
+  "metadata": {
+    "format": "PDF",
+    "pageCount": 62,
+    "difficulty": "junior",
+    "publicationDate": "2024-06"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "2.0",
+  "id": "resource:template:estrategia-de-testes",
+  "kind": "resource",
+  "type": "template",
+  "collection": "templates",
+  "slug": "estrategia-de-testes",
+  "status": "published",
+  "sourceLocale": "pt",
+  "availableLocales": [
+    "pt"
+  ],
+  "legacyIds": [
+    "template03"
+  ],
+  "assets": [],
+  "links": [
+    {
+      "id": "primary",
+      "role": "primary",
+      "url": "https://docs.google.com/document/d/1E1X4VIcxF8criUPXTZLN0ntZgyQBM30vVa3aZGiAojo"
+    }
+  ]
+}

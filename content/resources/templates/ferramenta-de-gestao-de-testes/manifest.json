@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "2.0",
+  "id": "resource:template:ferramenta-de-gestao-de-testes",
+  "kind": "resource",
+  "type": "template",
+  "collection": "templates",
+  "slug": "ferramenta-de-gestao-de-testes",
+  "status": "published",
+  "sourceLocale": "pt",
+  "availableLocales": [
+    "pt"
+  ],
+  "legacyIds": [
+    "template05"
+  ],
+  "assets": [],
+  "links": [
+    {
+      "id": "primary",
+      "role": "primary",
+      "url": "https://docs.google.com/spreadsheets/d/1JTKcUEZoNZzgK_HASaW8ssUdBXyvtfYPf-PEUuccssU"
+    }
+  ]
+}

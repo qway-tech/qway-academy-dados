@@ -1,0 +1,100 @@
+{
+  "title": "Testes Exploratórios - Técnicas para a Descoberta Rápida de Bugs",
+  "description": "Descubra como aplicar técnicas de testes exploratórios para identificar bugs de forma rápida e eficiente. Este eBook aborda desde os fundamentos até estudos de caso reais para aprimorar suas habilidades de QA.",
+  "toc": [
+    {
+      "title": "Capítulo 1 - Fundamentos do Exploratory Testing",
+      "items": [
+        "O que é Exploratory Testing?",
+        "História e Evolução",
+        "Benefícios do Exploratory Testing",
+        "Quando Usar Exploratory Testing",
+        "Exploratory Testing vs. Testes Tradicionais",
+        "Dicas e Melhores Práticas"
+      ]
+    },
+    {
+      "title": "Capítulo 2 - Preparando-se para Exploratory Testing",
+      "items": [
+        "Habilidades e Mindset Necessários",
+        "Ferramentas e Recursos Úteis",
+        "Planejamento de Sessões Exploratórias",
+        "Preparação do Ambiente de Teste",
+        "Dicas e Melhores Práticas"
+      ]
+    },
+    {
+      "title": "Capítulo 3 - Técnicas de Exploratory Testing",
+      "items": [
+        "Heurísticas e Oráculos",
+        "Técnicas de Mapeamento Mental",
+        "Pair Testing e Mob Testing",
+        "Exploratory Testing em Diferentes Contextos",
+        "Dicas e Melhores Práticas"
+      ]
+    },
+    {
+      "title": "Capítulo 4 - Execução de Sessões de Exploratory Testing",
+      "items": [
+        "Estrutura de uma Sessão Eficaz",
+        "Documentação e Registro de Descobertas",
+        "Estudo de Caso: Aplicativo de Gestão de Projetos"
+      ]
+    },
+    {
+      "title": "Capítulo 5 - Integração com Outros Processos de Teste",
+      "items": [
+        "Exploratory Testing e Testes Automatizados",
+        "Exploratory Testing em Ambientes Ágeis",
+        "Exploratory Testing e Testes Tradicionais",
+        "Exploratory Testing em Ambientes de DevOps",
+        "Gerenciamento de Tempo e Priorização"
+      ]
+    },
+    {
+      "title": "Capítulo 6 - Desafios Comuns e Soluções",
+      "items": [
+        "Superando a Resistência Organizacional",
+        "Garantindo Qualidade e Consistência nos Resultados",
+        "Lidando com Limitações de Tempo e Recursos",
+        "Medindo o Sucesso do Exploratory Testing",
+        "Dicas e Melhores Práticas"
+      ]
+    },
+    {
+      "title": "Capítulo 7 - Estudos de Caso e Exemplos Reais",
+      "items": [
+        "Estudo de Caso 1: Startup de Tecnologia",
+        "Estudo de Caso 2: Empresa de E-commerce",
+        "Estudo de Caso 3: Setor Financeiro",
+        "Dicas e Melhores Práticas"
+      ]
+    },
+    {
+      "title": "Capítulo 8 - Futuro do Exploratory Testing",
+      "items": [
+        "Tendências Emergentes",
+        "Impacto de Novas Tecnologias e Ferramentas",
+        "O Papel Contínuo do Testador Humano",
+        "Dicas e Melhores Práticas"
+      ]
+    },
+    {
+      "title": "Conclusão",
+      "items": [
+        "Recapitulando os Aprendizados",
+        "Dicas para Implementação",
+        "O Caminho Adiante",
+        "Inspiração para o Futuro"
+      ]
+    },
+    {
+      "title": "Anexos",
+      "items": [
+        "Checklists e Templates para Sessões de Exploratory Testing",
+        "Leituras Recomendadas e Recursos Adicionais",
+        "Glossário de Termos"
+      ]
+    }
+  ]
+}

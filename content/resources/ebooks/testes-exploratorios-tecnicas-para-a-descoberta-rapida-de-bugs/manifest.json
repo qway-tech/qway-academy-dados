@@ -1,0 +1,49 @@
+{
+  "schemaVersion": "2.0",
+  "id": "resource:ebook:testes-exploratorios-tecnicas-para-a-descoberta-rapida-de-bugs",
+  "kind": "resource",
+  "type": "ebook",
+  "collection": "ebooks",
+  "slug": "testes-exploratorios-tecnicas-para-a-descoberta-rapida-de-bugs",
+  "status": "published",
+  "sourceLocale": "pt",
+  "availableLocales": [
+    "pt"
+  ],
+  "legacyIds": [
+    "ebook06"
+  ],
+  "assets": [
+    {
+      "id": "cover",
+      "role": "cover",
+      "path": "assets/capa.png",
+      "mediaType": "image/png"
+    },
+    {
+      "id": "primary-pdf",
+      "role": "primary",
+      "path": "assets/ebook.pdf",
+      "mediaType": "application/pdf"
+    }
+  ],
+  "links": [],
+  "tags": [
+    "exploratory-testing",
+    "heuristicas",
+    "qa",
+    "sessoes-de-teste",
+    "testes-de-software",
+    "testes-exploratorios"
+  ],
+  "authors": [
+    {
+      "name": "Daniel Castro - QWay Academy"
+    }
+  ],
+  "metadata": {
+    "format": "PDF",
+    "difficulty": "all-levels",
+    "publicationDate": "2024"
+  }
+}

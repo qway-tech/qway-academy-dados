@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "2.0",
+  "id": "resource:template:ferramenta-de-gestao-de-projeto",
+  "kind": "resource",
+  "type": "template",
+  "collection": "templates",
+  "slug": "ferramenta-de-gestao-de-projeto",
+  "status": "published",
+  "sourceLocale": "pt",
+  "availableLocales": [
+    "pt"
+  ],
+  "legacyIds": [
+    "template01"
+  ],
+  "assets": [],
+  "links": [
+    {
+      "id": "primary",
+      "role": "primary",
+      "url": "https://docs.google.com/spreadsheets/d/146z5e92_oq9ysziUwA_uzxYWSHZaIv2DPqdKuIOeN_c"
+    }
+  ]
+}
