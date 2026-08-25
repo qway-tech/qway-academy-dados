@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://qway.dev/schemas/content-plane/v2/resources/resource-manifest.schema.json",
+  "title": "QWay Resource Manifest",
+  "allOf": [
+    {
+      "$ref": "../common/manifest-base.schema.json"
+    },
+    {
+      "type": "object",
+      "required": [
+        "collection"
+      ],
+      "properties": {
+        "kind": {
+          "const": "resource"
+        },
+        "collection": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "metadata": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "format": {
+              "type": "string",
+              "minLength": 1
+            },
+            "pageCount": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "difficulty": {
+              "type": "string",
+              "enum": [
+                "beginner",
+                "junior",
+                "intermediate",
+                "advanced",
+                "all-levels"
+              ]
+            },
+            "publicationDate": {
+              "type": "string",
+              "pattern": "^\\d{4}-(?:0[1-9]|1[0-2])(?:-(?:0[1-9]|[12]\\d|3[01]))?$"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "unevaluatedProperties": false
+}

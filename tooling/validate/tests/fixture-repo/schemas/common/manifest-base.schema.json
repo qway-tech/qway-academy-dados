@@ -1,0 +1,141 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://qway.dev/schemas/content-plane/v2/common/manifest-base.schema.json",
+  "title": "QWay Canonical Content Manifest Base",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "id",
+    "kind",
+    "type",
+    "slug",
+    "status",
+    "sourceLocale",
+    "availableLocales"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": "2.0"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9-]*(?::[a-z][a-z0-9-]*){2,}$"
+    },
+    "kind": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9-]*$"
+    },
+    "type": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9-]*$"
+    },
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "draft",
+        "review",
+        "published",
+        "archived"
+      ]
+    },
+    "sourceLocale": {
+      "type": "string",
+      "enum": [
+        "pt",
+        "en",
+        "es"
+      ]
+    },
+    "availableLocales": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "enum": [
+          "pt",
+          "en",
+          "es"
+        ]
+      }
+    },
+    "legacyIds": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "tags": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+      }
+    },
+    "authors": {
+      "type": "array",
+      "items": {
+        "$ref": "author.schema.json"
+      }
+    },
+    "maintainers": {
+      "type": "array",
+      "items": {
+        "$ref": "author.schema.json"
+      }
+    },
+    "createdAt": {
+      "type": "string",
+      "format": "date"
+    },
+    "updatedAt": {
+      "type": "string",
+      "format": "date"
+    },
+    "relations": {
+      "$ref": "relation.schema.json"
+    },
+    "assets": {
+      "type": "array",
+      "items": {
+        "$ref": "asset.schema.json"
+      }
+    },
+    "links": {
+      "type": "array",
+      "items": {
+        "$ref": "link.schema.json"
+      }
+    },
+    "contribution": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "origin"
+      ],
+      "properties": {
+        "origin": {
+          "type": "string",
+          "enum": [
+            "qway",
+            "community",
+            "external"
+          ]
+        },
+        "contributors": {
+          "type": "array",
+          "items": {
+            "$ref": "author.schema.json"
+          }
+        }
+      }
+    }
+  }
+}
