@@ -1,0 +1,49 @@
+{
+  "schemaVersion": "2.0",
+  "id": "resource:ebook:agile-testing-um-guia-pratico-para-testadores-e-equipes-ageis",
+  "kind": "resource",
+  "type": "ebook",
+  "collection": "ebooks",
+  "slug": "agile-testing-um-guia-pratico-para-testadores-e-equipes-ageis",
+  "status": "published",
+  "sourceLocale": "pt",
+  "availableLocales": [
+    "pt"
+  ],
+  "legacyIds": [
+    "ebook03"
+  ],
+  "assets": [
+    {
+      "id": "cover",
+      "role": "cover",
+      "path": "assets/capa.png",
+      "mediaType": "image/png"
+    },
+    {
+      "id": "primary-pdf",
+      "role": "primary",
+      "path": "assets/ebook.pdf",
+      "mediaType": "application/pdf"
+    }
+  ],
+  "links": [],
+  "tags": [
+    "agile-testing",
+    "automacao",
+    "ci-cd",
+    "metodologias-ageis",
+    "testes-ageis"
+  ],
+  "authors": [
+    {
+      "name": "Daniel Castro - QWay Academy"
+    }
+  ],
+  "metadata": {
+    "format": "PDF",
+    "pageCount": 62,
+    "difficulty": "all-levels",
+    "publicationDate": "2024-08"
+  }
+}

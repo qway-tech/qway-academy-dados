@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "2.0",
+  "id": "resource:template:casos-de-teste",
+  "kind": "resource",
+  "type": "template",
+  "collection": "templates",
+  "slug": "casos-de-teste",
+  "status": "published",
+  "sourceLocale": "pt",
+  "availableLocales": [
+    "pt"
+  ],
+  "legacyIds": [
+    "template06"
+  ],
+  "assets": [],
+  "links": [
+    {
+      "id": "primary",
+      "role": "primary",
+      "url": "https://docs.google.com/document/d/1cuQ8Syw3GD8YVpYmw6Jx6E1fNcL2WW_AcuvaKqqFaCw"
+    }
+  ]
+}

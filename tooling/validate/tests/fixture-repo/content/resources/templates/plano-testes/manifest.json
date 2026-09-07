@@ -1,0 +1,33 @@
+{
+  "schemaVersion": "2.0",
+  "id": "resource:template:plano-testes",
+  "kind": "resource",
+  "type": "template",
+  "collection": "templates",
+  "slug": "plano-testes",
+  "status": "published",
+  "sourceLocale": "pt",
+  "availableLocales": [
+    "pt"
+  ],
+  "legacyIds": [
+    "template04"
+  ],
+  "tags": [
+    "test-planning",
+    "qa-process"
+  ],
+  "authors": [
+    {
+      "name": "QWay Academy"
+    }
+  ],
+  "assets": [],
+  "links": [
+    {
+      "id": "primary",
+      "role": "primary",
+      "url": "https://docs.google.com/document/d/example"
+    }
+  ]
+}

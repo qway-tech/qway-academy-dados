@@ -1,0 +1,17 @@
+{
+  "schemaVersion": "2.0",
+  "collections": [
+    {
+      "id": "ebooks",
+      "order": 10
+    },
+    {
+      "id": "templates",
+      "order": 20
+    },
+    {
+      "id": "references",
+      "order": 30
+    }
+  ]
+}

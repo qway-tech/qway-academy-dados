@@ -1,0 +1,159 @@
+{
+  "title": "Gestão de Testes | Planejamento, Execução e Monitoramento de Testes de Software",
+  "description": "Este eBook oferece uma exploração abrangente e prática dos fundamentos da gestão de testes de software. Com uma abordagem estruturada e exemplos do mundo real, você será guiado através das melhores práticas, estratégias de planejamento e técnicas de execução que são essenciais para garantir a qualidade do software. Ideal para quem busca aprimorar suas habilidades na área de QA, este recurso é projetado para ser aplicado em projetos acadêmicos, no desenvolvimento de portfólios profissionais, ou na melhoria de processos em ambientes corporativos. Descubra como você pode elevar a qualidade dos seus projetos de software e destacar-se no mercado com um entendimento sólido dos princípios de gestão de testes.",
+  "toc": [
+    {
+      "title": "Introdução",
+      "items": []
+    },
+    {
+      "title": "Capítulo 1 - Fundamentos da Gestão de Testes",
+      "items": [
+        "O que é Gestão de Testes?",
+        "Benefícios da Gestão de Testes",
+        "Papéis e Responsabilidades em Gestão de Testes",
+        "Estrutura Organizacional e Colaboração",
+        "Gerente de Testes",
+        "Analista de Testes",
+        "Engenheiro de Testes",
+        "Líder de QA"
+      ]
+    },
+    {
+      "title": "Capítulo 2 - Planejamento de Testes",
+      "items": [
+        "Definindo uma Estratégia de Teste",
+        "Tipos de Testes",
+        "Seleção de Métodos de Teste",
+        "Desenvolvimento de Planos de Teste",
+        "Escopo e Objetivos",
+        "Critérios de Aceitação",
+        "Recursos Necessários",
+        "Cronograma de Testes",
+        "Identificação de Riscos e Mitigação",
+        "Análise de Riscos",
+        "Planos de Contingência"
+      ]
+    },
+    {
+      "title": "Capítulo 3 - Design de Testes",
+      "items": [
+        "Técnicas de Design de Testes",
+        "Análise de Requisitos",
+        "Técnicas Avançadas de Modelagem de Testes e Análise de Dados",
+        "Criação de Casos de Teste",
+        "Ferramentas de Design de Testes",
+        "Ferramentas de Gestão de Testes",
+        "Ferramentas de Modelagem de Testes"
+      ]
+    },
+    {
+      "title": "Capítulo 4 - Execução de Testes",
+      "items": [
+        "Preparação para a Execução de Testes",
+        "Configuração do Ambiente de Teste",
+        "Testes Preparatórios",
+        "Execução de Testes",
+        "Testes Manuais",
+        "Testes Automatizados",
+        "Documentação e Registro de Resultados",
+        "Registro de Defeitos",
+        "Ferramentas para Documentação",
+        "Colaboração com a Equipe de Desenvolvimento",
+        "Comunicação de Resultados"
+      ]
+    },
+    {
+      "title": "Capítulo 5 - Monitoramento e Controle de Testes",
+      "items": [
+        "Importância do Monitoramento de Testes",
+        "Uso de Métricas e Indicadores de Qualidade",
+        "Métricas de Cobertura de Testes",
+        "Métricas de Desempenho",
+        "Indicadores de Qualidade e Eficiência",
+        "Ferramentas para Monitoramento de Testes",
+        "Ferramentas de Análise de Dados",
+        "Análise de Resultados, Feedback Contínuo e Aprendizado Organizacional",
+        "Gestão de Riscos e Acompanhamento de Correções",
+        "Colaboração e Comunicação"
+      ]
+    },
+    {
+      "title": "Capítulo 6 - Relatórios e Comunicação",
+      "items": [
+        "Elaboração de Relatórios de Testes",
+        "Estrutura dos Relatórios de Testes",
+        "Comunicação Eficaz com Stakeholders",
+        "Técnicas de Apresentação de Resultados",
+        "Feedback e Reuniões de Alinhamento",
+        "Feedback e Melhoria Contínua",
+        "Processos de Revisão Pós-Execução",
+        "Implementação de Melhorias Baseadas em Feedback"
+      ]
+    },
+    {
+      "title": "Capítulo 7 - Automação de Testes",
+      "items": [
+        "Vantagens e Desvantagens da Automação",
+        "Vantagens",
+        "Desvantagens",
+        "Ferramentas de Automação de Testes",
+        "Integração de Ferramentas de CI/CD",
+        "Scripts e Frameworks de Automação",
+        "Estratégias de Automação",
+        "Pirâmide de Testes",
+        "Automação em Ambientes Ágeis",
+        "Considerações Finais"
+      ]
+    },
+    {
+      "title": "Capítulo 8 - Desafios e Soluções na Gestão de Testes",
+      "items": [
+        "Desafios Emergentes na Gestão de Testes e Inovação",
+        "Comunicação e Colaboração",
+        "Manutenção de Testes Automatizados",
+        "Gestão de Recursos e Tempo",
+        "Estratégias para Superar Barreiras",
+        "Melhores Práticas e Dicas",
+        "Estudos de Caso e Exemplos Reais",
+        "Considerações Finais"
+      ]
+    },
+    {
+      "title": "Conclusão",
+      "items": [
+        "Recapitulação dos Conceitos Abordados",
+        "Recomendações para Melhoria Contínua",
+        "Próximos Passos na Carreira de QA"
+      ]
+    },
+    {
+      "title": "Recursos Adicionais",
+      "items": [
+        "Leituras Recomendadas",
+        "Ferramentas de Testes Populares",
+        "Comunidades e Fóruns",
+        "Blogs e Artigos",
+        "Cursos Online"
+      ]
+    },
+    {
+      "title": "FAQs (Perguntas Frequentes)",
+      "items": []
+    },
+    {
+      "title": "Exercícios Práticos e Checklists",
+      "items": [
+        "Exercícios Práticos",
+        "Planejamento de Testes",
+        "Criação de Casos de Teste",
+        "Avaliação de Teste de Usabilidade",
+        "Revisão de Processos de Teste",
+        "Comunicação Eficaz com Stakeholders",
+        "Checklists de Planejamento de Testes",
+        "Checklist de Execução de Testes",
+        "Checklist de Relatórios e Comunicação"
+      ]
+    }
+  ]
+}

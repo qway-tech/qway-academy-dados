@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "2.0",
+  "id": "resource:template:backlog",
+  "kind": "resource",
+  "type": "template",
+  "collection": "templates",
+  "slug": "backlog",
+  "status": "published",
+  "sourceLocale": "pt",
+  "availableLocales": [
+    "pt"
+  ],
+  "legacyIds": [
+    "template02"
+  ],
+  "assets": [],
+  "links": [
+    {
+      "id": "primary",
+      "role": "primary",
+      "url": "https://docs.google.com/document/d/1LwtaiocP8sqhbWOnGun-W35MEXZEM2NZ3BOMhrzKv1M"
+    }
+  ]
+}

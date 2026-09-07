@@ -1,0 +1,161 @@
+{
+  "title": "Ciclo de Vida dos Testes de Software - Um Guia Completo para Garantir a Qualidade do seu Software",
+  "description": "Este livro é destinado a profissionais de QA, desenvolvedores de software e outros profissionais envolvidos no processo de desenvolvimento de software que desejam aprimorar seus conhecimentos sobre o ciclo de vida dos testes de software.",
+  "toc": [
+    {
+      "title": "Capítulo 1 - Planejamento de Testes",
+      "items": [
+        "O que é o planejamento de testes e por que é importante?",
+        "Alinhamento com Objetivos do Projeto",
+        "Eficiência no Uso de Recursos",
+        "Mitigação de Riscos",
+        "Transparência e Comunicação",
+        "Como definir objetivos e escopo dos testes?",
+        "Objetivos dos Testes",
+        "Escopo dos Testes",
+        "Como identificar os recursos necessários para os testes?",
+        "Recursos Humanos",
+        "Recursos Técnicos",
+        "Recursos Materiais",
+        "Como elaborar um plano de teste eficiente?",
+        "Introdução",
+        "Estratégia de Teste",
+        "Cronograma",
+        "Recursos",
+        "Procedimentos de Comunicação",
+        "Controle de Qualidade"
+      ]
+    },
+    {
+      "title": "Capítulo 2 - Preparação de Testes",
+      "items": [
+        "O que é a preparação de testes e por que é importante?",
+        "Como preparar o ambiente de teste?",
+        "Definição do Ambiente",
+        "Configuração do Ambiente",
+        "Validação do Ambiente",
+        "Como configurar as ferramentas e recursos necessários para os testes?",
+        "Seleção de Ferramentas",
+        "Configuração de Ferramentas",
+        "Validação de Ferramentas",
+        "Como preparar o conjunto de testes?",
+        "Criação de Casos de Teste",
+        "Desenvolvimento de Scripts de Automação",
+        "Preparação de Dados de Teste"
+      ]
+    },
+    {
+      "title": "Capítulo 3 - Execução de Testes",
+      "items": [
+        "O que é a execução de testes e por que é importante?",
+        "Como executar testes manualmente e/ou automaticamente?",
+        "Testes Manuais",
+        "Testes Automáticos",
+        "Como documentar os resultados dos testes?",
+        "Registro de Resultados",
+        "Ferramentas de Documentação",
+        "Comunicação de Resultados",
+        "Como relatar bugs encontrados durante os testes?",
+        "Identificação de Bugs",
+        "Ferramentas de Rastreamento de Bugs",
+        "Componentes de um Relatório de Bug",
+        "Comunicação e Acompanhamento"
+      ]
+    },
+    {
+      "title": "Capítulo 4 - Relatório de Testes",
+      "items": [
+        "O que é o relatório de testes e por que é importante?",
+        "Como elaborar relatórios de testes claros e concisos?",
+        "Estrutura do Relatório de Testes",
+        "1. Introdução",
+        "2. Resumo Executivo",
+        "3. Detalhes dos Testes Realizados",
+        "4. Análise de Problemas Encontrados",
+        "5. Métricas de Teste",
+        "6. Conclusão",
+        "Como descrever os resultados dos testes e quaisquer problemas encontrados?",
+        "Como fornecer feedback aos stakeholders sobre os resultados dos testes?",
+        "Comunicação Clara e Direta",
+        "Foco nas Prioridades",
+        "Feedback Contínuo"
+      ]
+    },
+    {
+      "title": "Capítulo 5 - Correção de Bugs",
+      "items": [
+        "O que é a correção de bugs e por que é importante?",
+        "Como trabalhar com a equipe de desenvolvimento para corrigir bugs encontrados durante os testes?",
+        "Comunicação Clara e Detalhada",
+        "Priorização e Rastreabilidade",
+        "Colaboração e Resolução de Problemas",
+        "Como verificar se os bugs foram corrigidos corretamente?",
+        "Reteste",
+        "Testes de Regressão",
+        "Documentação e Comunicação"
+      ]
+    },
+    {
+      "title": "Capítulo 6 - Reteste e Validação",
+      "items": [
+        "O que é o reteste e validação e por que é importante?",
+        "Como executar testes adicionais após a correção de bugs?",
+        "Planejamento de Reteste",
+        "Execução de Reteste",
+        "Testes de Regressão",
+        "Análise dos Resultados",
+        "Como garantir que os problemas foram resolvidos e que o software está funcionando corretamente?",
+        "Verificação de Correções",
+        "Validação de Requisitos",
+        "Monitoramento e Feedback",
+        "Documentação e Comunicação"
+      ]
+    },
+    {
+      "title": "Capítulo 7 - Encerramento de Testes",
+      "items": [
+        "O que é o encerramento de testes e por que é importante?",
+        "Como documentar os resultados finais dos testes?",
+        "Coleta de Resultados",
+        "Estrutura do Relatório Final",
+        "1. Introdução",
+        "2. Resumo Executivo",
+        "3. Resultados dos Testes",
+        "4. Análise de Problemas Encontrados",
+        "5. Métricas de Teste",
+        "6. Conclusão",
+        "Como fornecer feedback aos stakeholders sobre os resultados finais dos testes?",
+        "Comunicação Clara e Direta",
+        "Foco nas Prioridades",
+        "Feedback Contínuo",
+        "Como preparar o software para o lançamento?",
+        "Revisão Final",
+        "Documentação",
+        "Preparação do Ambiente",
+        "Comunicação e Treinamento",
+        "Monitoramento Pós-Lançamento"
+      ]
+    },
+    {
+      "title": "Conclusão",
+      "items": [
+        "Importância do Ciclo de Vida dos Testes de Software"
+      ]
+    },
+    {
+      "title": "Recursos Adicionais",
+      "items": [
+        "Leituras Recomendadas",
+        "Ferramentas de Testes Populares",
+        "1. Ferramentas de Automação de Testes",
+        "2. Ferramentas de Gestão de Testes",
+        "3. Ferramentas de Testes de Performance",
+        "4. Ferramentas de Testes de Segurança",
+        "5. Ferramentas de Testes de Unidade",
+        "Comunidades e Fóruns",
+        "Blogs e Artigos",
+        "Cursos Online"
+      ]
+    }
+  ]
+}

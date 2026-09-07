@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://qway.dev/schemas/content-plane/v2/common/author.schema.json",
+  "title": "QWay Content Author",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "name"
+  ],
+  "properties": {
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "organization": {
+      "type": "string",
+      "minLength": 1
+    },
+    "github": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9](?:[A-Za-z0-9-]{0,37}[A-Za-z0-9])?$"
+    }
+  }
+}

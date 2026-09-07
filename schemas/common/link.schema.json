@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://qway.dev/schemas/content-plane/v2/common/link.schema.json",
+  "title": "QWay Content Link",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "role",
+    "url"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "role": {
+      "type": "string",
+      "enum": [
+        "primary",
+        "download",
+        "source",
+        "repository",
+        "documentation",
+        "external"
+      ]
+    },
+    "url": {
+      "type": "string",
+      "pattern": "^https://[^\\s]+$"
+    }
+  }
+}
